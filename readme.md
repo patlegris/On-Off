@@ -2,7 +2,7 @@
 WordPress started in 2003 with a single bit of code to enhance the typography of everyday writing and with fewer users than you can count on your fingers and toes. Since then it has grown to be the largest self-hosted blogging tool in the world, used on millions of sites and seen by tens of millions of people every day.
 
 ## On-Off project
-This realisation of newest wordpress site "from scratch" (without any existing template) is the property of the developper (me ^^). And he is create for free in case of a student project exams).
+This realisation of newest wordpress site "from scratch" (without any existing template) is the property of the developper (me ^^). And he is create for free in case of a student project exams.
 
 ## A Little History of Wordpress
 WordPress was born out of a desire for an elegant, well-architectured personal publishing system built on PHP and MySQL and licensed under the GPLv2 (or later). It is the official successor of b2/cafelog. WordPress is fresh software, but its roots and development go back to 2001. It is a mature and stable product. We hope by focusing on user experience and web standards we can create a tool different from anything else out there.
