@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="description" content="Galerie des Galeries" />
+    <meta name="keywords" content="galerie des galeries galeries lafayette galerie art moderne Galerie des Galeries" />
+    <meta name="author" content="MV" />
+    <link rel="shortcut icon" href="http://www.galeriedesgaleries.com/favicon.ico" />
+    <meta property="og:site_name" content="Galerie des Galeries"/>
+    <meta property="og:title" content="Galerie des Galeries"/>
+    <meta property="og:url" content="http://www.galeriedesgaleries.com/" />
+    <meta property="og:image" content="http://www.galeriedesgaleries.com/gfx/logoGG_Big.jpg"/>
+    <meta property="og:description" content="Galerie des Galeries"/>
+    <title>Galerie des Galeries</title>
+    <link href="http://www.galeriedesgaleries.com/css/gg_fonts.css" type="text/css" rel="stylesheet" media="screen"  />
+    <link href="http://www.galeriedesgaleries.com/css/styles.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="http://www.galeriedesgaleries.com/css/styles_print.css" rel="stylesheet" type="text/css" media="print">
+
+   <!--[if lt IE 9]>
+    <script src="http://www.galeriedesgaleries.com/js/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" >
+        language_choice = 1;
+
+        current_id = 0;
+    </script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" >
+    $(document).ready( function() {
+        $("#pss").submit(function(){var v_pw=$("#v_pw").val();var v_id=$("#v_id").val();var v_type=$("#v_type").val();rdmflush=Math.random();scroll(0,0);$.get("http://www.galeriedesgaleries.com/Site_Presse_Visuels_Load.php",{Rdmn:rdmflush,p:v_pw,v_id:v_id,v_type:v_type},function success(data){if(data=="error"){$(".private_press_container_error").html("Erreur dans le mot de passe")}else{$(".private_press_container_error").html('');$(".private_press_password_container").hide();$(".private_press_visuels_container").html(data)}$(".private_press_overlay").height($(document).height()+200)});return false});});
+</script>
+<div class="socipl_overlay" ></div>
+<script type="text/javascript" >
+
+
+
+    slideshow_time = setTimeout(switch_slide,5000);
+    function switch_slide(){current_id=parseInt(current_id)+1;if(current_id>=max_slide_num){current_id=0}load_next_slide(current_id);slideshow_time=setTimeout(switch_slide,5000)}
+
+    function load_next_slide(slide_id){evaluate_slide(slide_id);current_id=slide_id;$("[id^='pastille_']").removeClass("pastille_on").addClass("pastille_off");$("#pastille_"+slide_id).removeClass("pastille_off").addClass("pastille_on");$("[class^='c_image_']").css({"display":"none"});$("[id^='info_slide_']").css({"display":"none"});
+        $("#info_slide_"+slide_id).fadeIn("fast");$(".c_image_"+slide_id).fadeIn();
+    }
+
+    function evaluate_slide(slide_id){image_dim=$("#image_"+slide_id).attr("alt").split("_");var cur_img_w=image_dim[0];var cur_img_h=image_dim[1];var cur_win_h=$(window).height();if(cur_win_h<300){cur_win_h=300}var ratio_h=cur_win_h/cur_img_h;var true_w=cur_img_w*ratio_h;$("#image_a_"+slide_id).css({"left":true_w+"px"});$("#image_b_"+slide_id).css({"left":((true_w*2))+"px"});$("#image_c_"+slide_id).css({"left":((true_w*3))+"px"});$(".menu_principal").height($(document).height())}
+    $(document).ready( function() {
+
+        $(".network_link").click( function() { window.open( $(this).attr("lang") ); });
+
+
+        $(".menu_principal").height( $(document).height() );
+        $("[id^='pastille_']").click(function(){clearTimeout(slideshow_time);called_id=$(this).attr("id").split("_");current_id=called_id[1];load_next_slide(current_id);slideshow_time=setTimeout(switch_slide,5000)});$(".image_home").each(function(){image_dim=$(this).attr("alt").split("_");cur_id=$(this).attr("id").split("_");evaluate_slide(cur_id[1])});
+
+        $(".partenaire_carre").click( function() {  window.open( $(this).parent().find("a").attr("href")); });
+        $(".legende_img_activate,.legende_img_top").mouseover(function(){if($(".legende_img_top").hasClass("hidden")){$(".legende_img_top").removeClass("hidden");$(".legende_img_top").fadeIn()}}).mouseout(function(){$(".legende_img_top").addClass("hidden");$(".legende_img_top").fadeOut()});$(".legende_img_activate_1,.legende_img_top_1").mouseover(function(){if($(".legende_img_top_1").hasClass("hidden")){$(".legende_img_top_1").removeClass("hidden");$(".legende_img_top_1").fadeIn()}}).mouseout(function(){$(".legende_img_top_1").addClass("hidden");$(".legende_img_top_1").fadeOut()});$(".legende_img_activate_2,.legende_img_top_2").mouseover(function(){if($(".legende_img_top_2").hasClass("hidden")){$(".legende_img_top_2").removeClass("hidden");$(".legende_img_top_2").fadeIn()}}).mouseout(function(){$(".legende_img_top_2").addClass("hidden");$(".legende_img_top_2").fadeOut()});$(".box_ok,box_ok_ie").click(function(){window.location="http://www.galeriedesgaleries.com/?q="+$("#q").val()})});
+
+</script><div class="black_layer" ></div>
+<script type="text/javascript" > max_slide_num = 7; </script>
+<div id="image_slide_0" >
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-52/idesmultiples.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/52/img_home_124900.jpg" width="auto" height="768" class="c_image_0  body_image image_home " id="image_0" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-52/idesmultiples.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/52/img_home_124900.jpg" width="auto" height="768" class="c_image_0  body_image black_layer_second_image"  id="image_a_0" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-52/idesmultiples.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/52/img_home_124900.jpg" width="auto" height="768" class="c_image_0  body_image black_layer_third_image"  id="image_b_0" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-52/idesmultiples.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/52/img_home_124900.jpg" width="auto" height="768" class="c_image_0  body_image black_layer_fourth_image"  id="image_c_0" alt="1152_768" border="0" /></a>
+</div>
+<div id="image_slide_1" >
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-53/alexprager.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/53/img_home_083326.jpg" width="auto" height="768" class="c_image_1 hidden body_image image_home " id="image_1" alt="976_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-53/alexprager.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/53/img_home_083326.jpg" width="auto" height="768" class="c_image_1 hidden body_image black_layer_second_image"  id="image_a_1" alt="976_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-53/alexprager.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/53/img_home_083326.jpg" width="auto" height="768" class="c_image_1 hidden body_image black_layer_third_image"  id="image_b_1" alt="976_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-53/alexprager.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/53/img_home_083326.jpg" width="auto" height="768" class="c_image_1 hidden body_image black_layer_fourth_image"  id="image_c_1" alt="976_768" border="0" /></a>
+</div>
+<div id="image_slide_2" >
+    <a href="http://www.galeriedesgaleries.com/frFR/evenement/i-27/vitrinessurl039art.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/evenements/27/img_home_174643.jpg" width="auto" height="768" class="c_image_2 hidden body_image image_home " id="image_2" alt="1027_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/evenement/i-27/vitrinessurl039art.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/evenements/27/img_home_174643.jpg" width="auto" height="768" class="c_image_2 hidden body_image black_layer_second_image"  id="image_a_2" alt="1027_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/evenement/i-27/vitrinessurl039art.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/evenements/27/img_home_174643.jpg" width="auto" height="768" class="c_image_2 hidden body_image black_layer_third_image"  id="image_b_2" alt="1027_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/evenement/i-27/vitrinessurl039art.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/evenements/27/img_home_174643.jpg" width="auto" height="768" class="c_image_2 hidden body_image black_layer_fourth_image"  id="image_c_2" alt="1027_768" border="0" /></a>
+</div>
+<div id="image_slide_3" >
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-50/arlequine.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/50/img_home_091533.jpg" width="auto" height="768" class="c_image_3 hidden body_image image_home " id="image_3" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-50/arlequine.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/50/img_home_091533.jpg" width="auto" height="768" class="c_image_3 hidden body_image black_layer_second_image"  id="image_a_3" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-50/arlequine.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/50/img_home_091533.jpg" width="auto" height="768" class="c_image_3 hidden body_image black_layer_third_image"  id="image_b_3" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-50/arlequine.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/50/img_home_091533.jpg" width="auto" height="768" class="c_image_3 hidden body_image black_layer_fourth_image"  id="image_c_3" alt="1152_768" border="0" /></a>
+</div>
+<div id="image_slide_4" >
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-49/grandmagasin.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/49/img_home_083407.jpg" width="auto" height="768" class="c_image_4 hidden body_image image_home " id="image_4" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-49/grandmagasin.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/49/img_home_083407.jpg" width="auto" height="768" class="c_image_4 hidden body_image black_layer_second_image"  id="image_a_4" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-49/grandmagasin.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/49/img_home_083407.jpg" width="auto" height="768" class="c_image_4 hidden body_image black_layer_third_image"  id="image_b_4" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-49/grandmagasin.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/49/img_home_083407.jpg" width="auto" height="768" class="c_image_4 hidden body_image black_layer_fourth_image"  id="image_c_4" alt="1152_768" border="0" /></a>
+</div>
+<div id="image_slide_5" >
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-46/latyranniedesobjets.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/46/img_home_214506.jpg" width="auto" height="768" class="c_image_5 hidden body_image image_home " id="image_5" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-46/latyranniedesobjets.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/46/img_home_214506.jpg" width="auto" height="768" class="c_image_5 hidden body_image black_layer_second_image"  id="image_a_5" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-46/latyranniedesobjets.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/46/img_home_214506.jpg" width="auto" height="768" class="c_image_5 hidden body_image black_layer_third_image"  id="image_b_5" alt="1152_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/exposition/i-46/latyranniedesobjets.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/expos/46/img_home_214506.jpg" width="auto" height="768" class="c_image_5 hidden body_image black_layer_fourth_image"  id="image_c_5" alt="1152_768" border="0" /></a>
+</div>
+<div id="image_slide_6" >
+    <a href="http://www.galeriedesgaleries.com/frFR/newsletter.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/newsletter/newsletter_background_2.png" width="auto" height="768" class="c_image_6 hidden body_image image_home" id="image_6" alt="1024_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/newsletter.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/newsletter/newsletter_background_2.png" width="auto" height="768" class="c_image_6 hidden body_image black_layer_second_image"  id="image_a_6" alt="1024_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/newsletter.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/newsletter/newsletter_background_2.png" width="auto" height="768" class="c_image_6 hidden body_image black_layer_third_image"  id="image_b_6" alt="1024_768" border="0" /></a>
+    <a href="http://www.galeriedesgaleries.com/frFR/newsletter.html" target="_self" ><img src="http://www.galeriedesgaleries.com/images/newsletter/newsletter_background_2.png" width="auto" height="768" class="c_image_6 hidden body_image black_layer_fourth_image"  id="image_c_6" alt="1024_768" border="0" /></a>
+</div>
+
+<div class="cartouche_home" >
+    <div id="info_slide_0"  >
+        <div class="gg_acere surtitre black" >en ce moment</div>
+        <div class="gg_acere titre" ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-52/idesmultiples.html" target="_self" class="titre_link black" >Idées Multiples</a></div>
+        <div class="gg_acere accroche black" ></div>
+        <div class="gg_acere accroche black" >Du 10&nbsp;juin&nbsp;2015 au 12&nbsp;septembre&nbsp;2015</div>
+        <div class="more" ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-52/idesmultiples.html" target="_self" style="color:#000;" >- EN SAVOIR PLUS</a></div>
+    </div>
+    <div id="info_slide_1" style="display:none;" >
+        <div class="gg_acere surtitre " >à venir</div>
+        <div class="gg_acere titre " ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-53/alexprager.html" target="_self" class="titre_link " >Alex Prager</a></div>
+        <div class="gg_acere accroche " ></div>
+        <div class="gg_acere accroche " >Du 20&nbsp;octobre&nbsp;2015 au 23&nbsp;janvier&nbsp;2016</div>
+        <div class="more" ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-53/alexprager.html" target="_self"  >- EN SAVOIR PLUS</a></div>
+    </div>
+    <div id="info_slide_2" style="display:none;" >
+        <div class="gg_acere surtitre " >actuellement</div>
+        <div class="gg_acere titre " ><a href="http://www.galeriedesgaleries.com/frFR/evenement/i-27/vitrinessurl039art.html" target="_self" class="titre_link " >Vitrines sur l&#039;art</a></div>
+        <div class="gg_acere accroche " ></div>
+        <div class="gg_acere accroche " >Du 2&nbsp;juillet&nbsp;2015 au 29&nbsp;juillet&nbsp;2015</div>
+        <div class="more" ><a href="http://www.galeriedesgaleries.com/frFR/evenement/i-27/vitrinessurl039art.html" target="_self"  >- EN SAVOIR PLUS</a></div>
+    </div>
+    <div id="info_slide_3" style="display:none;" >
+        <div class="gg_acere surtitre black" >archives</div>
+        <div class="gg_acere titre black" ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-50/arlequine.html" target="_self" class="titre_link black" >Arlequine</a></div>
+        <div class="gg_acere accroche black" >Une exposition de Karina Bisch</div>
+        <div class="gg_acere accroche black" >Du 4&nbsp;mars&nbsp;2015 au 9&nbsp;mai&nbsp;2015</div>
+        <div class="more" ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-50/arlequine.html" target="_self" style="color:#000;" >- EN SAVOIR PLUS</a></div>
+    </div>
+    <div id="info_slide_4" style="display:none;" >
+        <div class="gg_acere surtitre black" >archives</div>
+        <div class="gg_acere titre black" ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-49/grandmagasin.html" target="_self" class="titre_link black" >Grand Magasin</a></div>
+        <div class="gg_acere accroche black" ></div>
+        <div class="gg_acere accroche black" >Du 23&nbsp;septembre&nbsp;2014 au 15&nbsp;novembre&nbsp;2014</div>
+        <div class="more" ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-49/grandmagasin.html" target="_self" style="color:#000;" >- EN SAVOIR PLUS</a></div>
+    </div>
+    <div id="info_slide_5" style="display:none;" >
+        <div class="gg_acere surtitre " >archives</div>
+        <div class="gg_acere titre " ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-46/latyranniedesobjets.html" target="_self" class="titre_link " >La <br />
+            Tyrannie <br />
+            des <br />
+            Objets</a></div>
+        <div class="gg_acere accroche " >Une proposition <br />
+            d&#039;Alexandra Fau</div>
+        <div class="gg_acere accroche " >Du 16&nbsp;octobre&nbsp;2013 au 4&nbsp;janvier&nbsp;2014</div>
+        <div class="more" ><a href="http://www.galeriedesgaleries.com/frFR/exposition/i-46/latyranniedesobjets.html" target="_self"  >- EN SAVOIR PLUS</a></div>
+    </div>
+    <div id="info_slide_6" style="display:none;" >
+        <div class="gg_acere surtitre black" >L'actualité de la galerie</div>
+        <div class="gg_acere titre black" ><a href="http://www.galeriedesgaleries.com/frFR/newsletter.html" target="_self" class="titre_link" style="color:#000;" >LA NEWSLETTER</a></div>
+        <div class="gg_acere accroche black" >Expositions à venir, vernissages,<br/>événements, parutions, offres du mois...<br/>Inscrivez-vous !</div>
+
+        <div class="more" ><a href="http://www.galeriedesgaleries.com/frFR/newsletter.html" target="_self" style="color:#000;" >- S'INSCRIRE</a></div>
+    </div>
+</div>
+
+<div class="navigation_image_home" >
+    <div class="pastille_on" id="pastille_0" ></div>
+    <div class="pastille_off" id="pastille_1" ></div>
+    <div class="pastille_off" id="pastille_2" ></div>
+    <div class="pastille_off" id="pastille_3" ></div>
+    <div class="pastille_off" id="pastille_4" ></div>
+    <div class="pastille_off" id="pastille_5" ></div>
+    <div class="pastille_off" id="pastille_6" ></div>
+    <div class="clear" ></div>
+</div>
+
+
+
+<script type="text/javascript" >
+    $(document).ready( function() {
+        exposition_en_cours = "http://www.galeriedesgaleries.com/frFR/exposition/i-52/idesmultiples.html";$("#menu_choice_31").click( function() { window.location = exposition_en_cours; });$("#menu_choice_3,#menu_choice_3_selected").click( function() { window.location = exposition_en_cours; });
+        $("#menu_choice_4,#menu_choice_4_selected").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/evenement/i-28/performancesonore.html"; });
+        $("#menu_choice_1").click( function() { window.location = "http://www.galeriedesgaleries.com/"; });$("#menu_choice_2,#menu_choice_2_selected").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/presentation.html"; });
+        $("#menu_choice_32").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/exposition/i-53/alexprager.html"; });
+        $("#menu_choice_33").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/index/i-33/p-1/expositions_passees.html"; });
+        $("#menu_choice_43").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/index/i-43/p-1/evenement_a_venir.html"; });$("#menu_choice_43").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/evenement/i-28/performancesonore.html"; });
+        $("#menu_choice_44").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/index/i-44/p-1/evenement_passes.html"; });
+
+        $("#menu_choice_5,#menu_choice_5_selected").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/index/i-51/p-1/catalogues.html"; });$("#menu_choice_51").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/index/i-51/p-1/catalogues.html"; });$("#menu_choice_52").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/index/i-52/p-1/oeuvres_edition_limitee.html"; });
+        $("#menu_choice_6,#menu_choice_6_selected").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/presse.html"; });$("#menu_choice_7,#menu_choice_7_selected").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/partenaires_permanents.html"; });$("#menu_choice_71").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/partenaires_permanents.html"; });$("#menu_choice_72").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/partenaires_culturels.html"; });$("#menu_choice_8,#menu_choice_8_selected").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/acces.html"; });$("#menu_choice_81").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/visite.html"; });$("#menu_choice_82").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/acces.html"; });$("#menu_choice_9,#menu_choice_9_selected").click( function() { window.location = "http://www.galeriedesgaleries.com/frFR/newsletter.html"; });$(".logo_galeries").click( function() { window.open("http://www.galerieslafayette.com"); });});
+</script>
+<div class="menu_principal">
+    <div class="menu_overlayer" >
+        <div class="menu_space_height_adjust" style="height:103px;" ></div>
+        <div class="logo_gg" id="menu_choice_1" ></div>
+        <div style="height:21px;" ></div>
+        <div class="menu_item_bg_1" id="menu_choice_2" >
+        </div>
+        <div class="menu_item_bg_1" id="menu_choice_3" ></div>
+        <div id="sous_menu_3" class="sous_menu hidden" >
+            <div class="sous_menu_item yellow_menu " id="menu_choice_31">- en cours</div><div class="sous_menu_item yellow_menu " id="menu_choice_32" >- à venir</div><div class="sous_menu_item yellow_menu " id="menu_choice_33" >- passées</div>
+
+        </div>
+        <div class="menu_item_bg_1" id="menu_choice_4" ></div>
+        <div id="sous_menu_4" class="sous_menu hidden" >
+            <div class="sous_menu_item yellow_menu " id="menu_choice_43" >- à venir</div><div class="sous_menu_item yellow_menu " id="menu_choice_44" >- passés</div>
+        </div>
+        <div id="menu_choice_5" class=" menu_item_bg_1" ></div>
+        <div id="sous_menu_5" class="sous_menu hidden" >
+            <div class="sous_menu_item yellow_menu " id="menu_choice_51">- catalogues</div>
+            <div class="sous_menu_item yellow_menu " id="menu_choice_52"  >- <span style="font-size:12px;" >œuvres en édition limitée</span></div>
+
+        </div>
+        <div id="menu_choice_6" class=" menu_item_bg_1" ></div>
+        <div id="menu_choice_7" class=" menu_item_bg_1" ></div>
+        <div id="sous_menu_7" class="sous_menu hidden" >
+            <div class="sous_menu_item yellow_menu " id="menu_choice_71">- permanents</div>
+            <div class="sous_menu_item yellow_menu " id="menu_choice_72" >- culturels</div>
+
+        </div>
+        <div id="menu_choice_8" class=" menu_item_bg_1" ></div>
+        <div id="sous_menu_8" class="sous_menu hidden" >
+            <div class="sous_menu_item yellow_menu " id="menu_choice_82" >- accès</div>
+            <div class="sous_menu_item yellow_menu " id="menu_choice_81">- accueil des publics</div>
+
+        </div>
+
+        <div style="height:34px;" ></div>
+        <div class="network_bg_1 network_title" ></div>
+        <div class="network_bg_1" id="menu_choice_9" ></div>
+        <div class="r_s_facebook"  ><a href="http://www.facebook.com/pages/La-Galerie-des-Galeries/194940323856770"  target="_blank" ></a></div><div class="r_s_google"  ><a href="https://plus.google.com/u/0/b/111365483836338925051/+Galeriedesgaleries/posts?partnerid=gplp0"  target="_blank" ></a></div><div class="r_s_instagram"  ><a href="https://www.instagram.com/galeriedesgaleries/"  target="_blank" ></a></div><div class="clear" ></div>
+        <div style="height:28px;" ></div>
+        <div class="box_recherche_container" ><form name="recherche" enctype="multipart/form-data" action="http://www.galeriedesgaleries.com/" method="GET">
+            <input name="q" type="text" id="q" class="box_recherche"  value="Rechercher" onFocus="if(this.value=='Rechercher')this.value='';" onBlur="if(this.value=='')this.value='Rechercher';"><span class="gg_soft box_ok" >OK</span>
+        </form>
+        </div>
+
+    </div>
+
+    <div style="height:30px" ></div>
+    <div style="text-align:left;margin-left:22px;" >
+        <div style="height:20px;float:left;font-size:20px;line-height:20px;" ><a href="http://www.galeriedesgaleries.com?site_f" target="_self" class="language_switcher_selected" >FR</a></div>
+        <div style="float:left;border-right:1px solid #999;height:17px;position:relative;top:5px;margin-left:3px;font-size:20px;line-height:20px;" ></div>
+        <div style="height:20px;float:left;margin-left:3px;font-size:20px;line-height:20px;" ><a href="http://www.galeriedesgaleries.com?site_a" target="_self" class="language_switcher" >EN</a></div>
+        <div class="clear" ></div>
+    </div>
+
+    <div class="logo_galeries logo_adjust" ></div>
+
+    <div class="bottom_menu_line" ></div>
+    <div class="menu_info" >
+        <a href="http://www.galeriedesgaleries.com/frFR/mentions_legales.html" target="_self" class="link_bottom" >Mentions légales</a> | <a href="http://www.galeriedesgaleries.com/frFR/credits.html" target="_self" class="link_bottom" >Crédits</a>
+    </div>
+
+    <div style="height:15px;" ></div>
+
+</div></div>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29254910-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+
+<script type="text/javascript" src="http://www.galeriedesgaleries.com/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://www.galeriedesgaleries.com/js/jquery.colorbox_min.js"></script>
+<script type="text/javascript" src="http://www.galeriedesgaleries.com/js/jquery.selectbox_min.js"></script>
+<script src="https://apis.google.com/js/plusone.js"></script>
