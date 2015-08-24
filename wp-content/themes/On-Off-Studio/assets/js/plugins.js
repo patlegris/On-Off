@@ -35,7 +35,7 @@ $(document).ready(function () {
         slides: '.slide', // The name of a slide in the slidesContainer
         swipe: true,    // Add possibility to Swipe
         magneticSwipe: true, // Add 'magnetic' swiping. When the user swipes over the screen the slides will attach to the mouse's position
-        transition: "slide", // Accepts "slide" and "fade" for a slide or fade transition
+        transition: "fade", // Accepts "slide" and "fade" for a slide or fade transition
         slideTracker: true, // Add a UL with list items to track the current slide
         slideTrackerID: 'slideposition', // The name of the UL that tracks the slides
         slideOnInterval: true, // Slide on interval

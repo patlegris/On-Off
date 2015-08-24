@@ -10,6 +10,12 @@
     </footer>
 </div>
 <?php wp_footer(); ?>
+
+<!--<footer>-->
+<!--<p>&copy; On-Off Studio - 2015</p>-->
+<!--</footer>-->
+<!--</div>-->
+
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function (b, o, i, l, e, r) {

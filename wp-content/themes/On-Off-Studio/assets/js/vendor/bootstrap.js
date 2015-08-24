@@ -2318,3 +2318,12 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+
+// Collapse Accordion Submenu Bootstrap for wordpress
+// ==================================================
+//function load_javascript_files() {
+//  wp_register_script( 'bootstrap', get_stylesheet_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'), '3.0.3', true );
+//  wp_enqueue_script( 'bootstrap' );
+//}
+//add_action( 'wp_enqueue_scripts', 'load_javascript_files' );
