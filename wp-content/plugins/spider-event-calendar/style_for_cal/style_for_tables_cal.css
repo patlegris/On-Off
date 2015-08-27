@@ -560,4 +560,19 @@ a img.calendar {
 
 /* System Notice Messages */
 #system-message dd.notice ul { color: #c00; background: #EFE7B8 url(../images/notice-note.png) 4px top no-repeat; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E;}
+
+.wp-picker-container input[type=text].color_input.wp-color-picker{
+	display: block !important;
+    top: -30px;
+    position: relative;
+    left: 35px;
+}
+
+.wp-color-result:after,
+.button.button-small.wp-picker-clear{
+	display: none !important;
+}
+
+.wp-color-result{
+	width: 67px !important;
 }

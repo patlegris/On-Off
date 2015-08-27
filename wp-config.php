@@ -83,7 +83,7 @@ $table_prefix  = 'oo_';
  * 
  * @link https://codex.wordpress.org/Debugging_in_WordPress 
  */ 
-define('WP_DEBUG', false); 
+define('WP_DEBUG', false);
 
 /* C'est tout, ne touchez pas à ce qui suit ! Bon blogging ! */
 

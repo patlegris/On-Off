@@ -1323,6 +1323,9 @@ function html_add_spider_event($calendar_id, $cal_name) {
     if (form.date.value.search(/^[0-9]{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])/)) {
       alert('Invalid Date');
     }
+	else if(form.date_end.value == "" && form.repeat_method.value != "no_repeat"){
+		alert('Invalid date end');
+	}
     else if (form.selhour_from.value == "" && form.selminute_from.value == "" && form.selhour_to.value == "" && form.selminute_to.value == "") {
       submitform(pressbutton);
     }
@@ -1832,6 +1835,9 @@ function html_edit_spider_event($row, $calendar_id, $id, $cal_name) {
       if (form.date.value.search(/^[0-9]{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])/)) {
         alert('Invalid Date');
       }
+	  else if(form.date_end.value == "" && form.repeat_method.value != "no_repeat"){
+		alert('Invalid date end');
+	  }
       else if (form.date.value.search(/^[0-9]{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])/)) {
         alert('Invalid Date');
       }

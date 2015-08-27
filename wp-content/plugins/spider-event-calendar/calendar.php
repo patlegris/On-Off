@@ -3,11 +3,11 @@
 Plugin Name: Spider Event Calendar
 Plugin URI: https://web-dorado.com/products/wordpress-calendar.html
 Description: Spider Event Calendar is a highly configurable product which allows you to have multiple organized events. Spider Event Calendar is an extraordinary user friendly extension.
-Version: 1.4.25
+Version: 1.4.26
 Author: https://web-dorado.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
-$wd_spider_calendar_version="1.4.25";
+$wd_spider_calendar_version="1.4.26";
 // LANGUAGE localization.
 function sp_calendar_language_load() {
   load_plugin_textdomain('sp_calendar', FALSE, basename(dirname(__FILE__)) . '/languages');
@@ -475,7 +475,7 @@ function sp_calendar_options_panel() {
   $page_widget_theme = add_submenu_page('SpiderCalendar', 'Calendar Parameters', 'Widget Themes', 'manage_options', 'spider_widget_calendar_themes', 'spider_widget_calendar_params');
   $Featured_Plugins = add_submenu_page('SpiderCalendar', 'Featured Plugins', 'Featured Plugins', 'manage_options', 'calendar_Featured_Plugins', 'calendar_Featured_Plugins');
   $Featured_themes = add_submenu_page('SpiderCalendar', 'Featured Themes', 'Featured Themes', 'manage_options', 'calendar_Featured_themes', 'calendar_Featured_themes');
-  
+  add_submenu_page('SpiderCalendar', 'Export', 'Export', 'manage_options', 'calendar_export', 'calendar_export'); 
   add_submenu_page('SpiderCalendar', 'Licensing', 'Licensing', 'manage_options', 'Spider_calendar_Licensing', 'Spider_calendar_Licensing');
   add_submenu_page('SpiderCalendar', 'Uninstall  Spider Event Calendar', 'Uninstall  Spider Event Calendar', 'manage_options', 'Uninstall_sp_calendar', 'Uninstall_sp_calendar'); // uninstall Calendar
   add_action('admin_print_styles-' . $Featured_Plugins, 'calendar_Featured_Plugins_styles');
@@ -1301,6 +1301,151 @@ function calendar_Featured_Plugins() {  ?>
 	</form>
 </div>
 <?php }
+
+add_action('init', 'spider_calendar_export');
+function spider_calendar_export() {
+     if (isset($_POST['export_spider_calendar']) && $_POST['export_spider_calendar'] == 'Export') {
+        global $wpdb;
+        $tmp_folder = get_temp_dir();        
+        $select_spider_categories = "SELECT * from " . $wpdb->prefix . "spidercalendar_event_category";
+        $spider_cats = $wpdb->get_results($select_spider_categories);
+        $cat_columns = array(
+            array('id', 'title', 'published', 'color', 'description')
+        );
+        if ($spider_cats) {
+            foreach ($spider_cats as $cat) {
+                $cat_columns[] = array(
+                    $cat->id,
+                    $cat->title,
+                    $cat->published,
+                    $cat->color,
+                    $cat->description
+                );
+            }
+        }
+        $cat_handle = fopen($tmp_folder . '/sc_categories.csv', 'w+');
+        foreach ($cat_columns as $ar) {
+            if (fputcsv($cat_handle, $ar, ',') === FALSE) {
+                break;
+            }
+        }
+        @fclose($cat_handle);        
+        $select_spider_calendars = "SELECT * from " . $wpdb->prefix . "spidercalendar_calendar";
+        $spider_calendars = $wpdb->get_results($select_spider_calendars);
+        $cal_columns = array(
+            array('id', 'title', 'published')
+        );
+        if ($spider_calendars) {
+            foreach ($spider_calendars as $cal) {
+                $cal_columns[] = array(
+                    $cal->id,
+                    $cal->title,
+                    $cal->published
+                );
+            }
+        }
+        $cal_handle = fopen($tmp_folder . '/sc_calendars.csv', 'w+');
+        foreach ($cal_columns as $ar) {
+            if (fputcsv($cal_handle, $ar, ',') === FALSE) {
+                break;
+            }
+        }
+        @fclose($cal_handle);        
+        $select_spider_events = "SELECT * from " . $wpdb->prefix . "spidercalendar_event";
+        $spider_events = $wpdb->get_results($select_spider_events);
+        $events_columns = array(
+            array('id', 'cal_id', 'start_date', 'end_date', 'title', 'cat_id',
+                'time', 'text_for_date', 'userID', 'repeat_method', 'repeat', 'week',
+                'month', 'month_type', 'monthly_list', 'month_week', 'year_month', 'published')
+        );
+        if ($spider_events) {
+            foreach ($spider_events as $ev) {
+                $events_columns[] = array(
+                    $ev->id,
+                    $ev->calendar,
+                    $ev->date,
+                    $ev->date_end,
+                    $ev->title,
+                    $ev->category,
+                    $ev->time,
+                    $ev->text_for_date,
+                    $ev->userID,
+                    $ev->repeat_method,
+                    $ev->repeat,
+                    $ev->week,
+                    $ev->month,
+                    $ev->month_type,
+                    $ev->monthly_list,
+                    $ev->month_week,
+                    $ev->year_month,
+                    $ev->published
+                );
+            }
+        }
+        $ev_handle = fopen($tmp_folder . '/sc_events.csv', 'w+');
+        foreach ($events_columns as $ar) {
+            if (fputcsv($ev_handle, $ar, ',') === FALSE) {
+                break;
+            }
+        }
+        @fclose($ev_handle);
+        $files = array(
+            'sc_categories.csv',
+            'sc_calendars.csv',
+            'sc_events.csv'
+        );
+        $zip = new ZipArchive();
+        $tmp_file = tempnam('.', '');
+        if ($zip->open($tmp_file, ZIPARCHIVE::CREATE) === TRUE) {
+            foreach ($files as $file) {
+                if (file_exists($tmp_folder . $file)) {
+                    $zip->addFile($tmp_folder . $file, $file);
+                }
+            }
+            $zip->close();
+            header("Content-type: application/zip; charset=utf-8");
+            header("Content-Disposition: attachment; filename=spider-event-calendar-export.zip");
+            header("Content-length: " . filesize($tmp_file));
+            header("Pragma: no-cache");
+            header("Expires: 0");
+            readfile($tmp_file);
+        }
+        foreach ($files as $file) {
+            @unlink($tmp_folder . $file);
+        }
+    }
+}
+
+function calendar_export() {
+    ?>
+    <form method="post" style="font-size: 14px; font-weight: bold;">
+		<div id="export_div">
+          This section will allow exporting Spider Calendar data (events, calendars, categories) for further import to Event Calendar WD.
+          <a href="https://web-dorado.com/products/wordpress-event-calendar-wd.html" target="_blank" style="color:blue; text-decoration:none;">More...</a>
+		</div>
+        <input type='submit' value='Export' id="export_WD" name='export_spider_calendar' />
+    </form>
+	<style>
+	#export_div{
+		background: #fff;
+		border: 1px solid #e5e5e5;
+		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+		box-shadow: 0 1px 1px rgba(0,0,0,.04);
+		border-spacing: 0;
+		width: 65%;
+		clear: both;
+		margin: 0;
+		padding: 7px 7px 8px 10px;
+		margin: 20px 0 10px 0;
+	}
+
+	#export_WD{
+		font-size: 13px;
+		padding: 7px 25px;
+	}
+	</style>
+    <?php
+}
 
 // Activate plugin.
 function SpiderCalendar_activate() {

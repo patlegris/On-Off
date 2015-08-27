@@ -4,7 +4,7 @@ Donate link: https://web-dorado.com/products/wordpress-calendar.html
 Tags: calendar, calendars, event, event calendar, event manager, events calendar,calendar widget,  event registration, event management,events, Kalender, agenda, calendario, availability calendar,o nline calendar, holiday calendar, scheduling, free calendar, Calender, upcoming events, event widget , event list, calendar localization, Organizer, editorial calendar, Interactive Calendar, news calendar, meeting, appointment, event tracking, event organizer, upcoming events widget, event page, event bookings, recurring, recurring events, conference, date, dates, schedule, times, venue, AJAX, responsive, shortcode, seminar, summit, reservation 
 Requires at least: 3.4  
 Tested up to: 4.3   
-Stable tag: 1.4.25 
+Stable tag: 1.4.26 
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -141,6 +141,9 @@ Vietnamese (vi)
 
 
 == Changelog ==
+
+= 1.4.26 =
+New: Export to Event Calendar WD
 
 = 1.4.25 =
 Changed: Compability with WordPress 4.3   

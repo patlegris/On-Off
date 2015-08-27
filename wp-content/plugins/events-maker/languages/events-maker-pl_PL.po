@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Events Maker\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-08 00:04+0100\n"
-"PO-Revision-Date: 2015-07-08 00:07+0100\n"
+"POT-Creation-Date: 2015-08-25 19:25+0200\n"
+"PO-Revision-Date: 2015-08-25 19:25+0200\n"
 "Last-Translator: Bartosz Arendt <info@dfactory.eu>\n"
 "Language-Team: dFactory <info@dfactory.pl>\n"
 "Language: pl_PL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_n\n"
@@ -49,7 +49,7 @@ msgstr "ustawiana ręcznie"
 
 # @ events-maker
 #: ../events-maker.php:347 ../includes/class-post-types.php:200
-#: ../includes/class-widgets.php:680 ../includes/template-functions.php:595
+#: ../includes/class-widgets.php:758 ../includes/template-functions.php:597
 msgid "Events"
 msgstr "Wydarzenia"
 
@@ -1559,8 +1559,7 @@ msgid "Add new ticket"
 msgstr "Dodaj nowy bilet"
 
 # @ events-maker
-#: ../includes/class-metaboxes.php:581
-#: ../templates/single-event/tickets.php:74
+#: ../includes/class-metaboxes.php:581 ../templates/single-event/tickets.php:74
 msgid "Buy tickets URL"
 msgstr "Kup bilety na stronie"
 
@@ -1932,7 +1931,7 @@ msgstr ""
 "\">Podejrzyj wydarzenie</a>"
 
 # @ events-maker
-#: ../includes/class-settings.php:41 ../includes/class-widgets.php:707
+#: ../includes/class-settings.php:41 ../includes/class-widgets.php:785
 msgid "Publish date"
 msgstr "Data publikacji"
 
@@ -1947,16 +1946,16 @@ msgid "Events end date"
 msgstr "Data zakończenia wydarzenia"
 
 # @ events-maker
-#: ../includes/class-settings.php:47 ../includes/class-widgets.php:69
-#: ../includes/class-widgets.php:712 ../includes/class-widgets.php:1022
-#: ../includes/class-widgets.php:1131 ../includes/class-widgets.php:1240
+#: ../includes/class-settings.php:47 ../includes/class-widgets.php:146
+#: ../includes/class-widgets.php:790 ../includes/class-widgets.php:1099
+#: ../includes/class-widgets.php:1207 ../includes/class-widgets.php:1315
 msgid "Ascending"
 msgstr "Rosnąco"
 
 # @ events-maker
-#: ../includes/class-settings.php:48 ../includes/class-widgets.php:70
-#: ../includes/class-widgets.php:713 ../includes/class-widgets.php:1023
-#: ../includes/class-widgets.php:1132 ../includes/class-widgets.php:1241
+#: ../includes/class-settings.php:48 ../includes/class-widgets.php:147
+#: ../includes/class-widgets.php:791 ../includes/class-widgets.php:1100
+#: ../includes/class-widgets.php:1208 ../includes/class-widgets.php:1316
 msgid "Descending"
 msgstr "Malejąco"
 
@@ -2287,9 +2286,9 @@ msgid "Query settings"
 msgstr "Ustawienia wyświetlania"
 
 # @ events-maker
-#: ../includes/class-settings.php:248 ../includes/class-widgets.php:807
-#: ../includes/class-widgets.php:1054 ../includes/class-widgets.php:1163
-#: ../includes/class-widgets.php:1272
+#: ../includes/class-settings.php:248 ../includes/class-widgets.php:885
+#: ../includes/class-widgets.php:1131 ../includes/class-widgets.php:1239
+#: ../includes/class-widgets.php:1347
 msgid "Order by"
 msgstr "Sortowanie wg"
 
@@ -2587,7 +2586,7 @@ msgstr ""
 "administracyjnego jak i frontu strony)."
 
 # @ events-maker
-#: ../includes/class-settings.php:754 ../includes/class-widgets.php:252
+#: ../includes/class-settings.php:754 ../includes/class-widgets.php:331
 msgid "Show past events"
 msgstr "Wyświetlanie zakończonych wydarzeń"
 
@@ -2611,7 +2610,7 @@ msgid ""
 msgstr ""
 "Wybierz sposób sortowania listy wydarzeń (dotyczy tylko frontu strony)."
 
-#: ../includes/class-settings.php:780 ../includes/class-widgets.php:253
+#: ../includes/class-settings.php:780 ../includes/class-widgets.php:332
 msgid "Show occurrences"
 msgstr "Wyświetlanie powtarzalnych wydarzeń"
 
@@ -2942,380 +2941,380 @@ msgstr ""
 msgid "Go to Events Maker Settings"
 msgstr "Przejdź do ustawień Events Maker"
 
+#: ../includes/class-widgets.php:48 ../includes/class-widgets.php:54
+#: ../includes/template-functions.php:925
+msgid "Events Search"
+msgstr "Wyszukiwarka wydarzeń"
+
+#: ../includes/class-widgets.php:49
+msgid "An advanced event searchform."
+msgstr "Zaawansowany formularz wyszukiwania wydarzeń."
+
 # @ events-maker
-#: ../includes/class-widgets.php:48 ../includes/class-widgets.php:55
+#: ../includes/class-widgets.php:77 ../includes/class-widgets.php:164
+#: ../includes/class-widgets.php:327 ../includes/class-widgets.php:786
+#: ../includes/class-widgets.php:829 ../includes/class-widgets.php:1123
+#: ../includes/class-widgets.php:1231 ../includes/class-widgets.php:1339
+msgid "Title"
+msgstr "Tytuł"
+
+#: ../includes/class-widgets.php:81
+msgid "Show searchphrase input field"
+msgstr "Wyświetl pole nazwy wydarzenia"
+
+#: ../includes/class-widgets.php:82
+msgid "Show date input fields"
+msgstr "Wyświetl pola daty"
+
+#: ../includes/class-widgets.php:83
+msgid "Show event categories dropdown"
+msgstr "Wyświetl pole kategorii wydarzeń"
+
+#: ../includes/class-widgets.php:84
+msgid "Show event locations dropdown"
+msgstr "Wyświetl pole lokalizacji wydarzeń"
+
+#: ../includes/class-widgets.php:88
+msgid "Show event organizers dropdown"
+msgstr "Wyświetl pole organizatorów wydarzeń"
+
+#: ../includes/class-widgets.php:92
+msgid "Show event tags dropdown"
+msgstr "Wyświetl pole tagów wydarzeń"
+
+# @ events-maker
+#: ../includes/class-widgets.php:126 ../includes/class-widgets.php:132
 msgid "Events Archives"
 msgstr "Archiwa wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:49
+#: ../includes/class-widgets.php:127
 msgid "Displays events archives"
 msgstr "Wyświetla archiwa wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:64
+#: ../includes/class-widgets.php:141
 msgid "Monthly"
 msgstr "Miesięczne"
 
 # @ events-maker
-#: ../includes/class-widgets.php:65
+#: ../includes/class-widgets.php:142
 msgid "Yearly"
 msgstr "Roczne"
 
 # @ events-maker
-#: ../includes/class-widgets.php:87 ../includes/class-widgets.php:248
-#: ../includes/class-widgets.php:708 ../includes/class-widgets.php:751
-#: ../includes/class-widgets.php:1046 ../includes/class-widgets.php:1155
-#: ../includes/class-widgets.php:1264 ../includes/class-widgets.php:1400
-msgid "Title"
-msgstr "Tytuł"
-
-# @ events-maker
-#: ../includes/class-widgets.php:91 ../includes/class-widgets.php:1050
-#: ../includes/class-widgets.php:1159 ../includes/class-widgets.php:1268
+#: ../includes/class-widgets.php:168 ../includes/class-widgets.php:1127
+#: ../includes/class-widgets.php:1235 ../includes/class-widgets.php:1343
 msgid "Display as dropdown"
 msgstr "Wyświetl jako rozwijaną listę"
 
 # @ events-maker
-#: ../includes/class-widgets.php:92
+#: ../includes/class-widgets.php:169
 msgid "Show amount of events"
 msgstr "Wyświetl liczbę wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:95
+#: ../includes/class-widgets.php:172
 msgid "Display Type"
 msgstr "Sposób wyświetlania"
 
 # @ events-maker
-#: ../includes/class-widgets.php:107 ../includes/class-widgets.php:818
-#: ../includes/class-widgets.php:1065 ../includes/class-widgets.php:1174
-#: ../includes/class-widgets.php:1283
+#: ../includes/class-widgets.php:184 ../includes/class-widgets.php:896
+#: ../includes/class-widgets.php:1142 ../includes/class-widgets.php:1250
+#: ../includes/class-widgets.php:1358
 msgid "Order"
 msgstr "Kolejność"
 
 # @ events-maker
-#: ../includes/class-widgets.php:118
+#: ../includes/class-widgets.php:195
 msgid "Limit"
 msgstr "Limit"
 
 # @ events-maker
-#: ../includes/class-widgets.php:158 ../includes/class-widgets.php:169
+#: ../includes/class-widgets.php:235 ../includes/class-widgets.php:245
 msgid "Events Calendar"
 msgstr "Kalendarz wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:159
+#: ../includes/class-widgets.php:236
 msgid "Displays events calendar"
 msgstr "Wyświetla kalendarz wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:180 ../includes/class-widgets.php:700
+#: ../includes/class-widgets.php:256 ../includes/class-widgets.php:778
 msgid "all"
 msgstr "wszystkie"
 
 # @ events-maker
-#: ../includes/class-widgets.php:181 ../includes/class-widgets.php:701
+#: ../includes/class-widgets.php:257 ../includes/class-widgets.php:779
 msgid "selected"
 msgstr "wybrane"
 
-#: ../includes/class-widgets.php:185
+#: ../includes/class-widgets.php:261
 msgid "basic"
 msgstr "prosty"
 
-#: ../includes/class-widgets.php:186
+#: ../includes/class-widgets.php:262
 msgid "dark"
 msgstr "ciemny"
 
-#: ../includes/class-widgets.php:187
+#: ../includes/class-widgets.php:263
 msgid "light"
 msgstr "jasny"
 
-#: ../includes/class-widgets.php:188
+#: ../includes/class-widgets.php:264
 msgid "flat"
 msgstr "nowoczesny"
 
 # @ events-maker
-#: ../includes/class-widgets.php:254
+#: ../includes/class-widgets.php:333
 msgid "Highlight weekends"
 msgstr "Podkreślanie weekendów"
 
-#: ../includes/class-widgets.php:257
+#: ../includes/class-widgets.php:336
 msgid "CSS Style"
 msgstr "Styl CSS"
 
 # @ events-maker
-#: ../includes/class-widgets.php:269 ../includes/class-widgets.php:759
+#: ../includes/class-widgets.php:348 ../includes/class-widgets.php:837
 msgid "Event Categories"
 msgstr "Kategorie wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:283 ../includes/class-widgets.php:773
+#: ../includes/class-widgets.php:362 ../includes/class-widgets.php:851
 msgid "Event Locations"
 msgstr "Lokalizacje wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:302 ../includes/class-widgets.php:790
+#: ../includes/class-widgets.php:381 ../includes/class-widgets.php:868
 msgid "Event Organizers"
 msgstr "Organizatorzy wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:653 ../includes/class-widgets.php:984
+#: ../includes/class-widgets.php:732 ../includes/class-widgets.php:1062
 msgid "No results were found."
 msgstr "Nie znaleziono."
 
 # @ events-maker
-#: ../includes/class-widgets.php:673
+#: ../includes/class-widgets.php:752
 msgid "Events List"
 msgstr "Lista wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:674
+#: ../includes/class-widgets.php:753
 msgid "Displays a list of events"
 msgstr "Wyświetla listę wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:693
+#: ../includes/class-widgets.php:771
 msgid "No Events"
 msgstr "Brak wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:705
+#: ../includes/class-widgets.php:783
 msgid "Start date"
 msgstr "Data rozpoczęcia"
 
 # @ events-maker
-#: ../includes/class-widgets.php:706
+#: ../includes/class-widgets.php:784
 msgid "End date"
 msgstr "Data zakońzzenia"
 
 # @ events-maker
-#: ../includes/class-widgets.php:755
+#: ../includes/class-widgets.php:833
 msgid "Number of events"
 msgstr "Liczba wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:832
+#: ../includes/class-widgets.php:910
 msgid "Display past events"
 msgstr "Wyświetl zakończone wydarzenia"
 
 # @ events-maker
-#: ../includes/class-widgets.php:834
+#: ../includes/class-widgets.php:912
 msgid "Display event occurrenses"
 msgstr "Wyświetlanie powtarzających się wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:836
+#: ../includes/class-widgets.php:914
 msgid "Display event excerpt"
 msgstr "Wyświetl wypis"
 
 # @ events-maker
-#: ../includes/class-widgets.php:838
+#: ../includes/class-widgets.php:916
 msgid "Display featured events only"
 msgstr "Wyświetl tylko wyróżnione wydarzenia"
 
 # @ events-maker
-#: ../includes/class-widgets.php:840
+#: ../includes/class-widgets.php:918
 msgid "Display event thumbnail"
 msgstr "Wyświetl miniatury"
 
-#: ../includes/class-widgets.php:842
+#: ../includes/class-widgets.php:920
 msgid "Display link for all events"
 msgstr "Wyświetl link do wszystkich wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:846
+#: ../includes/class-widgets.php:924
 msgid "Thumbnail size"
 msgstr "Rozmiar miniatury"
 
 # @ events-maker
-#: ../includes/class-widgets.php:860
+#: ../includes/class-widgets.php:938
 msgid "No events message"
 msgstr "Komunikat przy braku wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:864
+#: ../includes/class-widgets.php:942
 msgid "Date format"
 msgstr "Format daty"
 
 # @ events-maker
-#: ../includes/class-widgets.php:866
+#: ../includes/class-widgets.php:944
 msgid "Time format"
 msgstr "Format godziny"
 
 # @ events-maker
-#: ../includes/class-widgets.php:1002 ../includes/class-widgets.php:1009
+#: ../includes/class-widgets.php:1080 ../includes/class-widgets.php:1086
 msgid "Events Categories"
 msgstr "Kategorie wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:1003
+#: ../includes/class-widgets.php:1081
 msgid "Displays a list of events categories"
 msgstr "Wyświetla listę kategorii wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:1017 ../includes/class-widgets.php:1126
-#: ../includes/class-widgets.php:1235
+#: ../includes/class-widgets.php:1094 ../includes/class-widgets.php:1202
+#: ../includes/class-widgets.php:1310
 msgid "ID"
 msgstr "ID"
 
 # @ events-maker
-#: ../includes/class-widgets.php:1018 ../includes/class-widgets.php:1127
-#: ../includes/class-widgets.php:1236
+#: ../includes/class-widgets.php:1095 ../includes/class-widgets.php:1203
+#: ../includes/class-widgets.php:1311
 msgid "Name"
 msgstr "Imię i nazwisko"
 
 # @ events-maker
-#: ../includes/class-widgets.php:1051 ../includes/class-widgets.php:1160
-#: ../includes/class-widgets.php:1269
+#: ../includes/class-widgets.php:1128 ../includes/class-widgets.php:1236
+#: ../includes/class-widgets.php:1344
 msgid "Show hierarchy"
 msgstr "Pokaż hierarchię"
 
 # @ events-maker
-#: ../includes/class-widgets.php:1111 ../includes/class-widgets.php:1118
+#: ../includes/class-widgets.php:1188 ../includes/class-widgets.php:1194
 msgid "Events Locations"
 msgstr "Lokalizacje wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:1112
+#: ../includes/class-widgets.php:1189
 msgid "Displays a list of events locations"
 msgstr "Wyświetla listę lokalizacji wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:1220 ../includes/class-widgets.php:1227
+#: ../includes/class-widgets.php:1296 ../includes/class-widgets.php:1302
 msgid "Events Organizers"
 msgstr "Organizatorzy wydarzeń"
 
 # @ events-maker
-#: ../includes/class-widgets.php:1221
+#: ../includes/class-widgets.php:1297
 msgid "Displays a list of events organizers"
 msgstr "Wyświetla listę organizatorów wydarzeń"
-
-#: ../includes/class-widgets.php:1329 ../includes/class-widgets.php:1336
-#: ../includes/template-functions.php:923
-msgid "Events Search"
-msgstr "Wyszukiwarka wydarzeń"
-
-#: ../includes/class-widgets.php:1330
-msgid "Advanced event searchform."
-msgstr "Zaawansowany formularz wyszukiwania wydarzeń."
-
-#: ../includes/class-widgets.php:1404
-msgid "Show searchphrase input field"
-msgstr "Wyświetl pole nazwy wydarzenia"
-
-#: ../includes/class-widgets.php:1405
-msgid "Show date input fields"
-msgstr "Wyświetl pola daty"
-
-#: ../includes/class-widgets.php:1406
-msgid "Show event categories dropdown"
-msgstr "Wyświetl pole kategorii wydarzeń"
-
-#: ../includes/class-widgets.php:1407
-msgid "Show event locations dropdown"
-msgstr "Wyświetl pole lokalizacji wydarzeń"
-
-#: ../includes/class-widgets.php:1411
-msgid "Show event organizers dropdown"
-msgstr "Wyświetl pole organizatorów wydarzeń"
-
-#: ../includes/class-widgets.php:1415
-msgid "Show event tags dropdown"
-msgstr "Wyświetl pole tagów wydarzeń"
 
 #: ../includes/libraries/translate-rewrite-slugs.php:381
 msgid "Empty Term"
 msgstr "Pusty Term"
 
 # @ events-maker
-#: ../includes/template-functions.php:133
+#: ../includes/template-functions.php:135
 msgid "<strong>Category: </strong>"
 msgstr "<strong>Kategoria: </strong>"
 
 # @ events-maker
-#: ../includes/template-functions.php:158
+#: ../includes/template-functions.php:160
 msgid "<strong>Tags: </strong>"
 msgstr "<strong>Tagi: </strong>"
 
 # @ events-maker
-#: ../includes/template-functions.php:193
-#: ../includes/template-functions.php:206
+#: ../includes/template-functions.php:195
+#: ../includes/template-functions.php:208
 msgid "<strong>Location: </strong>"
 msgstr "<strong>Lokalizacja: </strong>"
 
 # @ events-maker
-#: ../includes/template-functions.php:279
-#: ../includes/template-functions.php:293
+#: ../includes/template-functions.php:281
+#: ../includes/template-functions.php:295
 msgid "<strong>Organizer: </strong>"
 msgstr "<strong>Organizator: </strong>"
 
-#: ../includes/template-functions.php:372
+#: ../includes/template-functions.php:374
 msgid "Generate iCal"
 msgstr "Pobierz iCal"
 
 # @ events-maker
-#: ../includes/template-functions.php:581
+#: ../includes/template-functions.php:583
 #, php-format
 msgid "Event Daily Archives: %s"
 msgstr "Dzienne archiwum wydarzeń dla: %s"
 
 # @ events-maker
-#: ../includes/template-functions.php:583
+#: ../includes/template-functions.php:585
 #, php-format
 msgid "Event Monthly Archives: %s"
 msgstr "Miesięczne archiwum wydarzeń dla: %s"
 
 # @ events-maker
-#: ../includes/template-functions.php:583
+#: ../includes/template-functions.php:585
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
 # @ events-maker
-#: ../includes/template-functions.php:585
+#: ../includes/template-functions.php:587
 #, php-format
 msgid "Event Yearly Archives: %s"
 msgstr "Roczne archiwum wydarzeń dla: %s"
 
 # @ events-maker
-#: ../includes/template-functions.php:585
+#: ../includes/template-functions.php:587
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
 # @ events-maker
-#: ../includes/template-functions.php:587
+#: ../includes/template-functions.php:589
 #, php-format
 msgid "Events Category: %s"
 msgstr "Kategoria wydarzeń: %s"
 
 # @ events-maker
-#: ../includes/template-functions.php:589
+#: ../includes/template-functions.php:591
 #, php-format
 msgid "Events Location: %s"
 msgstr "Lokalizacja wydarzeń: %s"
 
 # @ events-maker
-#: ../includes/template-functions.php:591
+#: ../includes/template-functions.php:593
 #, php-format
 msgid "Events Organizer: %s"
 msgstr "Organizator wydarzeń: %s"
 
 # @ events-maker
-#: ../includes/template-functions.php:593
+#: ../includes/template-functions.php:595
 #, php-format
 msgid "Events Tag: %s"
 msgstr "Tag wydarzeń: %s"
 
-#: ../includes/template-functions.php:926
+#: ../includes/template-functions.php:928
 msgid "Enter event name..."
 msgstr "Wpisz nazwę wydarzenia..."
 
-#: ../includes/template-functions.php:928
+#: ../includes/template-functions.php:930
 msgid "Select start date..."
 msgstr "Wybierz datę zrozpoczęcia..."
 
-#: ../includes/template-functions.php:929
+#: ../includes/template-functions.php:931
 msgid "Select end date..."
 msgstr "Wybierz datę zakończenia..."
 
@@ -3327,8 +3326,7 @@ msgstr "Przykro nam, ale nie znaleziono lokalizacji."
 msgid "Apologies, but no event organizers were found."
 msgstr "Przykro nam, ale nie znaleziono organizatorów."
 
-#: ../templates/global/breadcrumb.php:89
-#: ../templates/global/breadcrumb.php:184
+#: ../templates/global/breadcrumb.php:89 ../templates/global/breadcrumb.php:184
 msgid "Search results for &ldquo;"
 msgstr "Wyniki wyszukiwania dla &ldquo;"
 
@@ -3428,6 +3426,9 @@ msgstr "Szukaj"
 #: ../templates/single-event/tickets.php:59
 msgid "Free"
 msgstr "Bezpłatne"
+
+#~ msgid "Advanced event searchform."
+#~ msgstr "Zaawansowany formularz wyszukiwania wydarzeń."
 
 # @ events-maker
 #~ msgid "selected page"

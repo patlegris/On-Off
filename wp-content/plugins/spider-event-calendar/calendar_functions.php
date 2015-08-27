@@ -516,6 +516,9 @@ function apply_spider_event($calendar_id, $id) {
   if ($date_end == '' && $repeat_method != 'no_repeat') {
     $date_end = '2070-12-12';
   }
+  else if ($date_end == '' && $repeat_method == 'no_repeat') {
+    $date_end = $date;
+  }
   $select_from = ((isset($_POST['select_from'])) ? esc_sql(esc_html(stripslashes($_POST['select_from']))) : '');
   $select_to = ((isset($_POST['select_to'])) ? esc_sql(esc_html(stripslashes($_POST['select_to']))) : '');
   $selhour_from = ((isset($_POST['selhour_from'])) ? esc_sql(esc_html(stripslashes($_POST['selhour_from']))) : '');
