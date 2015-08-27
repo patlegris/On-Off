@@ -223,3 +223,21 @@ require_once TEMPLATEPATH . '/inc/metabox/pl_portfolio.php';
 
 require_once('wp_bootstrap_navwalker.php');
 
+
+/* --------------------------------------------------------- *\
+   Add CSS and JS for use with bootstrap
+\* --------------------------------------------------------- */
+// Register Custom Navigation Walker
+require_once('wp_bootstrap_navwalker.php');
+
+// Add the 'top_menu' location in a theme setup function.
+function bootpress_setup() {
+    register_nav_menus(
+        array(
+            'primary-menu' => 'Primary menu'
+        )
+    );
+}
+
+// Add setup function to the 'after_setup_theme' hook
+add_action( 'after_setup_theme', 'bootpress_setup' );

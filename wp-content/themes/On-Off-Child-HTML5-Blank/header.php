@@ -40,14 +40,14 @@
 <body <?php body_class(); ?>>
 
 <!-- wrapper -->
-<div class="wrapper">
+<div class="wrapper" class="toggled">
 
     <!-- header -->
     <header class="header clear" role="banner">
 
-
-        <div class="container">
-            <div class="bar-menu">
+        <div id="sidebar-wrapper" class="sidebar-nav">
+            <div class="container">
+                <div class="bar-menu">
                     <!-- logo -->
                     <div class="logo">
                         <a href="<?php echo home_url(); ?>">
@@ -57,14 +57,38 @@
                         </a>
                     </div>
                     <!-- /logo -->
-                <nav class="nav" role="navigation">
-                    <!-- nav -->
-                    <br>
-                    <?php html5blank_nav(); ?>
-                </nav>
-                <!-- /nav -->
+                    <nav class="nav" role="navigation">
+                        <!-- nav -->
+                        <br>
+                        <?php html5blank_nav(); ?>
+                    </nav>
+                    <!-- /nav -->
+                </div>
             </div>
         </div>
 
+<!--        <div id="sidebar-wrapper" class="sidebar-nav">-->
+<!---->
+<!--            --><?php
+//            wp_nav_menu(array(
+//                    'menu' => 'primary',
+//                    'depth' => 3,
+//
+//                    'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+//                    'walker' => new wp_bootstrap_navwalker())
+//            );
+//            ?>
+<!---->
+<!--        </div>-->
+<!--        <div id="page-content-wrapper">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <a class="btn btn-default" href="#menu-toggle" id="menu-toggle">-->
+<!--                        <span class="glyphicon glyphicon-align-justify"></span>-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </header>
-    <!-- /header -->
+</div>
+<!-- /header -->
