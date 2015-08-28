@@ -40,32 +40,38 @@
 <body <?php body_class(); ?>>
 
 <!-- wrapper -->
-<div class="wrapper" class="toggled">
+<div id="container" class="container">
+    <div class="row">
+        <div class="wrapper" class="toggled">
 
-    <!-- header -->
-    <header class="header clear" role="banner">
+            <!-- header -->
+            <header class="header clear" class="col-lg-12" role="banner">
 
-        <div id="sidebar-wrapper" class="sidebar-nav">
-            <div class="container">
-                <div class="bar-menu">
-                    <!-- logo -->
-                    <div class="logo">
-                        <a href="<?php echo home_url(); ?>">
-                            <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg"
-                                 alt="Logo" class="logo-img">
-                        </a>
+                <div id="sidebar-wrapper" class="sidebar-nav col-lg-2">
+                    <div class="bar-menu" class="col-lg-2">
+                        <!-- logo -->
+                        <div class="logo">
+                            <a href="<?php echo home_url(); ?>">
+                                <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg"
+                                     alt="Logo" class="logo-img">
+                            </a>
+                        </div>
+                        <!-- /logo -->
+                        <nav class="nav col-lg-2" role="navigation">
+                            <!-- nav -->
+                            <br>
+                            <?php html5blank_nav(); ?>
+
+                        </nav>
+                        <!-- /nav -->
+                        <?php wp_sidebar_description('widget-area-1'); ?>
                     </div>
-                    <!-- /logo -->
-                    <nav class="nav" role="navigation">
-                        <!-- nav -->
-                        <br>
-                        <?php html5blank_nav(); ?>
-                    </nav>
-                    <!-- /nav -->
                 </div>
-            </div>
+            </header>
         </div>
+    </div>
+</div>
 
 <!--        <div id="sidebar-wrapper" class="sidebar-nav">-->
 <!---->
@@ -89,6 +95,3 @@
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-    </header>
-</div>
-<!-- /header -->
