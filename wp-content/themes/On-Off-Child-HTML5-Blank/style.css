@@ -14,25 +14,31 @@
 /*------------------------------------*\
     AUTHOR
 \*------------------------------------*/
+/*body*/
+body {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #333;
+	background-color: #fff;
+}
+
 /* Menu box-sizing */
 .bar-menu {
+	float: left;
 	display: inline-block;
-	position: fixed;
-	/*padding: 20px;*/
-	width: auto;
+	/*position: fixed;*/
 	z-index: 1000;
-	height: 2000px;
 	top: 0;
-	left: 2rem;
+	/*left: 2rem;*/
 	background-color: white;
 }
 .bar-menu .nav {
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	display: inline-block;
-	/*padding: 20px;*/
 	z-index: 1001;
-	line-height: 35px;
+	line-height: 2rem;
 	text-transform: uppercase;
 }
 

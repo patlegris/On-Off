@@ -1,0 +1,20 @@
+/**
+Additional formatting to fix Nav Menus using
+    - Pills/Tabs/Buttons
+    - Logos AND Titles, with new class: navbar-title-logo
+*/
+
+.navbar-title-logo > img {
+    margin-left: 10px;
+    margin-right: -20px;
+    margin-top: -5px;
+}
+
+ul.nav-pills{
+    float:none ;
+}
+
+.nav i[class*="glyphicon-"],
+.nav span[class*="glyphicon-"]{
+    padding-right: 5px ;
+}
