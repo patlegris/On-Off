@@ -26,12 +26,13 @@ body {
 /* Menu box-sizing */
 .bar-menu {
 	float: left;
-	display: inline-block;
+	/*display: inline-block;*/
 	/*position: fixed;*/
 	z-index: 1000;
 	top: 0;
 	/*left: 2rem;*/
 	background-color: white;
+	height: auto;
 }
 .bar-menu .nav {
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
@@ -42,6 +43,18 @@ body {
 	text-transform: uppercase;
 }
 
+/* Modification of the bootstrap navbar main menu */
+.navbar-default .navbar-nav > .active > a, a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: orangered;
+	color: white;
+	text-decoration:none;
+	margin: 0.3rem;
+	margin: 0.3rem;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: black;
+}
 /* Mask DOT in the li */
 .bar-menu ul li {
 	list-style-type:none;

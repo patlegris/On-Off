@@ -66,10 +66,10 @@ function html5blank_nav()
 {
     wp_nav_menu(
         array(
-            'theme_location' => 'primary-menu',
+            'theme_location' => '',
             'menu' => '',
             'container' => 'div',
-            'container_class' => 'menu-{menu slug}-container',
+            'container_class' => '',
             'container_id' => '',
             'menu_class' => 'menu',
             'menu_id' => '',
@@ -79,7 +79,7 @@ function html5blank_nav()
             'after' => '',
             'link_before' => '',
             'link_after' => '',
-            'items_wrap' => '<ul>%3$s</ul>',
+            'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
             'depth' => 0,
             'walker' => ''
         )
@@ -491,4 +491,3 @@ Register Custom Navigation Walker
 
 require_once('wp_bootstrap_navwalker.php');
 
-?>

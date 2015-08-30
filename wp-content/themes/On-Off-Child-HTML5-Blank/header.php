@@ -47,35 +47,12 @@
             </div>
             <div class="collapse nav navbar-collapse bar-menu navbar-left" id="example-navbar-collapse">
 
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="#">iOS</a></li>
-                    <li><a href="#">SVN</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            Java <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu navbar-left">
-                            <li><a href="#">jmeter</a></li>
-                            <li><a href="#">EJB</a></li>
-                            <li><a href="#">Jasper Report</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-<?php //html5blank_nav(); ?>
-<?php wp_nav_menu(array('menu' => 'menu')); ?>
+                <?php
+                if( is_active_sidebar('widget-area-1')) : dynamic_sidebar('widget-area-1');
+                endif;?>
 
-<?php
-//                wp_nav_menu(array(
-//                    'menu' => 'header',
-//                    'container_id' => 'cssmenu',
-//                    'walker' => new CSS_Menu_Walker()
-//                ));
-//                ?>
-
+                <?php //html5blank_nav(); ?>
+                <?php //wp_nav_menu(); ?>
 
                 <!-- Search form-->
                 <ul class="">
@@ -89,7 +66,7 @@
                             <div class='form-group'>
                                 <input class='form-control'
                                        type='text'
-                                       size=20
+                                       size=16
                                        name='s'
                                        id='s'
                                        value='Votre recherche...'
@@ -103,6 +80,7 @@
                                 <div class="form-group">
                                     <input type="text" placeholder="Email" class="form-control">
                                 </div>
+<!--                                --><?php //get_sidebar(); ?>
                             </div>
                         </form>
                     </li>
@@ -110,6 +88,8 @@
             </div>
         </div>
     </nav>
+
+
 </header>
 <!--</div>-->
 

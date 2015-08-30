@@ -33,3 +33,5 @@
 		}
 	}
 }());
+
+on( 'wp_enqueue_scripts', 'load_javascript_files' );

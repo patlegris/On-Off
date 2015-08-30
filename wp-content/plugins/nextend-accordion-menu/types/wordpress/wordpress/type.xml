@@ -1,0 +1,11 @@
+<root>
+  <params label="WordPress menu properties">
+    
+    <param name="wordpressmenu" type="wordpressmenuwithitems" default="0|*|0" label="Menu" description="If you select only one root menu item only its childrens will be shown. On multiple selection, the selected will be on the first level." >
+        <param type="wordpressmenu" label="Menu" />
+        <param type="wordpressmenuitems" label="Root" multiple="1" size="10" />
+    </param>
+    <param name="rootasitem" type="onoff" default="0" label="Singe root as menuitem" description="If enabled and one selected in the previous option, the behaviour will be the same as multiple selection."/>
+    <param name="displaynum" type="onoff" default="0" label="Display number of subitems" description="Display the item count for a parent item" />
+  </params>
+</root>
