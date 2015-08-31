@@ -1,0 +1,34 @@
+/*------------------------------------*\
+    AUTHOR
+\*------------------------------------*/
+.bar-menu {
+    display: inline-block;
+    position: fixed;
+    padding: 30px;
+    width: 320px;
+    z-index: 1000;
+    height: 2000px;
+    top: 0;
+    left: 50px;
+    background-color: white;
+}
+
+body{
+    width:100%;
+    margin:auto;
+    min-width:600px;
+    max-width:2000px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
