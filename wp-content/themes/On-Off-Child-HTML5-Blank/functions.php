@@ -38,17 +38,17 @@ if (function_exists('add_theme_support')) {
     ));*/
 
     // Add Support for Custom Header - Uncomment below if you're going to use
-    /*add_theme_support('custom-header', array(
-	'default-image'			=> get_template_directory_uri() . '/img/headers/default.jpg',
-	'header-text'			=> false,
-	'default-text-color'		=> '000',
-	'width'				=> 1000,
-	'height'			=> 198,
-	'random-default'		=> false,
-	'wp-head-callback'		=> $wphead_cb,
-	'admin-head-callback'		=> $adminhead_cb,
-	'admin-preview-callback'	=> $adminpreview_cb
-    ));*/
+//    add_theme_support('custom-header', array(
+//	'default-image'			=> get_template_directory_uri() . '/img/headers/default.jpg',
+//	'header-text'			=> false,
+//	'default-text-color'		=> '000',
+//	'width'				=> 1000,
+//	'height'			=> 198,
+//	'random-default'		=> false,
+//	'wp-head-callback'		=> $wphead_cb,
+//	'admin-head-callback'		=> $adminhead_cb,
+//	'admin-preview-callback'	=> $adminpreview_cb
+//    ));
 
     // Enables post and comment RSS feed links to head
     add_theme_support('automatic-feed-links');
@@ -381,7 +381,7 @@ add_action('wp_print_scripts', 'html5blank_conditional_scripts'); // Add Conditi
 add_action('get_header', 'enable_threaded_comments'); // Enable Threaded Comments
 add_action('wp_enqueue_scripts', 'html5blank_styles'); // Add Theme Stylesheet
 add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
-add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
+//add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
 

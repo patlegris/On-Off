@@ -1,8 +1,7 @@
 /vendor
-/images
+/images*
 /fonts
 /initializr-bootstrap
-/images
+/img*
 .idea
-/gomobility
 /uploads*

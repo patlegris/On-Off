@@ -7,7 +7,7 @@
             <div class='slide' id="first">
                 <div class='slidecontent'>
                     <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">Les stages et ateliers</div>
+                        <div class="button" onclick="mainslider.nextSlide();">Le lieu</div>
                     </div>
                 </div>
             </div>
@@ -23,14 +23,14 @@
             <div class='slide' id="thirth">
                 <div class='slidecontent'>
                     <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">Réservez l'espace On-Off</div>
+                        <div class="button" onclick="mainslider.nextSlide();">Ateliers / Stages</div>
                     </div>
                 </div>
             </div>
             <div class='slide' id="fourth">
                 <div class='slidecontent'>
                     <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">On-Off le studio</div>
+                        <div class="button" onclick="mainslider.nextSlide();">Privatisez l'espace</div>
                     </div>
                 </div>
             </div>
