@@ -26,18 +26,14 @@ html body {
 /* Menu box-sizing */
 .bar-menu {
     /*float: left;*/
-    /*display: inline-block;*/
-    /*position: fixed;*/
+    /*display: block;*/
+    position: absolute;
     background-color: white;
     z-index: 1000;
     /*top: 0;*/
     left: 3.4375rem;
     /*background-color: white;*/
     /*height: auto;*/
-}
-
-.bar-menu ul li {
-    font-size: 1rem;
 }
 
 .bar-menu ul li {
@@ -169,7 +165,7 @@ input:focus {
 
 /* wrapper */
 #container {
-    max-width: 480px;
+    max-width: 1170px;
     width: 100%;
     margin: 0 auto;
 }
