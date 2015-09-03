@@ -23,7 +23,7 @@ color: #333;
 background-color: #eeeae7;
 }
 
-/* Menu box-sizing */
+/* Menu box lateral bar */
 .bar-menu {
     display: block;
     position: absolute;
@@ -36,27 +36,15 @@ background-color: #eeeae7;
 
 .bar-menu ul li {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-    font-size: 0.8rem;
-    /*display: block;*/
+    font-size: 0.9rem;
     z-index: 1001;
-    padding: 0px;
+    padding: 0;
     line-height: 1.8rem;
     text-transform: uppercase;
     list-style-type: none;
 }
 
-/*.ul menu dir {*/
-/*padding: 0px;*/
-/*}*/
-
-/* Modification of the bootstrap navbar main menu */
-/*.nav > li > a:hover, .nav > li > a:focus a:active {*/
-/*color: white;*/
-/*background-color: #e44f11;*/
-/*border: 0px;*/
-/*padding: 1px 20px 1px 20px;*/
-/*}*/
-
+/* Menu accordion */
 a.list-group-item {
     Background-color: white;
     text-transform: uppercase;
@@ -69,23 +57,31 @@ a.list-group-item {
 }
 
 .list-group-item {
-    border: 0px;
+    border: 0;
+    margin-bottom: 0;
 }
 
 a.list-group-item-success:hover, a.list-group-item-success:focus {
     color: white;
     background-color: orangered;
+    text-decoration: none;
 }
 
-.navbar-default .navbar-nav > .active > a, a:hover, .navbar-default .navbar-nav > .active > a:active {
+a.list-group-item:hover, a.list-group-item:focus {
+    color: white;
     background-color: orangered;
     text-decoration: none;
-    color: white;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: black;
-}
+/*.navbar-default .navbar-nav > .active > a, a:hover, .navbar-default .navbar-nav > .active > a:active {*/
+    /*background-color: orangered;*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+/*}*/
+
+/*.navbar-default .navbar-nav > li > a {*/
+    /*color: black;*/
+/*}*/
 
 
 /*------------------------------------*\
