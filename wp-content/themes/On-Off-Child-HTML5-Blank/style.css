@@ -30,8 +30,8 @@ background-color: #eeeae7;
     background-color: white;
     z-index: 1000;
     left: 3.4375rem;
-    width: 13.33rem;
-    height: 2000px;
+    /*width: 100%;*/
+    height: 1000px;
 }
 
 .bar-menu ul li {
