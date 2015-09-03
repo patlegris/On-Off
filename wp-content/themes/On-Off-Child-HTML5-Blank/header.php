@@ -61,7 +61,8 @@
                 <div id="MainMenu">
                     <div class="list-group panel">
 
-                        <a href="#SubMenu1" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a>
+                        <a href="#SubMenu1" class="list-group-item list-group-item-success" data-toggle="collapse"
+                           data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a>
 
 
                         <div class="collapse list-group-submenu" id="SubMenu1">
@@ -73,16 +74,16 @@
 
                         <a href="http://localhost:8080/ON-OFF/?page_id=25"
                            class="list-group-item list-group-item-success"
-                           data-toggle="collapse" data-parent="#MainMenu">Expositions</a>
+                           data-parent="#MainMenu">Expositions</a>
                         <a href="http://localhost:8080/ON-OFF/?page_id=76"
                            class="list-group-item list-group-item-success"
-                           data-toggle="collapse" data-parent="#MainMenu">Nos artistes</a>
+                           data-parent="#MainMenu">Nos artistes</a>
                         <a href="http://localhost:8080/ON-OFF/?page_id=79"
                            class="list-group-item list-group-item-success"
-                           data-toggle="collapse" data-parent="#MainMenu">Événements</a>
+                           data-parent="#MainMenu">Événements</a>
                         <a href="http://localhost:8080/ON-OFF/?page_id=83"
                            class="list-group-item list-group-item-success"
-                           data-toggle="collapse" data-parent="#MainMenu">Ateliers / Stages</a>
+                           data-parent="#MainMenu">Ateliers / Stages</a>
 
                         <a href="#SubMenu2" class="list-group-item list-group-item-success" data-toggle="collapse"
                            data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a>
@@ -97,7 +98,7 @@
                         </div>
 
                         <a href="http://localhost:8080/ON-OFF/?page_id=148"
-                           class="list-group-item list-group-item-success" data-toggle="collapse"
+                           class="list-group-item list-group-item-success"
                            data-parent="#MainMenu">Contact</a>
                     </div>
                 </div>
