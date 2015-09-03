@@ -47,8 +47,8 @@
             <a class="navbar-brand" href="#">On-Off Studio</a>
         </div>
 
-        <div class="bar-menu col-lg-2">
-            <div class="collapse nav navbar-collapse navbar-left" id="example-navbar-collapse">
+        <div class="bar-menu col-lg-2 col-md-2">
+            <div class="collapse nav navbar-collapse navbar-left " id="example-navbar-collapse">
                 <!--Logo On-Off insertion-->
                 <div class="logo">
                     <a href="<?php echo home_url(); ?>./">
