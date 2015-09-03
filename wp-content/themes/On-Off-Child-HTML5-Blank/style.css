@@ -19,8 +19,8 @@ html body {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 16px;
     line-height: 1.4;
-    color: #333;
-    background-color: #eeeae7;
+color: #333;
+background-color: #eeeae7;
 }
 
 /* Menu box-sizing */
@@ -46,54 +46,43 @@ html body {
 }
 
 /*.ul menu dir {*/
-    /*padding: 0px;*/
+/*padding: 0px;*/
 /*}*/
 
 /* Modification of the bootstrap navbar main menu */
 /*.nav > li > a:hover, .nav > li > a:focus a:active {*/
-    /*color: white;*/
-    /*background-color: #e44f11;*/
-    /*border: 0px;*/
-    /*padding: 1px 20px 1px 20px;*/
+/*color: white;*/
+/*background-color: #e44f11;*/
+/*border: 0px;*/
+/*padding: 1px 20px 1px 20px;*/
 /*}*/
 
-.list-group-item {
-    background-color: white;
-
+a.list-group-item {
+    Background-color: white;
+    text-transform: uppercase;
+    color: #555;
 }
 
-
-/*.list-group-item> a:hover {*/
-    /*color: white;*/
-    /*background-color: white;*/
-    /*border: 0px;*/
-    /*padding: 1px 20px 1px 20px;*/
-/*}*/
-
-a.list-group-item-success {
-    padding: 1px 20px 1px 20px;
-    background-color: #e44f11;
+a.list-group-item a:hover {
     color: white;
+    background-color: orangered;
 }
-
-/*.nav-pills > li > a {*/
-    /*border-radius: 0px;*/
-/*}*/
 
 .navbar-default .navbar-nav > .active > a, a:hover, .navbar-default .navbar-nav > .active > a:active {
     background-color: orangered;
     text-decoration: none;
     color: white;
-    border: 0.3rem;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    /*border: 0.3rem;*/
+    /*width: 100%;*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
 
 }
 
 .navbar-default .navbar-nav > li > a {
     color: black;
 }
+
 
 /*------------------------------------*\
     Media Queries

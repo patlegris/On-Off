@@ -60,84 +60,87 @@
                 <!--Menu accordion, over/active button bootstrap style modified-->
                 <div id="MainMenu">
                     <div class="list-group panel">
-                        <ul id="menu-menu" class="">
-                            <li id="menu-item-33" class=""><a
-                                    href="http://localhost:8080/ON-OFF/?page_id=2" class="list-group-item
-                                    list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Le lieu</a>
-                                <ul class="sub-menu nav nav-pills nav-stacked">
-                                    <li id="menu-item-42" class=""><a href="http://localhost:8080/ON-OFF/?page_id=37">L&rsquo;espace
-                                            On-Off</a></li>
-                                    <li id="menu-item-69" class=""><a href="http://localhost:8080/ON-OFF/?page_id=64">L&rsquo;association</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-36" class=""><a
-                                    href="http://localhost:8080/ON-OFF/?page_id=25">Expositions</a>
-                            </li>
-                            <li id="menu-item-85" class=""><a href="http://localhost:8080/ON-OFF/?page_id=76">Nos
-                                    artistes</a>
-                            </li>
-                            <li id="menu-item-86" class=""><a
-                                    href="http://localhost:8080/ON-OFF/?page_id=79">Événements</a>
-                            </li>
-                            <li id="menu-item-87" class=""><a href="http://localhost:8080/ON-OFF/?page_id=83">Ateliers /
-                                    Stages</a></li>
-                            <li id="menu-item-106" class=""><a
-                                    href="http://localhost:8080/ON-OFF/?page_id=88">Privatisation</a>
-                                <ul class="sub-menu nav nav-pills nav-stacked">
-                                    <li id="menu-item-105" class=""><a href="http://localhost:8080/ON-OFF/?page_id=95">Le
-                                            Studio</a></li>
-                                    <li id="menu-item-104" class=""><a href="http://localhost:8080/ON-OFF/?page_id=97">Les
-                                            CGV</a></li>
-                                    <li id="menu-item-103" class=""><a href="http://localhost:8080/ON-OFF/?page_id=99">Les
-                                            tarifs</a></li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-150" class=""><a
-                                    href="http://localhost:8080/ON-OFF/?page_id=148">Contact</a>
-                            </li>
-                        </ul>
+
+                        <a href="#SubMenu1" class="list-group-item list-group-item-success" data-toggle="collapse"
+                           data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a>
+
+                        <div class="collapse list-group-submenu" id="SubMenu1">
+                            <a href="http://localhost:8080/ON-OFF/?page_id=37" class="list-group-item"
+                               data-parent="#SubMenu1">L'espace On-Off</a>
+                            <a href="http://localhost:8080/ON-OFF/?page_id=64" class="list-group-item"
+                               data-parent="#SubMenu1">L'association</a>
+                        </div>
+
+                        <a href="http://localhost:8080/ON-OFF/?page_id=25"
+                           class="list-group-item list-group-item-success"
+                           data-toggle="collapse" data-parent="#MainMenu">Expositions</a>
+                        <a href="http://localhost:8080/ON-OFF/?page_id=76"
+                           class="list-group-item list-group-item-success"
+                           data-toggle="collapse" data-parent="#MainMenu">Nos artistes</a>
+                        <a href="http://localhost:8080/ON-OFF/?page_id=79"
+                           class="list-group-item list-group-item-success"
+                           data-toggle="collapse" data-parent="#MainMenu">Événements</a>
+                        <a href="http://localhost:8080/ON-OFF/?page_id=83"
+                           class="list-group-item list-group-item-success"
+                           data-toggle="collapse" data-parent="#MainMenu">Ateliers / Stages</a>
+
+                        <a href="#SubMenu2" class="list-group-item list-group-item-success" data-toggle="collapse"
+                           data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a>
+
+                        <div class="collapse list-group-submenu" id="SubMenu2">
+                            <a href="http://localhost:8080/ON-OFF/?page_id=95" class="list-group-item"
+                               data-parent="#SubMenu2">Le studio</a>
+                            <a href="http://localhost:8080/ON-OFF/?page_id=97" class="list-group-item"
+                               data-parent="#SubMenu2">Les CGV</a>
+                            <a href="http://localhost:8080/ON-OFF/?page_id=99" class="list-group-item"
+                               data-parent="#SubMenu2">Les tarifs</a>
+                        </div>
+
+                        <a href="http://localhost:8080/ON-OFF/?page_id=148"
+                           class="list-group-item list-group-item-success" data-toggle="collapse"
+                           data-parent="#MainMenu">Contact</a>
                     </div>
-
-
-                    <!--                --><?php //html5blank_nav(); ?>
-
-                    <!--            <img src="-->
-                    <?php //echo get_template_directory_uri(); ?><!--./img/provisoire.png"-->
-                    <!--                 class="img-thumbnail">-->
-
-                    <!-- Search form-->
-                    <!--            <ul class="">-->
-                    <!--                <li>-->
-                    <!--                    <form class="navbar-form navbar-left"-->
-                    <!--                          method='get' ,-->
-                    <!--                          id='searchform'-->
-                    <!--                          action='http://localhost:8080/ON-OFF/'-->
-                    <!--                          class='navbar-form'-->
-                    <!--                          role='search'>-->
-                    <!--                        <div class='form-group'>-->
-                    <!--                            <input class='form-control'-->
-                    <!--                                   type='text'-->
-                    <!--                                   size=16-->
-                    <!--                                   name='s'-->
-                    <!--                                   id='s'-->
-                    <!--                                   value='Votre recherche...'-->
-                    <!--                                   onfocus="if(this.value==this.defaultValue)this.value='';"-->
-                    <!--                                   onblur="if(this.value=='')this.value=this.defaultValue;"/>-->
-                    <!--                            <button type="submit" class="btn btn-default">Recherche</button>-->
-                    <!--                            <!--                                    <label-->
-                    <!--                            <!--                                        for='menu_my_bootstrap_menu_settings_primary_menu_search'-->
-                    <!--                            <!--                                        class='btn '>-->
-                    <!--                            <!--                                        <i class='glyphicon glyphicon-search'></i>Recherche</label>-->
-                    <!--                            <div class="form-group">-->
-                    <!--                                <input type="text" placeholder="Email" class="form-control">-->
-                    <!--                            </div>-->
-                    <!--                            <!--                                --><?php ////get_sidebar(); ?>
-                    <!--                        </div>-->
-                    <!--                    </form>-->
-                    <!--                </li>-->
-                    <!--            </ul>-->
                 </div>
+
+
+                <!--                --><?php //html5blank_nav(); ?>
+
+                <!--            <img src="-->
+                <?php //echo get_template_directory_uri(); ?><!--./img/provisoire.png"-->
+                <!--                 class="img-thumbnail">-->
+
+                <!-- Search form-->
+                <!--            <ul class="">-->
+                <!--                <li>-->
+                <!--                    <form class="navbar-form navbar-left"-->
+                <!--                          method='get' ,-->
+                <!--                          id='searchform'-->
+                <!--                          action='http://localhost:8080/ON-OFF/'-->
+                <!--                          class='navbar-form'-->
+                <!--                          role='search'>-->
+                <!--                        <div class='form-group'>-->
+                <!--                            <input class='form-control'-->
+                <!--                                   type='text'-->
+                <!--                                   size=16-->
+                <!--                                   name='s'-->
+                <!--                                   id='s'-->
+                <!--                                   value='Votre recherche...'-->
+                <!--                                   onfocus="if(this.value==this.defaultValue)this.value='';"-->
+                <!--                                   onblur="if(this.value=='')this.value=this.defaultValue;"/>-->
+                <!--                            <button type="submit" class="btn btn-default">Recherche</button>-->
+                <!--                            <!--                                    <label-->
+                <!--                            <!--                                        for='menu_my_bootstrap_menu_settings_primary_menu_search'-->
+                <!--                            <!--                                        class='btn '>-->
+                <!--                            <!--                                        <i class='glyphicon glyphicon-search'></i>Recherche</label>-->
+                <!--                            <div class="form-group">-->
+                <!--                                <input type="text" placeholder="Email" class="form-control">-->
+                <!--                            </div>-->
+                <!--                            <!--                                --><?php ////get_sidebar(); ?>
+                <!--                        </div>-->
+                <!--                    </form>-->
+                <!--                </li>-->
+                <!--            </ul>-->
             </div>
+        </div>
     </nav>
 </div>
