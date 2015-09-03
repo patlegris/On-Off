@@ -6,7 +6,7 @@
             <section <?php echo (is_sticky()) ? 'class="post__sticky"' : ''; ?> >
                 <?php if (has_post_thumbnail()): ?>
                     <a href="<?php the_permalink(); ?>">
-                        <?php the_post_thumbnail('thumbnail', ['class' => 'post__img-thumbnail post__pull-left',]); ?>
+                        <?php the_post_thumbnail('large', ['class' => 'post__img-thumbnail post__pull-left',]); ?>
                     </a>
                 <?php endif; ?>
                 <h1><?php echo (has_post_format('video')) ? '<span class="post__video">[video]</span>' : ''; ?>

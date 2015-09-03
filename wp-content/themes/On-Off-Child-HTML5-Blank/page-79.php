@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="container">
-    <div class="col-lg-7">
+<!--    <div class="col-lg-7">-->
         <?php get_template_part('loop-event'); ?>
 
     </div>
