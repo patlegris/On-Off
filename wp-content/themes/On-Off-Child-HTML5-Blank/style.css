@@ -25,54 +25,75 @@ html body {
 
 /* Menu box-sizing */
 .bar-menu {
-    /*float: left;*/
-    /*display: block;*/
+    display: block;
     position: absolute;
     background-color: white;
     z-index: 1000;
-    /*top: 0;*/
     left: 3.4375rem;
-    /*background-color: white;*/
-    /*height: auto;*/
+    width: 13.33rem;
+    height: 2000px;
 }
 
 .bar-menu ul li {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 0.8rem;
-    display: inline-block;
+    /*display: block;*/
     z-index: 1001;
-    line-height: 2rem;
+    padding: 0px;
+    line-height: 1.8rem;
     text-transform: uppercase;
     list-style-type: none;
 }
 
-.ul menu dir {
-    padding: 0px;
-}
+/*.ul menu dir {*/
+    /*padding: 0px;*/
+/*}*/
 
 /* Modification of the bootstrap navbar main menu */
-.navbar-default .navbar-nav > .active > a, a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: orangered;
-    color: white;
-    text-decoration: none;
-    /*margin: 0.3rem;*/
+/*.nav > li > a:hover, .nav > li > a:focus a:active {*/
+    /*color: white;*/
+    /*background-color: #e44f11;*/
+    /*border: 0px;*/
+    /*padding: 1px 20px 1px 20px;*/
+/*}*/
+
+.list-group-item {
+    background-color: white;
+
 }
+
+
+/*.list-group-item> a:hover {*/
+    /*color: white;*/
+    /*background-color: white;*/
+    /*border: 0px;*/
+    /*padding: 1px 20px 1px 20px;*/
+/*}*/
+
+a.list-group-item-success {
+    padding: 1px 20px 1px 20px;
+    background-color: #e44f11;
+    color: white;
+}
+
+/*.nav-pills > li > a {*/
+    /*border-radius: 0px;*/
+/*}*/
 
 .navbar-default .navbar-nav > .active > a, a:hover, .navbar-default .navbar-nav > .active > a:active {
     background-color: orangered;
+    text-decoration: none;
     color: white;
+    border: 0.3rem;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .navbar-default .navbar-nav > li > a {
     color: black;
 }
-
-/*body{*/
-/*width:100%;*/
-/*margin:auto;*/
-/*min-width:600px;*/
-/*max-width:2000px*/
-/*}*/
 
 /*------------------------------------*\
     Media Queries
@@ -163,14 +184,14 @@ input:focus {
     STRUCTURE
 \*------------------------------------*/
 
-/* wrapper */
-#container {
-    max-width: 1170px;
-    width: 100%;
+/* container */
+.container {
+    /*max-width: 1170px;*/
+    /*width: 100%;*/
     margin: 0 auto;
 }
 
-h1 a{
+h1 a {
     float: left;
     font-size: 3rem;
     width: 100%;
@@ -188,18 +209,17 @@ h1 a{
     font-weight: 400;
 }
 
-h2{
+h2 {
 
 }
 
-h3{
+h3 {
 
 }
 
-h4{
+h4 {
 
 }
-
 
 /* header */
 .header {
@@ -212,7 +232,9 @@ h4{
 }
 
 .logo-img {
+    padding-left: 10px;
     min-width: 100px;
+    text-align: center;
 }
 
 /* nav */
