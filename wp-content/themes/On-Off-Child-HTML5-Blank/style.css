@@ -24,23 +24,23 @@ background-color: #eeeae7;
 }
 
 /* Bloc menu box lateral bar */
-.bar-menu {
+.navbar-collapse {
     display: block;
-    position: absolute;
+    /*position: absolute;*/
     background-color: white;
-    z-index: 1000;
+    z-index: 99999;
     left: 3.4375rem;
     /*width: 100%;*/
-    height: 1000px;
+    /*height: 1000px;*/
 }
 
 /* Menu accordion content */
-.bar-menu ul li {
+.navbar-collapse ul li {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 1rem;
-    z-index: 1001;
-    padding: 10px 20px 10px 20px;
-    line-height: 1.8rem;
+    /*z-index: 1051;*/
+    padding: 0 20px 10px 20px;
+    line-height: 1rem;
     text-transform: uppercase;
     list-style-type: none;
     margin-left: 1rem;
@@ -216,13 +216,12 @@ h4 {
 
 /* logo */
 .logo {
-
-}
-
-.logo-img {
     padding: 20px 0 20px 0;
     min-width: 100px;
     text-align: center;
+}
+
+.logo-img {
 }
 
 /* nav */
