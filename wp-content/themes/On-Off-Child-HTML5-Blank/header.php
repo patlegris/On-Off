@@ -34,22 +34,19 @@
 
 
 <!-- nav -->
-<div class="container">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-header collapsed">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">On-Off Studio</a>
+            <a class="navbar-brand" href="#">Project name</a>
         </div>
-
-        <div class="bar-menu col-md-2">
-            <div class="collapse nav navbar-collapse navbar-left " id="example-navbar-collapse">
-                <!--Logo On-Off insertion-->
+        <div class="bar-menu">
+            <!--Logo On-Off insertion-->
                 <div class="logo">
                     <a href="<?php echo home_url(); ?>./">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo"

@@ -35,7 +35,7 @@ background-color: #eeeae7;
 }
 
 /* Menu accordion content */
-.bar-menu a {
+.bar-menu ul li {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 1rem;
     z-index: 1001;

@@ -33,118 +33,174 @@
 </head>
 
 
-<!-- nav -->
-<div class="container">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-header collapsed">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">On-Off Studio</a>
+            <a class="navbar-brand" href="#">
+                <img alt="On-Off Studio" src=""<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg"
+                alt="Logo"
+                class="logo-img"">
+            </a>
         </div>
 
-        <div class="bar-menu col-lg-2 col-md-2">
-            <div class="collapse nav navbar-collapse navbar-left " id="example-navbar-collapse">
-                <!--Logo On-Off insertion-->
-                <div class="logo">
-                    <a href="<?php echo home_url(); ?>./">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo"
-                             class="logo-img"></a>
-                </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse bar-menu" id="bs-example-navbar-collapse-1">
+            <!--Menu accordion, over/active button bootstrap style modified-->
+            <div id="MainMenu">
+                <ul class="list-group panel">
 
-                <br>
-                <!--Menu accordion, over/active button bootstrap style modified-->
-                <div id="MainMenu">
-                    <div class="list-group panel">
-
-                        <a href="#SubMenu1" class="list-group-item list-group-item-success" data-toggle="collapse"
-                           data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a>
+                    <li><a href="#SubMenu1" class="list-group-item list-group-item-success" data-toggle="collapse"
+                           data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a></li>
 
 
-                        <div class="collapse list-group-submenu" id="SubMenu1">
-                            <a href="http://localhost:8080/ON-OFF/?page_id=37" class="list-group-item"
-                               data-parent="#SubMenu1">L'espace On-Off</a>
-                            <a href="http://localhost:8080/ON-OFF/?page_id=64" class="list-group-item"
-                               data-parent="#SubMenu1">L'association</a>
-                        </div>
-
-                        <a href="http://localhost:8080/ON-OFF/?page_id=25"
-                           class="list-group-item list-group-item-success"
-                           data-parent="#MainMenu">Expositions</a>
-                        <a href="http://localhost:8080/ON-OFF/?page_id=76"
-                           class="list-group-item list-group-item-success"
-                           data-parent="#MainMenu">Nos artistes</a>
-                        <a href="http://localhost:8080/ON-OFF/?page_id=79"
-                           class="list-group-item list-group-item-success"
-                           data-parent="#MainMenu">Événements</a>
-                        <a href="http://localhost:8080/ON-OFF/?page_id=83"
-                           class="list-group-item list-group-item-success"
-                           data-parent="#MainMenu">Ateliers / Stages</a>
-
-                        <a href="#SubMenu2" class="list-group-item list-group-item-success" data-toggle="collapse"
-                           data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a>
-
-                        <div class="collapse list-group-submenu" id="SubMenu2">
-                            <a href="http://localhost:8080/ON-OFF/?page_id=95" class="list-group-item"
-                               data-parent="#SubMenu2">Le studio</a>
-                            <a href="http://localhost:8080/ON-OFF/?page_id=97" class="list-group-item"
-                               data-parent="#SubMenu2">Les CGV</a>
-                            <a href="http://localhost:8080/ON-OFF/?page_id=99" class="list-group-item"
-                               data-parent="#SubMenu2">Les tarifs</a>
-                        </div>
-
-                        <a href="http://localhost:8080/ON-OFF/?page_id=148"
-                           class="list-group-item list-group-item-success"
-                           data-parent="#MainMenu">Contact</a>
+                    <div class="collapse list-group-submenu" id="SubMenu1">
+                        <li><a href="http://localhost:8080/ON-OFF/?page_id=37" class="list-group-item"
+                               data-parent="#SubMenu1">L'espace On-Off</a></li>
+                        <li><a href="http://localhost:8080/ON-OFF/?page_id=64" class="list-group-item"
+                               data-parent="#SubMenu1">L'association</a></li>
                     </div>
-                </div>
 
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=25"
+                           class="list-group-item list-group-item-success"
+                           data-parent="#MainMenu">Expositions</a></li>
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=76"
+                           class="list-group-item list-group-item-success"
+                           data-parent="#MainMenu">Nos artistes</a></li>
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=79"
+                           class="list-group-item list-group-item-success"
+                           data-parent="#MainMenu">Événements</a></li>
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=83"
+                           class="list-group-item list-group-item-success"
+                           data-parent="#MainMenu">Ateliers / Stages</a></li>
 
-                <!--                --><?php //html5blank_nav(); ?>
+                    <li><a href="#SubMenu2" class="list-group-item list-group-item-success" data-toggle="collapse"
+                           data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a></li>
 
-                <!--            <img src="-->
-                <?php //echo get_template_directory_uri(); ?><!--./img/provisoire.png"-->
-                <!--                 class="img-thumbnail">-->
+                    <div class="collapse list-group-submenu" id="SubMenu2">
+                        <li><a href="http://localhost:8080/ON-OFF/?page_id=95" class="list-group-item"
+                               data-parent="#SubMenu2">Le studio</a></li>
+                        <li><a href="http://localhost:8080/ON-OFF/?page_id=97" class="list-group-item"
+                               data-parent="#SubMenu2">Les CGV</a></li>
+                        <li><a href="http://localhost:8080/ON-OFF/?page_id=99" class="list-group-item"
+                               data-parent="#SubMenu2">Les tarifs</a></li>
+                    </div>
 
-                <!-- Search form-->
-                <!--            <ul class="">-->
-                <!--                <li>-->
-                <!--                    <form class="navbar-form navbar-left"-->
-                <!--                          method='get' ,-->
-                <!--                          id='searchform'-->
-                <!--                          action='http://localhost:8080/ON-OFF/'-->
-                <!--                          class='navbar-form'-->
-                <!--                          role='search'>-->
-                <!--                        <div class='form-group'>-->
-                <!--                            <input class='form-control'-->
-                <!--                                   type='text'-->
-                <!--                                   size=16-->
-                <!--                                   name='s'-->
-                <!--                                   id='s'-->
-                <!--                                   value='Votre recherche...'-->
-                <!--                                   onfocus="if(this.value==this.defaultValue)this.value='';"-->
-                <!--                                   onblur="if(this.value=='')this.value=this.defaultValue;"/>-->
-                <!--                            <button type="submit" class="btn btn-default">Recherche</button>-->
-                <!--                            <!--                                    <label-->
-                <!--                            <!--                                        for='menu_my_bootstrap_menu_settings_primary_menu_search'-->
-                <!--                            <!--                                        class='btn '>-->
-                <!--                            <!--                                        <i class='glyphicon glyphicon-search'></i>Recherche</label>-->
-                <!--                            <div class="form-group">-->
-                <!--                                <input type="text" placeholder="Email" class="form-control">-->
-                <!--                            </div>-->
-                <!--                            <!--                                --><?php ////get_sidebar(); ?>
-                <!--                        </div>-->
-                <!--                    </form>-->
-                <!--                </li>-->
-                <!--            </ul>-->
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=148"
+                           class="list-group-item list-group-item-success"
+                           data-parent="#MainMenu">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </nav>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<div class="bar-menu col-md-2">
+    <div class="collapse nav navbar-collapse navbar-left " id="example-navbar-collapse">
+        <!--Logo On-Off insertion-->
+        <div class="logo">
+            <a href="<?php echo home_url(); ?>./">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo"
+                     class="logo-img"></a>
+        </div>
+
+        <br>
+        <!--Menu accordion, over/active button bootstrap style modified-->
+        <div id="MainMenu">
+            <ul class="list-group panel">
+
+                <li><a href="#SubMenu1" class="list-group-item list-group-item-success" data-toggle="collapse"
+                       data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a></li>
+
+
+                <div class="collapse list-group-submenu" id="SubMenu1">
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=37" class="list-group-item"
+                           data-parent="#SubMenu1">L'espace On-Off</a></li>
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=64" class="list-group-item"
+                           data-parent="#SubMenu1">L'association</a></li>
+                </div>
+
+                <li><a href="http://localhost:8080/ON-OFF/?page_id=25"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Expositions</a></li>
+                <li><a href="http://localhost:8080/ON-OFF/?page_id=76"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Nos artistes</a></li>
+                <li><a href="http://localhost:8080/ON-OFF/?page_id=79"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Événements</a></li>
+                <li><a href="http://localhost:8080/ON-OFF/?page_id=83"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Ateliers / Stages</a></li>
+
+                <li><a href="#SubMenu2" class="list-group-item list-group-item-success" data-toggle="collapse"
+                       data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a></li>
+
+                <div class="collapse list-group-submenu" id="SubMenu2">
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=95" class="list-group-item"
+                           data-parent="#SubMenu2">Le studio</a></li>
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=97" class="list-group-item"
+                           data-parent="#SubMenu2">Les CGV</a></li>
+                    <li><a href="http://localhost:8080/ON-OFF/?page_id=99" class="list-group-item"
+                           data-parent="#SubMenu2">Les tarifs</a></li>
+                </div>
+
+                <li><a href="http://localhost:8080/ON-OFF/?page_id=148"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <!--                --><?php //html5blank_nav(); ?>
+
+        <!--            <img src="-->
+        <?php //echo get_template_directory_uri(); ?><!--./img/provisoire.png"-->
+        <!--                 class="img-thumbnail">-->
+
+        <!-- Search form-->
+        <!--            <ul class="">-->
+        <!--                <li>-->
+        <!--                    <form class="navbar-form navbar-left"-->
+        <!--                          method='get' ,-->
+        <!--                          id='searchform'-->
+        <!--                          action='http://localhost:8080/ON-OFF/'-->
+        <!--                          class='navbar-form'-->
+        <!--                          role='search'>-->
+        <!--                        <div class='form-group'>-->
+        <!--                            <input class='form-control'-->
+        <!--                                   type='text'-->
+        <!--                                   size=16-->
+        <!--                                   name='s'-->
+        <!--                                   id='s'-->
+        <!--                                   value='Votre recherche...'-->
+        <!--                                   onfocus="if(this.value==this.defaultValue)this.value='';"-->
+        <!--                                   onblur="if(this.value=='')this.value=this.defaultValue;"/>-->
+        <!--                            <button type="submit" class="btn btn-default">Recherche</button>-->
+        <!--                            <!--                                    <label-->
+        <!--                            <!--                                        for='menu_my_bootstrap_menu_settings_primary_menu_search'-->
+        <!--                            <!--                                        class='btn '>-->
+        <!--                            <!--                                        <i class='glyphicon glyphicon-search'></i>Recherche</label>-->
+        <!--                            <div class="form-group">-->
+        <!--                                <input type="text" placeholder="Email" class="form-control">-->
+        <!--                            </div>-->
+        <!--                            <!--                                --><?php ////get_sidebar(); ?>
+        <!--                        </div>-->
+        <!--                    </form>-->
+        <!--                </li>-->
+        <!--            </ul>-->
+    </div>
 </div>
+
 
 <?php //get_header(); ?>
 
