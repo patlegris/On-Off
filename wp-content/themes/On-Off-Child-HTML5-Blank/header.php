@@ -61,8 +61,8 @@
                 <div id="MainMenu">
                     <div class="list-group panel">
 
-                        <a href="#SubMenu1" class="list-group-item list-group-item-success" data-toggle="collapse"
-                           data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a>
+                        <a href="#SubMenu1" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a>
+
 
                         <div class="collapse list-group-submenu" id="SubMenu1">
                             <a href="http://localhost:8080/ON-OFF/?page_id=37" class="list-group-item"

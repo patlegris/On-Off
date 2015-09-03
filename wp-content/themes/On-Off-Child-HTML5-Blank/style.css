@@ -63,7 +63,12 @@ a.list-group-item {
     color: #555;
 }
 
-a.list-group-item a:hover {
+.list-group-submenu {
+    margin-left:20px;
+    background-color: orangered;
+}
+
+a.list-group-item-success:hover, a.list-group-item-success:focus {
     color: white;
     background-color: orangered;
 }
