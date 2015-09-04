@@ -93,7 +93,11 @@ function cptbc_frontend($atts){
 			<?php
 			// Carousel Content
 			foreach ($images as $key => $image) {
-
+				
+				if( !isset($atts['link_button']) ) {
+					$atts['link_button'] = 0;
+				}
+				
 				// Build anchor link so it can be reused
 				$linkstart = '';
 				$linkend = '';
@@ -106,7 +110,7 @@ function cptbc_frontend($atts){
 					$linkend = '</a>';
 				} ?>
 
-				<div class="item <?php echo $key == 0 ? 'active' : ''; ?>" id="<?php echo $image['post_id']; ?>" <?php if($atts['use_background_images'] == 1){ echo ' style="height: '.$atts['background_images_height'].'px; background: url(\''.$image['img_src'].'\') no-repeat center center ; -webkit-background-size: ' . $atts['select_background_images_style_size'] . '; -moz-background-size: ' . $atts['select_background_images_style_size'] . '; -o-background-size: ' . $atts['select_background_images_style_size'] . '; background-size: ' . $atts['select_background_images_style_size'] . ';"'; } ?>>
+				<div class="item <?php echo $key == 0 ? 'active' : ''; ?>" id="cptbc-item-<?php echo $image['post_id']; ?>" <?php if($atts['use_background_images'] == 1){ echo ' style="height: '.$atts['background_images_height'].'px; background: url(\''.$image['img_src'].'\') no-repeat center center ; -webkit-background-size: ' . $atts['select_background_images_style_size'] . '; -moz-background-size: ' . $atts['select_background_images_style_size'] . '; -o-background-size: ' . $atts['select_background_images_style_size'] . '; background-size: ' . $atts['select_background_images_style_size'] . ';"'; } ?>>
 					<?php
 					// Regular behaviour - display image with link around it
 					if($atts['use_background_images'] == 0){
@@ -120,7 +124,7 @@ function cptbc_frontend($atts){
 						echo ' style="display:block; width:100%; height:100%;">&nbsp;</a>';
 					} 
 					// The Caption div
-					if(($atts['showcaption'] === 'true' && strlen($image['title']) > 0 && strlen($image['content']) > 0) || ($image['url'] && $atts['link_button'] == 1))  {
+					if(($atts['showcaption'] === 'true' && (strlen($image['title']) > 0 || strlen($image['content']) > 0)) || ($image['url'] && $atts['link_button'] == 1))  {
 						echo '<div class="carousel-caption">';
 						// Title
 						if(strlen($image['title']) > 0){

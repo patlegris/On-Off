@@ -26,12 +26,16 @@ html body {
 /* Bloc menu box lateral bar */
 .navbar-collapse {
     display: block;
-    /*position: absolute;*/
+    position: relative;
     background-color: white;
     z-index: 99999;
     left: 3.4375rem;
     /*width: 100%;*/
     /*height: 1000px;*/
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 100%;
 }
 
 /* Menu accordion content */

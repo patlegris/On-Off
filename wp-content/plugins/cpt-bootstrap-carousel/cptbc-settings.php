@@ -133,7 +133,7 @@ class cptbc_settings_page {
 		);
 		add_settings_field(
 				'showcaption', // ID
-				__('Show Slide Captions?', 'cpt-bootstrap-carousel'), // Title 
+				__('Show Slide Titles / Captions?', 'cpt-bootstrap-carousel'), // Title 
 				array( $this, 'showcaption_callback' ), // Callback
 				'cpt-bootstrap-carousel', // Page
 				'cptbc_settings_behaviour' // Section		   
@@ -301,9 +301,6 @@ class cptbc_settings_page {
 		foreach($input as $key => $var){
 			if($key == 'twbs' || $key == 'interval' || $key == 'background_images_height'){
 				$new_input[$key] = absint( $input[$key] );
-				if($key == 'interval' && $new_input[$key] == 0){
-					$new_input[$key] = 5000;
-				}
 			} else if ($key == 'link_button_before' || $key == 'link_button_after' || $key == 'before_title' || $key == 'after_title' || $key == 'before_caption' || $key == 'after_caption'){
 				$new_input[$key] = $input[$key]; // Don't sanitise these, meant to be html!
 			} else { 

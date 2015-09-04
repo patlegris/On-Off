@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: spider_calendar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-13 17:35+0400\n"
-"PO-Revision-Date: 2014-10-27 12:39+0400\n"
+"PO-Revision-Date: 2015-08-31 14:43+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -101,7 +101,7 @@ msgstr "Februarie"
 #: C:\wamp\www\wordpress3.5\wp-content\plugins\spider-event-calendar/front_end/bigcalendarweek.php:80
 #: C:\wamp\www\wordpress3.5\wp-content\plugins\spider-event-calendar/front_end/bigcalendarweek_widget.php:46
 msgid "March"
-msgstr "Merg incet"
+msgstr "Martie"
 
 #: C:\wamp\www\wordpress3.5\wp-content\plugins\spider-event-calendar/front_end/bigcalendarday.php:81
 #: C:\wamp\www\wordpress3.5\wp-content\plugins\spider-event-calendar/front_end/bigcalendarday_widget.php:46
@@ -123,7 +123,7 @@ msgstr "Aprilie"
 #: C:\wamp\www\wordpress3.5\wp-content\plugins\spider-event-calendar/front_end/bigcalendarweek.php:82
 #: C:\wamp\www\wordpress3.5\wp-content\plugins\spider-event-calendar/front_end/bigcalendarweek_widget.php:48
 msgid "May"
-msgstr "poate"
+msgstr "Mai"
 
 #: C:\wamp\www\wordpress3.5\wp-content\plugins\spider-event-calendar/front_end/bigcalendarday.php:83
 #: C:\wamp\www\wordpress3.5\wp-content\plugins\spider-event-calendar/front_end/bigcalendarday_widget.php:48

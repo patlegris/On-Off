@@ -56,6 +56,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo"
                                  class="logo-img"></a>
                     </div>
+
                     <!--Menu accordion, over/active button bootstrap style modified-->
                     <div id="MainMenu">
                         <ul class="list-group panel">
@@ -103,29 +104,32 @@
                                    data-parent="#MainMenu">Contact</a></li>
                         </ul>
                     </div>
+
                     <div class="LinkMenu">
-                        <a href="#">Infos pratiques</a>
+                        <a href="?page_id=168">Infos pratiques</a>
 
                         <!--FORMULAIRE DE RECHERCHE-->
                         <form action="" class="formSearch">
                             <label class="txt_form">Rechercher</label>
                             <input type="text" required class="champs_form">
-                            <input type="image" src="IMAGES/loupeSearch.png" class="bouton_form">
+                            <input type="image" src="img/loupeSearch.png" class="bouton_form">
                         </form>
 
                         <!--FORMULAIRE DE NEWSLETTER-->
                         <form action="" class="formSearch">
                             <label class="txt_form">Newsletter</label>
                             <input type="text" required class="champs_form" placeholder="E-mail">
-                            <input type="image" src="IMAGES/newsletterOK.png" class="bouton_form2">
+                            <input type="image" src="img/newsletterOK.png" class="bouton_form2">
                         </form>
+
+
                     </div>
 
                     <!--RESEAUX PICTOS-->
                     <p class="blockRSMenu">
-                        <a href="#"><img src="IMAGES/LogoFB.png" alt="Facebook" class="blockRSMenu"></a>
-                        <a href="#"><img src="IMAGES/LogoInstagram.png" alt="Instagram"></a>
-                        <a href="#"><img src="IMAGES/LogoVimeo.png" alt="Vimeo"></a>
+                        <a href="#"><img src="img/LogoFB.png" alt="Facebook" class="blockRSMenu"></a>
+                        <a href="#"><img src="img/LogoInstagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="img/LogoVimeo.png" alt="Vimeo"></a>
                     </p>
 
                     <div class="linkCredits">
