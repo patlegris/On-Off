@@ -63,7 +63,8 @@
             <div id="MainMenu">
                 <ul class="list-group panel">
 
-                    <li><a href="#SubMenu1" class="list-group-item list-group-item-success"
+                    <li><a href="#SubMenu1" onclick="open.window('?page_id=2')" class="list-group-item
+                            list-group-item-success"
                            data-toggle="collapse"
                            data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a></li>
 
@@ -88,7 +89,8 @@
                            class="list-group-item list-group-item-success"
                            data-parent="#MainMenu">Ateliers / Stages</a></li>
 
-                    <li><a href="#SubMenu2" class="list-group-item list-group-item-success"
+                    <li><a onclick="function SubMenu2()" class="list-group-item
+                            list-group-item-success"
                            data-toggle="collapse"
                            data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a></li>
 

@@ -35,3 +35,17 @@
 }());
 
 on( 'wp_enqueue_scripts', 'load_javascript_files' );
+
+// Ouverture de la fenêtre et de l'accordion SubMenu1
+function SubMenu1 () {
+	location.href='?page_id=2';
+	location.href='#SubMenu1';
+	return false;
+}
+
+// Ouverture de la fenêtre et de l'accordion SubMenu2
+function SubMenu2 () {
+	location.href='?page_id=88';
+	location.href='#SubMenu1';
+	return false;
+}
