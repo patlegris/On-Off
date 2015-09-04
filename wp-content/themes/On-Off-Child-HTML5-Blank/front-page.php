@@ -37,7 +37,7 @@
         position: absolute;
     }</style>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -48,7 +48,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">On-Off le studio</a>
+            <!--            <a class="navbar-brand" href="#">On-Off le studio</a>-->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,22 +69,22 @@
 
 
                     <div class="collapse list-group-submenu" id="SubMenu1">
-                        <li><a href="http://localhost:8080/ON-OFF/?page_id=37" class="list-group-item"
+                        <li><a href="?page_id=37" class="list-group-item"
                                data-parent="#SubMenu1">L'espace On-Off</a></li>
-                        <li><a href="http://localhost:8080/ON-OFF/?page_id=64" class="list-group-item"
+                        <li><a href="?page_id=64" class="list-group-item"
                                data-parent="#SubMenu1">L'association</a></li>
                     </div>
 
-                    <li><a href="http://localhost:8080/ON-OFF/?page_id=25"
+                    <li><a href="?page_id=25"
                            class="list-group-item list-group-item-success"
                            data-parent="#MainMenu">Expositions</a></li>
-                    <li><a href="http://localhost:8080/ON-OFF/?page_id=76"
+                    <li><a href="?page_id=76"
                            class="list-group-item list-group-item-success"
                            data-parent="#MainMenu">Nos artistes</a></li>
-                    <li><a href="http://localhost:8080/ON-OFF/?page_id=79"
+                    <li><a href="?page_id=79"
                            class="list-group-item list-group-item-success"
                            data-parent="#MainMenu">Événements</a></li>
-                    <li><a href="http://localhost:8080/ON-OFF/?page_id=83"
+                    <li><a href="?page_id=83"
                            class="list-group-item list-group-item-success"
                            data-parent="#MainMenu">Ateliers / Stages</a></li>
 
@@ -93,15 +93,15 @@
                            data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a></li>
 
                     <div class="collapse list-group-submenu" id="SubMenu2">
-                        <li><a href="http://localhost:8080/ON-OFF/?page_id=95" class="list-group-item"
+                        <li><a href="?page_id=95" class="list-group-item"
                                data-parent="#SubMenu2">Le studio</a></li>
-                        <li><a href="http://localhost:8080/ON-OFF/?page_id=97" class="list-group-item"
+                        <li><a href="?page_id=97" class="list-group-item"
                                data-parent="#SubMenu2">Les CGV</a></li>
-                        <li><a href="http://localhost:8080/ON-OFF/?page_id=99" class="list-group-item"
+                        <li><a href="?page_id=99" class="list-group-item"
                                data-parent="#SubMenu2">Les tarifs</a></li>
                     </div>
 
-                    <li><a href="http://localhost:8080/ON-OFF/?page_id=148"
+                    <li><a href="?page_id=148"
                            class="list-group-item list-group-item-success"
                            data-parent="#MainMenu">Contact</a></li>
                 </ul>

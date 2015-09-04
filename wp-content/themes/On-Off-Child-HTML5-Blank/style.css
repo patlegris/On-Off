@@ -19,8 +19,8 @@ html body {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 16px;
     line-height: 1.4;
-color: #333;
-background-color: #eeeae7;
+    color: #eeeae7;
+    background-color: #eeeae7;
 }
 
 /* Bloc menu box lateral bar */
@@ -53,7 +53,7 @@ a.list-group-item {
 }
 
 .list-group-submenu {
-    margin-left:20px;
+    margin-left: 20px;
     /*background-color: orangered;*/
 }
 
@@ -78,6 +78,7 @@ a.list-group-item:hover, a.list-group-item:focus {
     border-radius: 0;
     border: 0;
 }
+
 /*------------------------------------*\
     Media Queries
 \*------------------------------------*/
@@ -102,6 +103,10 @@ a.list-group-item:hover, a.list-group-item:focus {
     .container {
         width: 1170px;
     }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+
 }
 
 /* global box-sizing */
@@ -270,40 +275,14 @@ h4 {
     url('fonts/brandon_med-webfont.woff') format('woff'),
     url('fonts/brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
     url('fonts/brandon_med-webfont.svg#brandon_med-webfont') format('svg');
+    src: url('fonts/brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/brandon_reg-webfont.woff2') format('woff2'),
+    url('fonts/brandon_reg-webfont.woff') format('woff'),
+    url('fonts/brandon_reg-webfont.ttf') format('truetype'),
+    url('fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    src: url('fonts/brandon_reg-webfont.eot');
     font-weight: normal;
     font-style: normal;
-}
-
-/*------------------------------------*\
-    RESPONSIVE
-\*------------------------------------*/
-
-/*@media only screen and (min-width: 320px) {*/
-
-/*}*/
-
-/*@media only screen and (min-width: 480px) {*/
-
-/*}*/
-
-@media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 1024px) {
-
-}
-
-@media only screen and (min-width: 1140px) {
-
-}
-
-@media only screen and (min-width: 1280px) {
-
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
-
 }
 
 /*------------------------------------*\
@@ -706,3 +685,7 @@ header#top #logo {
         page-break-after: avoid;
     }
 }
+
+/*------------------------------------*\
+    CSS olivier
+\*------------------------------------*/
