@@ -21,7 +21,7 @@ body {
     font-size: 16px;
     /*color: #444;*/
     margin: 0;
-    padding :0;
+    padding: 0;
     box-sizing: border-box;
     background-color: #eeeae7;
     /*font-family: '/fonts/brandon_reg-webfont';*/
@@ -102,13 +102,13 @@ a.list-group-item:hover, a.list-group-item:focus {
 
 .list-group-item:last-child {
     margin-bottom: 0;
-     border-bottom-right-radius: 0;
-     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .list-group-item:first-child {
-     border-top-left-radius: 0;
-     border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 /*------------------------------------*\
@@ -126,9 +126,14 @@ a.list-group-item:hover, a.list-group-item:focus {
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
     z-index: 999999;
 }
+
 /*------------------------------------*\
-    Pages spécifiques
+    Recherche
 \*------------------------------------*/
+.widget_wysija_cont .wysija-submit {
+    display: inline-block;
+    margin-top: 0px;
+}
 
 /*------------------------------------*\
     Media Queries
@@ -442,8 +447,6 @@ a img.aligncenter {
 .bypostauthor {
 
 }
-
-
 
 /*------------------------------------*\
     PRINT

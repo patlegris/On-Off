@@ -109,9 +109,12 @@
                        data-parent="#SubMenu2">Les tarifs</a></li>
             </div>
 
-            <li><a href="?page_id=148"
+            <li><a href="?page_id=101"
                    class="list-group-item list-group-item-success"
                    data-parent="#MainMenu">Contact</a></li>
+<!--        <li><a href="?page_id=148"-->
+<!--                   class="list-group-item list-group-item-success"-->
+<!--                   data-parent="#MainMenu">Contact</a></li>-->
         </ul>
     </div>
 
@@ -161,7 +164,8 @@
                     <label>Newsletter <span class="wysija-required"></span></label>
 
                     <input type="text" name="wysija[user][email]"
-                           class="champs_form wysija-input validate[required,custom[email]]" title="E-mail" value=""/>
+                           class="champs_form wysija-input validate[required,custom[email]]" title="E-mail"
+                           placeholder="e-mail" value=""/>
     <span class="abs-req">
         <input type="text" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value=""/>
     </span>
