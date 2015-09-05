@@ -49,7 +49,7 @@
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse col-lg-2 col-md-2 col-sm-2" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <!--Logo On-Off insertion-->
                     <div class="logo">
                         <a href="<?php echo home_url(); ?>./">
