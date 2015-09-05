@@ -19,14 +19,15 @@ body {
     /*font: 300 11px/1.4 'century-gothic', century-gothic, sans-serif;*/
     width: 100%;
     font-size: 16px;
-    color: #444;
+    /*color: #444;*/
     margin: 0;
+    padding :0;
     box-sizing: border-box;
     background-color: #eeeae7;
     /*font-family: '/fonts/brandon_reg-webfont';*/
-    font-family: 'brandon', brandon_reg-webfont, sans-serif;
-    /*font-family: 'brandon', bran, sans-serif;*/
-    /*font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
+    /*font-family: 'brandon', sans-serif;*/
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+
 }
 
 /* Bloc menu box lateral bar */
@@ -301,7 +302,7 @@ h4 {
 /* Declare font brandon grotesque */
 @font-face {
     font-family: 'brandon';
-    src: url('fonts/brandon_med-webfont.eot');
+    src: url('/fonts/brandon_med-webfont.eot');
     src: url('fonts/Brandon_med.otf') format('truetype'),
     url('fonts/brandon_med-webfont.woff') format('woff'),
     url('fonts/brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
