@@ -3,7 +3,7 @@
 
 <!--BLOC 1-->
 <div class="wrapper">
-    <img src="<?php echo get_template_directory_uri(); ?>img/Expositions_BG01.png"
+    <img src="<?php echo get_template_directory_uri(); ?>/img/Expositions_BG01.png"
          alt="Expositions ON-OFF Studio" class="clearB">
 
     <div class="titreAT1">
