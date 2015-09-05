@@ -112,6 +112,21 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 
 /*------------------------------------*\
+    Boite modal newsletter
+\*------------------------------------*/
+.modal-content {
+    position: relative;
+    background-color: #eeeae7;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 2px solid #f26522;
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    z-index: 999999;
+}
+/*------------------------------------*\
     Pages spécifiques
 \*------------------------------------*/
 

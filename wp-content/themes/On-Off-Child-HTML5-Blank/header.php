@@ -116,7 +116,20 @@
     </div>
     <?php get_sidebar(); ?>
 
+
     <div class="LinkMenu">
+        <!--    Langues-->
+        <div id="polylang-2" class="widget_polylang">
+            <ul>
+                <li class="lang-item lang-item-16 lang-item-fr current-lang"><a hreflang="fr"
+                                                                                href="http://localhost:8080/ON-OFF/?page_id=25"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYiyeepkBBv79+Zfnx/f379+fP38CyT9//jAyMiq5GP77wvDnJ8MfoAIGBoAAYgGqC7STApL///3/9++/pCTv////Qdz/QO4/IMna0vf/z+9/v379//37bUUTQACBNDD8Z/j87fffvyAVX79+/Q8GQDbQeKA9fM+e/Pv18/+vnwzCIkBLAAKQOAY5AIAwCEv4/4PddNUm3ji0QJyxW3rgzE0iLfqDGr2oYuu0l54AYvnz5x9Q6d+/QPQfyAQqAin9B3EOyG1A1UDj//36zfjr1y8GBoAAFI9BDgAwCMIw+P8Ho3GDO6XQ0l4MN8b2kUwYaLszqgKM/KHcDXwBxAJUD3TJ779A8h9Q5D8SAHoARP36+Rfo41+/mcA2AAQQy49ff0Cu//MPpAeI/0FdA1QNYYNVA/3wmwEYVgwMAAHE8uPHH5BqoD1//gJJLADoJKDS378Z//wFhhJAALF8A3rizz8uTmYg788fJkj4QOKREQyYxSWBhjEC/fcXZANAALF8+/anbcHlHz9+ffvx58uPX9KckkCn/gby/wLd8uvHjx96k+cD1UGiGQgAAgwA7q17ZpsMdUQAAAAASUVORK5CYII="
+                            title="Français (fr_FR)" alt="Français"/></a></li>
+            </ul>
+        </div>
+        <br>
+
+        <!--        Infos pratiques-->
         <a href="?page_id=168">Infos pratiques</a>
 
         <!--FORMULAIRE DE RECHERCHE-->
@@ -133,7 +146,7 @@
             <form id="form-wysija-html55eb38266eb18-2" method="post" action="#wysija"
                   class="widget_wysija html_wysija">
                 <p class="wysija-paragraph">
-                    <label>Newsletter <span class="wysija-required">*</span></label>
+                    <label>Newsletter <span class="wysija-required"></span></label>
 
                     <input type="text" name="wysija[user][email]"
                            class="champs_form wysija-input validate[required,custom[email]]" title="E-mail" value=""/>
@@ -143,14 +156,41 @@
 
                 </p>
                 <input class="wysija-submit wysija-submit-field"
-                       src="<?php echo get_template_directory_uri(); ?>/img/newsletterOK.png" type="image"/>
+                       src="<?php echo get_template_directory_uri(); ?>/img/newsletterOK.png" type="image"
+                       data-toggle="modal" data-target="#myModal"/>
 
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Confirmation</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Votre adresse email est bien prise en compte, nous vous proposons de vérifier dans
+                                    votre boite mail le message de confirmation que nous venons de vous adresser.
+                                    .</p>
+                                <br>
+
+                                <p>Merci et à très bientôt dans votre boite email.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
                 <input type="hidden" name="form_id" value="2"/>
                 <input type="hidden" name="action" value="save"/>
                 <input type="hidden" name="controller" value="subscribers"/>
                 <input type="hidden" value="1" name="wysija-page"/>
                 <input type="hidden" name="wysija[user_list][list_ids]" value="1"/>
             </form>
+
         </div>
 
         <!--FORMULAIRE DE NEWSLETTER-->
