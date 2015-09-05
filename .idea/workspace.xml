@@ -2,11 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9680b62-d899-4042-916b-795a0fb49f64" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld_it-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld_it-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld_it-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld_it-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_blk-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_blk-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_blk-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_blk-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_light-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_light-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_light-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med_it-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med_it-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med_it-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med_it-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg_it-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg_it-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg_it-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg_it-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin_it-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin_it-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin_it-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin_it-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_bld_it-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_blk-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_light-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med_it-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_reg_it-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_thin_it-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/desktop.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med-webfont.eot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med-webfont.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med-webfont.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/fonts/brandon_med-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ON-OFF.iws" />
@@ -32,8 +78,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56989247">
-              <caret line="303" column="47" selection-start-line="303" selection-start-column="47" selection-end-line="303" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.7013142">
+              <caret line="308" column="26" selection-start-line="308" selection-start-column="26" selection-end-line="308" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -547,15 +593,21 @@
       <option name="project" value="LOCAL" />
       <updated>1441457511791</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="intégration p25 en cours">
+      <created>1441458952330</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1441458952330</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23187633" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23187633" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -976,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56989247">
-          <caret line="303" column="47" selection-start-line="303" selection-start-column="47" selection-end-line="303" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.7013142">
+          <caret line="308" column="26" selection-start-line="308" selection-start-column="26" selection-end-line="308" selection-end-column="34" />
           <folding />
         </state>
       </provider>
