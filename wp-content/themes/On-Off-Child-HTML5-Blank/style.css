@@ -18,6 +18,9 @@
 html body {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 16px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     /*line-height: 1.4;*/
     /*color: #eeeae7;*/
     background-color: #eeeae7;
@@ -44,7 +47,7 @@ a.list-group-item ul li {
     font-size: 1rem;
     /*z-index: 1051;*/
     /*padding: 5px 10px 5px 10px;*/
-    /*line-height: 1rem;*/
+    line-height: 1rem;
     text-transform: uppercase;
     list-style-type: none;
     margin-left: 1rem;
@@ -55,6 +58,7 @@ a.list-group-item {
     Background-color: white;
     text-transform: uppercase;
     color: #555;
+    line-height: 1rem;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
