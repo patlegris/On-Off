@@ -39,15 +39,16 @@ html body {
 }
 
 /* Menu accordion content */
-.navbar-collapse ul li {
+a.list-group-item ul li {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 1rem;
     /*z-index: 1051;*/
-    padding: 5px 10px 5px 10px;
-    line-height: 1rem;
+    /*padding: 5px 10px 5px 10px;*/
+    /*line-height: 1rem;*/
     text-transform: uppercase;
     list-style-type: none;
     margin-left: 1rem;
+    text-decoration: none;
 }
 
 a.list-group-item {
@@ -57,10 +58,12 @@ a.list-group-item {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
+    text-decoration: none;
 }
 
 .list-group-submenu {
-    margin-left: 20px;
+    margin-left: 10px;
+    text-decoration: none;
     /*background-color: #f26522;*/
 }
 
@@ -84,6 +87,17 @@ a.list-group-item:hover, a.list-group-item:focus {
 .list-group {
     border-radius: 0;
     border: 0;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+}
+
+.list-group-item:first-child {
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
 }
 
 /*------------------------------------*\
