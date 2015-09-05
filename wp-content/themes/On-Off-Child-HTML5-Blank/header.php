@@ -139,6 +139,7 @@
             <input type="image" src="<?php echo get_template_directory_uri(); ?>/img/loupeSearch.png"
                    class="bouton_form">
         </form>
+        <br>
 
         <!--FORMULAIRE DE NEWSLETTER-->
         <div class="widget_wysija_cont html_wysija">
@@ -218,4 +219,3 @@
         <a href="#"> Mentions légales</a>
     </div>
 </div>
-<!--</div>-->
