@@ -52,10 +52,18 @@
 
 <!--BLOC 2-->
 <div class="wrapper2">
-    <h3 class="titreAT2"><span class="retraitAT1">VOUS.</span><br>/--- RECHERCHEZ UN LIEU POUR ---/<br><span
-            class="retraitAT2">VOS ATELIERS OU STAGES ?</span></h3>
-    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/Atelier_btn01.png"
-                     alt="Bouton contactez-nous" class="btnContact"></a>
+    <h3 class="titreAT2"><span class="retraitAT1">VOUS.</span><br>/--- ÊTES ARTISTE ET SOUHAITEZ ---/<br><span
+            class="retraitAT2">EXPOSER ?</span></h3>
+
+    <!--BOUTON DYNAMIQUE-->
+    <div class="post-tag2">
+               <span class="arrow-btn post-tag-arrow">
+                    <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>
+                    <span class="arrow-btn-circle post-tag-arrow-circle"></span>
+                    <span class="arrow-btn-text2 post-tag-arrow-text"><a href="contact.html">CONTACTEZ-NOUS</a></span>
+                </span>
+    </div>
+
 </div>
 
 

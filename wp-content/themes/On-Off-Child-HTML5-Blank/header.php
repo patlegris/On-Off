@@ -114,10 +114,11 @@
                    data-parent="#MainMenu">Contact</a></li>
         </ul>
     </div>
-    <?php get_sidebar(); ?>
 
+<!--    --><?php //get_sidebar(); ?>
 
     <div class="LinkMenu">
+
         <!--    Langues-->
         <div id="polylang-2" class="widget_polylang">
             <ul>
@@ -129,24 +130,34 @@
         </div>
         <br>
 
-        <!--        Infos pratiques-->
+        <!--Infos pratiques-->
         <a href="?page_id=168">Infos pratiques</a>
 
         <!--FORMULAIRE DE RECHERCHE-->
-        <form action="" class="formSearch">
+        <form class="formSearch search" method="get" action="" role="search">
             <label class="txt_form">Rechercher</label>
-            <input type="text" required class="champs_form">
-            <input type="image" src="<?php echo get_template_directory_uri(); ?>/img/loupeSearch.png"
-                   class="bouton_form">
+            <input required class="champs_form search-input" type="search" name="s" placeholder="<?php _e( 'Recherche', 'html5blank'	); ?>">
+            <input type="image" role="button" src="<?php echo
+            get_template_directory_uri(); ?>/img/loupeSearch.png"
+                   class="bouton_form search-submit">
+            <input type="hidden" name="lang" value="fr" />
         </form>
         <br>
+
+
+<!--        <form class="search" method="get" action="http://localhost:8080/ON-OFF" role="search">-->
+<!--            <input class="search-input" type="search" name="s" placeholder="Recherche">-->
+<!--            <button class="search-submit" type="submit" role="button">Recherche</button>-->
+<!--            <input type="hidden" name="lang" value="fr" /></form>-->
+<!--        -->
+
 
         <!--FORMULAIRE DE NEWSLETTER-->
         <div class="widget_wysija_cont html_wysija">
             <div id="msg-form-wysija-html55eb38266eb18-2" class="wysija-msg ajax"></div>
             <form id="form-wysija-html55eb38266eb18-2" method="post" action="#wysija"
                   class="widget_wysija html_wysija">
-                <p class="wysija-paragraph">
+                <a class="wysija-paragraph">
                     <label>Newsletter <span class="wysija-required"></span></label>
 
                     <input type="text" name="wysija[user][email]"
@@ -155,7 +166,7 @@
         <input type="text" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value=""/>
     </span>
 
-                </p>
+                </a>
                 <input class="wysija-submit wysija-submit-field"
                        src="<?php echo get_template_directory_uri(); ?>/img/newsletterOK.png" type="image"
                        data-toggle="modal" data-target="#myModal"/>

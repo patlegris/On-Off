@@ -4,7 +4,7 @@
 body {
     box-sizing: border-box;
     background-color: #eeeae7;
-    font-family: 'fonts/brandon_grotesque_regularRg';
+    font-family: '../fonts/brandon_grotesque_regularRg';
 }
 
 /*----------BARRE DE MENU----------*/
@@ -35,6 +35,7 @@ body {
 .WhiteMenu .LinkMenu{
     margin-top: 80px;
     margin-left: 20px;
+
 }
 .WhiteMenu .formSearch{
     margin-top: 15px;
