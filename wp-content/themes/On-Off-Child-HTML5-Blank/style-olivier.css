@@ -1,11 +1,11 @@
 /*-----------MON CODE------------*/
 
 /*SELECTEUR UNIVERSEL QUI PERMET D'APPLIQUER LES STYLES DANS TOUTES LES PAGES*/
-/*body {*/
-    /*box-sizing: border-box;*/
-    /*background-color: #eeeae7;*/
-    /*font-family: '../FONTS/brandon_grotesque_regularRg';*/
-/*}*/
+body {
+    box-sizing: border-box;
+    background-color: #eeeae7;
+    font-family: 'fonts/brandon_grotesque_regularRg';
+}
 
 /*----------BARRE DE MENU----------*/
 .WhiteMenu{
@@ -77,7 +77,7 @@
     height: 40px;
     margin-bottom: 250px;
     vertical-align: center;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     line-height: 40px;
 }
@@ -114,6 +114,48 @@
     margin-top: 50px;
     margin-bottom: 200px;
     text-align: justify;
+}
+.wrapper .txtAT05C{
+    color: #f26522;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: -5px;
+    display: block;
+}
+.wrapper .txtAT05C2,
+.wrapper4 .txtAT05C2{
+    color: #f26522;
+    font-size: 24px;
+    margin-left: 76px;
+    margin-top: 55px;
+    display: block;
+}
+.wrapper .BG02{
+    margin-left: 76px;
+    margin-top: 20px;
+    background-image: url(../IMAGES/LeLieu_BG02.png);
+    background-repeat: no-repeat;
+    height: 771px;
+}
+.wrapper .BG08{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-image: url(../IMAGES/Privatisation_BG02.png);
+    background-repeat: no-repeat;
+    height: 752px;
+}
+
+.wrapper .BG02 p{
+    width: 350px;
+    text-align: justify;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.wrapper .BG08 p{
+    width: 350px;
+    text-align: justify;
+    padding-top: 40px;
+    padding-left: 30px;
 }
 
 /*----------BLOCK 2 CENTRE----------*/
@@ -185,8 +227,24 @@
     background-repeat: no-repeat;
     height: 527px;
 }
+.wrapper3 .BG06{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-image: url(../IMAGES/Evenements_BG02.png);
+    background-repeat: no-repeat;
+    height: 527px;
+}
+.wrapper3 .BG10{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    background-image: url(../IMAGES/Expositions-type_BG02.png);
+    background-repeat: no-repeat;
+    height: 522px;
+}
 .wrapper3 .BG02 p,
-.wrapper3 .BG04 p{
+.wrapper3 .BG04 p,
+.wrapper3 .BG06 p{
     width: 420px;
     padding-top: 450px;
     padding-left: 10px;
@@ -198,6 +256,16 @@
 }
 .wrapper3 .littleTXT{
     font-size: 16px;
+}
+.wrapper3 .txtAT06{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.wrapper3 .txtAT06C{
+    color: #f26522;
+    font-size: 24px;
+    margin-left: 0px;
+    display: block;
 }
 
 /*----------BLOCK 4 CENTRE----------*/
@@ -245,8 +313,16 @@
     background-repeat: no-repeat;
     height: 527px;
 }
+.wrapper4 .BG06{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-image: url(../IMAGES/Evenements_BG03.png);
+    background-repeat: no-repeat;
+    height: 527px;
+}
 .wrapper4 .BG02 p,
-.wrapper4 .BG04 p{
+.wrapper4 .BG04 p,
+.wrapper4 .BG06 p{
     width: 420px;
     padding-top: 450px;
     padding-left: 10px;
@@ -277,6 +353,18 @@
 .wrapper4 .littleTXT{
     font-size: 16px;
 }
+.wrapper4 .txtPad01{
+    padding: 30px 40px 10px 75px;
+}
+.wrapper4 .PadTop2{
+    padding-top: 70px;
+}
+.wrapper4 .PadTop1{
+    padding-top: 10px;
+}
+.wrapper4 .PadTop3{
+    padding-top: 100px;
+}
 
 /*----------BLOCK A DROITE----------*/
 .blocAside{
@@ -299,10 +387,17 @@
 .blocAside .BlocImg{
     margin-top: 30px;
     border: 1px solid #f26522;
-    width: 271px;
+    width: 270px;
     background-color: white;
     z-index: 3;
     position: absolute;
+}
+.blocAside .BlocImg2{
+    margin-top: 450px;
+    border: 1px solid #f26522;
+    width: 270px;
+    background-color: white;
+    z-index: 3;
 }
 .blocAside .BlocImg a{
     text-decoration: none;
@@ -338,10 +433,261 @@
 .clearB {
     clear: both;
 }
+.floatR{
+    float: right;
+}
+.floatL{
+    float: left;
+}
 .activeLink{
     background-color: #f26522;
     width: 151px;
     color: white;
     margin-left: -20px;
     padding-left: 20px;
+}
+
+/*----------SPECIFIQUE PAGE LE LIEU----------*/
+.BRTOP15{
+    margin-top: 15px;
+}
+.blocASS1{
+    float: left;
+    width: 641px;
+    height: 341px;
+    margin-top: 130px;
+}
+.blocASS2VALIGN{
+    vertical-align: bottom;
+    border: 1px solid #f26522;
+    float: right;
+    margin-right: 30px;
+    margin-top: 130px;
+}
+
+
+/*----------SPECIFIQUE PAGE INFOS PRATIQUES----------*/
+.txtWhite {
+    color: white;
+}
+
+
+/*----------LES ZONES CLICS INVISIBLES----------*/
+#zoneClic1 { /* zone cliquable */
+    float: left;
+    width : 136px;
+    height: 35px;
+    margin-left: 817px;
+    margin-top: 476px;
+}
+
+
+/*----------BOUTONS DYNAMIQUES---------------------------------------------------------*/
+/**** BLOC H3 AVEC BOUTON ****/
+.post-tag{
+    display: block;
+    margin: 0px 0px 0px 75px;
+    cursor: pointer;
+    text-align: left;
+    width: 80px;
+}
+.post-tag2{
+    display: block;
+    margin: 0px 0px 0px 460px;
+    cursor: pointer;
+    text-align: left;
+    width: 80px;
+}
+.post-tag3{
+    display: block;
+    margin: -10px 0px 0px 300px;
+    cursor: pointer;
+    text-align: left;
+    width: 80px;
+}
+.post-tag4{
+    display: block;
+    margin: -10px 0px 0px 100px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+    width: 80px;
+}
+.post-tag a,
+.post-tag2 a,
+.post-tag3 a,
+.post-tag4 a{
+    text-decoration: none;
+    font-family: '../FONTS/brandon_grotesque_regularRg';
+    color: #555452;
+}
+
+/**** BLOC CONTENANT LA FLECHE ****/
+.arrow-btn{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    /* Gestion de la police */
+    font-size:25px;
+    line-height:33px;
+    font-family: '../FONTS/brandon_grotesque_regularRg';
+    color: #555452;
+}
+.post-tag-arrow{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 8px;
+    left: 0;
+}
+
+
+/**** BLOC POUR DESSINER L'ICONE FLECHE ****/
+.arrow-btn .arrow-btn-icon{
+    position:absolute;
+    top:-1px;
+    left:2px;
+    width:30px;
+    height:30px;
+    font-size:25px
+}
+.arrow-btn .arrow-btn-icon:before{
+    line-height:25px
+}
+.jaa-icon-arrow-right:before{
+    content:">"
+}
+.post-tag-arrow-icon{
+    top:0px
+}
+
+
+/**** BLOC POUR DESSINER LE CERCLE ****/
+.arrow-btn-circle{
+    position:absolute;
+    display:block;
+    top:0px;
+    left: -9px;
+    width:30px;
+    height:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    behavior:url(/PIE.htc);
+    border:1px solid #555452;
+    overflow:hidden;
+    -webkit-transition:0.4s width ease-in-out, 0.4s left 0.1s ease-in-out;
+    -moz-transition:0.4s width ease-in-out, 0.4s left 0.1s ease-in-out;
+    -o-transition:0.4s width ease-in-out, 0.4s left 0.1s ease-in-out;
+    transition:0.4s width ease-in-out, 0.4s left 0.1s ease-in-out;
+    -moz-transition-timing-function:cubic-bezier(.77, 0, .175, 1);
+    -webkit-transition-timing-function:cubic-bezier(.77, 0, .175, 1);
+    -o-transition-timing-function:cubic-bezier(.77, 0, .175, 1);
+    transition-timing-function:cubic-bezier(.77, 0, .175, 1)
+}
+/* Btn En savoir + */
+.post-tag:hover .arrow-btn-circle,
+.post-tag3:hover .arrow-btn-circle,
+.post-tag4:hover .arrow-btn-circle{
+    width: 78px;
+    left: 32px;
+    -webkit-transition:0.4s width ease-in-out, 0.4s left ease-in-out;
+    -moz-transition:0.4s width ease-in-out, 0.4s left ease-in-out;
+    -o-transition:0.4s width ease-in-out, 0.4s left ease-in-out;
+    transition:0.4s width ease-in-out, 0.4s left ease-in-out
+}
+/* Btn Contactez-nous */
+.post-tag2:hover .arrow-btn-circle{
+    width: 100px;
+    left: 32px;
+    -webkit-transition:0.4s width ease-in-out, 0.4s left ease-in-out;
+    -moz-transition:0.4s width ease-in-out, 0.4s left ease-in-out;
+    -o-transition:0.4s width ease-in-out, 0.4s left ease-in-out;
+    transition:0.4s width ease-in-out, 0.4s left ease-in-out
+}
+
+
+/**** BLOC POUR LE TEXTE ****/
+.arrow-btn-text{
+    position:absolute;
+    display:block;
+    top:2px;
+    left:0px;
+    width:70px;
+    left:36px;
+    font-family:arial;
+    letter-spacing:0.07em;
+    font-size:9px;
+    line-height:28px;
+    font-weight:normal;
+    text-align:center;
+    text-transform:uppercase;
+    -moz-opacity:0;
+    -khtml-opacity:0;
+    -webkit-opacity:0;
+    opacity:0;
+    -ms-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    filter:alpha(opacity=0);
+    -webkit-transition:.6s opacity cubic-bezier(.77, 0, .175, 1);
+    -moz-transition:.6s opacity cubic-bezier(.77, 0, .175, 1);
+    -o-transition:.6s opacity cubic-bezier(.77, 0, .175, 1);
+    transition:.6s opacity cubic-bezier(.77, 0, .175, 1)
+}
+.arrow-btn-text2{
+    position:absolute;
+    display:block;
+    top:2px;
+    left:0px;
+    width:90px;
+    left:36px;
+    font-family:arial;
+    letter-spacing:0.07em;
+    font-size:9px;
+    line-height:28px;
+    font-weight:normal;
+    text-align:center;
+    text-transform:uppercase;
+    -moz-opacity:0;
+    -khtml-opacity:0;
+    -webkit-opacity:0;
+    opacity:0;
+    -ms-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    filter:alpha(opacity=0);
+    -webkit-transition:.6s opacity cubic-bezier(.77, 0, .175, 1);
+    -moz-transition:.6s opacity cubic-bezier(.77, 0, .175, 1);
+    -o-transition:.6s opacity cubic-bezier(.77, 0, .175, 1);
+    transition:.6s opacity cubic-bezier(.77, 0, .175, 1)
+}
+.post-tag:hover .arrow-btn-text,
+.post-tag2:hover .arrow-btn-text2,
+.post-tag3:hover .arrow-btn-text,
+.post-tag4:hover .arrow-btn-text{
+    -ms-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+    filter:alpha(opacity=100);
+    -moz-opacity:1;
+    -khtml-opacity:1;
+    -webkit-opacity:1;
+    opacity:1;
+    -ms-filter:none;
+    filter:none;
+    -webkit-transition:.6s opacity .2s cubic-bezier(.77, 0, .175, 1);
+    -moz-transition:.6s opacity .2s cubic-bezier(.77, 0, .175, 1);
+    -o-transition:.6s opacity .2s cubic-bezier(.77, 0, .175, 1);
+    transition:.6s opacity .2s cubic-bezier(.77, 0, .175, 1)
+}
+
+
+
+
+
+
+/*----------FONTS----------*/
+@font-face {
+    font-family: '../FONTS/brandon_grotesque_regularRg';
+    src: url('fonts/brandon_reg-webfont.eot');
+    src: url('fonts/brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/brandon_reg-webfont.woff2') format('woff2'),
+    url('fonts/brandon_reg-webfont.woff') format('woff'),
+    url('fonts/brandon_reg-webfont.ttf') format('truetype'),
+    url('fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
 }

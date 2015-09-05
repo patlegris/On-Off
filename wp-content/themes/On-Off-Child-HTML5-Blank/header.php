@@ -22,7 +22,10 @@
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <!--    Kit de police brandon-->
     <script src="https://use.typekit.net/cef1nxg.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>try {
+            Typekit.load({async: true});
+        } catch (e) {
+        }</script>
 
     <?php wp_head(); ?>
     <!--    Conditionizer config-->
@@ -139,14 +142,13 @@
     </span>
 
                 </p>
-                <input class="wysija-submit wysija-submit-field" src="<?php echo get_template_directory_uri(); ?>/img/newsletterOK.png" type="image"/>
+                <input class="wysija-submit wysija-submit-field"
+                       src="<?php echo get_template_directory_uri(); ?>/img/newsletterOK.png" type="image"/>
 
                 <input type="hidden" name="form_id" value="2"/>
                 <input type="hidden" name="action" value="save"/>
                 <input type="hidden" name="controller" value="subscribers"/>
                 <input type="hidden" value="1" name="wysija-page"/>
-
-
                 <input type="hidden" name="wysija[user_list][list_ids]" value="1"/>
             </form>
         </div>
