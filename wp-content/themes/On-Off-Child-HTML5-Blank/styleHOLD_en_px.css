@@ -89,7 +89,353 @@ a.list-group-item:hover, a.list-group-item:focus {
 /*------------------------------------*\
     Pages spécifiques
 \*------------------------------------*/
+/*-----------MON CODE------------*/
 
+/*SELECTEUR UNIVERSEL QUI PERMET D'APPLIQUER LES STYLES DANS TOUTES LES PAGES*/
+body {
+    box-sizing: border-box;
+    background-color: #eeeae7;
+    font-family: '../FONTS/brandon_grotesque_regularRg';
+}
+
+/*----------BARRE DE MENU----------*/
+.WhiteMenu{
+    width: 171px;
+    background-color: white;
+    margin-left: 54px;
+    float:left;
+    position:fixed;
+}
+.WhiteMenu .logoImg{
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.WhiteMenu nav{
+    margin-top: 77px;
+    margin-left: 20px;
+}
+.WhiteMenu li{
+    list-style: none;
+    font-size: 15px;
+    line-height: 25px;
+}
+.WhiteMenu li a, .WhiteMenu .LinkMenu a{
+    text-decoration: none;
+    color: black;
+}
+.WhiteMenu .LinkMenu{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.WhiteMenu .formSearch{
+    margin-top: 15px;
+    line-height: 25px;
+}
+.WhiteMenu .champs_form{
+    border: none;
+    border-bottom: 1px solid #144C6D;
+    width: 115px;
+    height: 18px;
+    color: black;
+    background-color: transparent;
+}
+.WhiteMenu .bouton_form{
+    background: url("IMAGES/loupeSearch.png");
+    border: none;
+    margin-bottom: -7px;
+    width: 22px; /* largeur à spécifier */
+    height: 22px; /* longueur à spécifier */
+    cursor: pointer;
+}
+.WhiteMenu .bouton_form2{
+    background: url("IMAGES/newsletterOK.png");
+    border: none;
+    margin-bottom: -7px;
+    width: 24px; /* largeur à spécifier */
+    height: 24px; /* longueur à spécifier */
+    cursor: pointer;
+}
+.WhiteMenu .blockRSMenu{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.WhiteMenu .blockRSMenu img{
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+.WhiteMenu .linkCredits{
+    background-color: #eeeae7;
+    height: 40px;
+    margin-bottom: 250px;
+    vertical-align: center;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+}
+.WhiteMenu .linkCredits a{
+    text-decoration: none;
+    color: black;
+}
+
+/*----------BLOCK 1 CENTRE----------*/
+.wrapper {
+    width: 1075px;
+    margin: 0 auto;
+    background-color: #eeeae7;
+    margin-left: 225px;
+}
+.wrapper .titreAT1{
+    font-size: 45px;
+    line-height: 120px;
+    background-color: #eeeae7;
+    height: 90px;
+    width: 610px;
+    color: #f26522;
+    float: left;
+    margin-left: 135px;
+    margin-top: -93px;
+    position: relative;
+    z-index: 10;
+    padding-left: 30px;
+}
+.wrapper .txtAT1{
+    font-size: 16px;
+    margin-left: 150px;
+    margin-right: 440px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: justify;
+}
+
+/*----------BLOCK 2 CENTRE----------*/
+.wrapper2 {
+    width: 1075px;
+    margin: 0 auto;
+    background-color: white;
+    margin-left: 225px;
+}
+.wrapper2 .titreAT2{
+    font-size: 30px;
+    color: #f26522;
+    margin-left: 130px;
+    padding-top: 50px;
+    line-height: 40px;
+}
+.wrapper2 .retraitAT1{
+    font-size: 36px;
+}
+.wrapper2 .retraitAT1, .wrapper2 .retraitAT2{
+    margin-left: 50px;
+}
+.wrapper2 .btnContact{
+    margin-left: 475px;
+    margin-top: 40px;
+}
+
+/*----------BLOCK 3 CENTRE----------*/
+.wrapper3 {
+    width: 1075px;
+    margin: 0 auto;
+    background-color: #eeeae7;
+    margin-left: 225px;
+}
+.wrapper3 .txtAT05{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.wrapper3 .txtAT05A{
+    border-bottom: 3px solid black;
+    text-decoration: none;
+    font-size: 55px;
+}
+.wrapper3 .txtAT05B{
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.wrapper3 .txtAT05C{
+    color: #f26522;
+    font-size: 24px;
+    margin-left: 300px;
+    margin-top: -5px;
+    display: block;
+}
+.wrapper3 .BG02{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-image: url(../IMAGES/Atelier_BG02.png);
+    background-repeat: no-repeat;
+    height: 527px;
+}
+.wrapper3 .BG04{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-image: url(../IMAGES/Expositions_BG02.png);
+    background-repeat: no-repeat;
+    height: 527px;
+}
+.wrapper3 .BG02 p,
+.wrapper3 .BG04 p{
+    width: 420px;
+    padding-top: 450px;
+    padding-left: 10px;
+}
+.wrapper3 .BG02_RS{
+    background-color: red;
+    margin-left: 480px;
+    margin-top: -64px;
+}
+.wrapper3 .littleTXT{
+    font-size: 16px;
+}
+
+/*----------BLOCK 4 CENTRE----------*/
+.wrapper4 {
+    width: 1075px;
+    margin: 0 auto;
+    background-color: white;
+    height: 1000px;
+    margin-left: 225px;
+}
+.wrapper4 .txtAT05{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.wrapper4 .txtAT05A{
+    border-bottom: 3px solid black;
+    text-decoration: none;
+    font-size: 55px;
+}
+.wrapper4 .txtAT05B{
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.wrapper4 .txtAT05C{
+    color: #f26522;
+    font-size: 24px;
+    margin-left: 300px;
+    margin-top: -5px;
+    display: block;
+}
+.wrapper4 .BG02{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-image: url(../IMAGES/Atelier_BG03.png);
+    background-repeat: no-repeat;
+    height: 527px;
+}
+.wrapper4 .BG04{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-image: url(../IMAGES/Expositions_BG03.png);
+    background-repeat: no-repeat;
+    height: 527px;
+}
+.wrapper4 .BG02 p,
+.wrapper4 .BG04 p{
+    width: 420px;
+    padding-top: 450px;
+    padding-left: 10px;
+}
+.wrapper4 .BG02_RS{
+    background-color: red;
+    margin-left: 480px;
+    margin-top: -64px;
+}
+.wrapper4 .numFinP{
+    color: black;
+    font-size: 14px;
+    margin-top: 60px;
+    margin-left: 630px;
+}
+.wrapper4 .titreAT06{
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+.wrapper4 .titreAT06A{
+    margin-top: 30px;
+    margin-left: 80px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+    width: 100px;
+}
+.wrapper4 .littleTXT{
+    font-size: 16px;
+}
+
+/*----------BLOCK A DROITE----------*/
+.blocAside{
+    width: 300px;
+    float: right;
+    height: 50px;
+    margin-top: 50px;
+}
+.blocAside .txtAT02{
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 271px;
+}
+.blocAside .txtAT02G{
+    border-bottom: 3px solid black;
+    padding-bottom: 3px;
+}
+.blocAside .BlocImg{
+    margin-top: 30px;
+    border: 1px solid #f26522;
+    width: 271px;
+    background-color: white;
+    z-index: 3;
+    position: absolute;
+}
+.blocAside .BlocImg a{
+    text-decoration: none;
+}
+.blocAside .BlocImgBas{
+    vertical-align: bottom;
+}
+.blocAside .txtAT03{
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    width: 158px;
+    margin-left: 112px;
+    margin-bottom: 30px;
+}
+.blocAside .txtAT03 span{
+    font-size: 24px;
+}
+.blocAside .titreAT04{
+    color: #f26522;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.blocAside .txtAT04{
+    color: black;
+    font-size: 14px;
+    margin: 20px;
+}
+
+/*----------ELEMENTS COMMUN----------*/
+.clearB {
+    clear: both;
+}
+.activeLink{
+    background-color: #f26522;
+    width: 151px;
+    color: white;
+    margin-left: -20px;
+    padding-left: 20px;
+}
 /*------------------------------------*\
     Media Queries
 \*------------------------------------*/
@@ -129,16 +475,6 @@ a.list-group-item:hover, a.list-group-item:focus {
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-}
-
-/* html element 62.5% font-size for REM use */
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font: 300 11px/1.4 'century-gothic', century-gothic, sans-serif;
-    color: #444;
 }
 
 /* clear */
@@ -444,13 +780,6 @@ body.hidden {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-h1 {
-    font-family: Helvetica, Arial, Verdana;
-    font-weight: normal;
-    font-size: 92px;
-    color: #222222;
 }
 
 header#top {

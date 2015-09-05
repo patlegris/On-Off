@@ -32,114 +32,117 @@
     </script>
 </head>
 
+<body>
 <div class="container">
-    <div class="row">
-        <nav class="navbar navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!--                    <a class="navbar-brand" href="#">On-Off le studio</a>-->
-                </div>
+    <!--    <div class="row">-->
+    <!--        <nav class="navbar">-->
+    <!--            <div class="container-fluid">-->
+    <!--                <!-- Brand and toggle get grouped for better mobile display -->-->
+    <!--                <div class="navbar-header">-->
+    <!--                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"-->
+    <!--                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
+    <!--                        <span class="sr-only">Toggle navigation</span>-->
+    <!--                        <span class="icon-bar"></span>-->
+    <!--                        <span class="icon-bar"></span>-->
+    <!--                        <span class="icon-bar"></span>-->
+    <!--                    </button>-->
+    <!--                    <!--                    <a class="navbar-brand" href="#">On-Off le studio</a>-->-->
+    <!--                </div>-->
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <!--Logo On-Off insertion-->
-                    <div class="logo">
-                        <a href="<?php echo home_url(); ?>./">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo"
-                                 class="logo-img"></a>
-                    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="WhiteMenu" id="">
+        <!--Logo On-Off insertion-->
+        <div class="logo">
+            <a href="<?php echo home_url(); ?>./">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo"
+                     class="logo-img"></a>
+        </div>
 
-                    <!--Menu accordion, over/active button bootstrap style modified-->
-                    <div id="MainMenu">
-                        <ul class="list-group panel">
+        <!--Menu accordion, over/active button bootstrap style modified-->
+        <div id="MainMenu">
+            <ul class="list-group panel">
 
-                            <li><a href="#SubMenu1" class="list-group-item
+                <li><a href="#SubMenu1" class="list-group-item
                             list-group-item-success strong"
-                                   data-toggle="collapse"
-                                   data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a></li>
+                       data-toggle="collapse"
+                       data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a></li>
 
 
-                            <div class="collapse list-group-submenu" id="SubMenu1">
-                                <li><a href="?page_id=37" class="list-group-item"
-                                       data-parent="#SubMenu1">L'espace On-Off</a></li>
-                                <li><a href="?page_id=64" class="list-group-item"
-                                       data-parent="#SubMenu1">L'association</a></li>
-                            </div>
-
-                            <li><a href="?page_id=25"
-                                   class="list-group-item list-group-item-success"
-                                   data-parent="#MainMenu">Expositions</a></li>
-                            <li><a href="?page_id=76"
-                                   class="list-group-item list-group-item-success"
-                                   data-parent="#MainMenu">Nos artistes</a></li>
-                            <li><a href="?page_id=79"
-                                   class="list-group-item list-group-item-success"
-                                   data-parent="#MainMenu">Événements</a></li>
-                            <li><a href="?page_id=83"
-                                   class="list-group-item list-group-item-success"
-                                   data-parent="#MainMenu">Ateliers / Stages</a></li>
-
-                            <li><a href="#SubMenu2" class="list-group-item
-                            list-group-item-success"
-                                   data-toggle="collapse"
-                                   data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a></li>
-
-                            <div class="collapse list-group-submenu" id="SubMenu2">
-                                <li><a href="?page_id=95" class="list-group-item"
-                                       data-parent="#SubMenu2">Le studio</a></li>
-                                <li><a href="?page_id=97" class="list-group-item"
-                                       data-parent="#SubMenu2">Les CGV</a></li>
-                                <li><a href="?page_id=99" class="list-group-item"
-                                       data-parent="#SubMenu2">Les tarifs</a></li>
-                            </div>
-
-                            <li><a href="?page_id=148"
-                                   class="list-group-item list-group-item-success"
-                                   data-parent="#MainMenu">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="LinkMenu">
-                        <a href="?page_id=168">Infos pratiques</a>
-
-                        <!--FORMULAIRE DE RECHERCHE-->
-                        <form action="" class="formSearch">
-                            <label class="txt_form">Rechercher</label>
-                            <input type="text" required class="champs_form">
-                            <input type="image" src="img/loupeSearch.png" class="bouton_form">
-                        </form>
-
-                        <!--FORMULAIRE DE NEWSLETTER-->
-                        <form action="" class="formSearch">
-                            <label class="txt_form">Newsletter</label>
-                            <input type="text" required class="champs_form" placeholder="E-mail">
-                            <input type="image" src="img/newsletterOK.png" class="bouton_form2">
-                        </form>
-
-
-                    </div>
-
-                    <!--RESEAUX PICTOS-->
-                    <p class="blockRSMenu">
-                        <a href="#"><img src="img/LogoFB.png" alt="Facebook" class="blockRSMenu"></a>
-                        <a href="#"><img src="img/LogoInstagram.png" alt="Instagram"></a>
-                        <a href="#"><img src="img/LogoVimeo.png" alt="Vimeo"></a>
-                    </p>
-
-                    <div class="linkCredits">
-                        <a href="#">Crédits </a>/
-                        <a href="#"> Mentions légales</a>
-                    </div>
+                <div class="collapse list-group-submenu" id="SubMenu1">
+                    <li><a href="?page_id=37" class="list-group-item"
+                           data-parent="#SubMenu1">L'espace On-Off</a></li>
+                    <li><a href="?page_id=64" class="list-group-item"
+                           data-parent="#SubMenu1">L'association</a></li>
                 </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
+
+                <li><a href="?page_id=25"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Expositions</a></li>
+                <li><a href="?page_id=76"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Nos artistes</a></li>
+                <li><a href="?page_id=79"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Événements</a></li>
+                <li><a href="?page_id=83"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Ateliers / Stages</a></li>
+
+                <li><a href="#SubMenu2" class="list-group-item
+                            list-group-item-success"
+                       data-toggle="collapse"
+                       data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a></li>
+
+                <div class="collapse list-group-submenu" id="SubMenu2">
+                    <li><a href="?page_id=95" class="list-group-item"
+                           data-parent="#SubMenu2">Le studio</a></li>
+                    <li><a href="?page_id=97" class="list-group-item"
+                           data-parent="#SubMenu2">Les CGV</a></li>
+                    <li><a href="?page_id=99" class="list-group-item"
+                           data-parent="#SubMenu2">Les tarifs</a></li>
+                </div>
+
+                <li><a href="?page_id=148"
+                       class="list-group-item list-group-item-success"
+                       data-parent="#MainMenu">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="LinkMenu">
+            <a href="?page_id=168">Infos pratiques</a>
+
+            <!--FORMULAIRE DE RECHERCHE-->
+            <form action="" class="formSearch">
+                <label class="txt_form">Rechercher</label>
+                <input type="text" required class="champs_form">
+                <input type="image" src="<?php echo get_template_directory_uri(); ?>/img/loupeSearch.png"
+                       class="bouton_form">
+            </form>
+
+            <!--FORMULAIRE DE NEWSLETTER-->
+            <form action="" class="formSearch">
+                <label class="txt_form">Newsletter</label>
+                <input type="text" required class="champs_form" placeholder="E-mail">
+                <input type="image" src="<?php echo get_template_directory_uri(); ?>/img/newsletterOK.png"
+                       class="bouton_form2">
+            </form>
+
+
+        </div>
+
+        <!--RESEAUX PICTOS-->
+        <p class="blockRSMenu">
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoFB.png" alt="Facebook"
+                             class="blockRSMenu"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoInstagram.png"
+                             alt="Instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoVimeo.png"
+                             alt="Vimeo"></a>
+        </p>
+
+        <div class="linkCredits">
+            <a href="#">Crédits </a>/
+            <a href="#"> Mentions légales</a>
+        </div>
+    </div>
+    <!--</div>-->
