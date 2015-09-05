@@ -15,15 +15,17 @@
     AUTHOR
 \*------------------------------------*/
 /*body*/
-html body {
-    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-    font-size: 16px;
+body {
+    /*font: 300 11px/1.4 'century-gothic', century-gothic, sans-serif;*/
     width: 100%;
+    font-size: 16px;
+    color: #444;
     margin: 0;
-    padding: 0;
-    /*line-height: 1.4;*/
-    /*color: #eeeae7;*/
+    box-sizing: border-box;
     background-color: #eeeae7;
+    /*font-family: 'brandon', brandon_reg, sans-serif;*/
+    font-family: 'brandon', brandon-grotesque, sans-serif;
+    /*font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
 }
 
 /* Bloc menu box lateral bar */
@@ -54,10 +56,8 @@ a.list-group-item ul li {
     text-decoration: none;
 }
 
-.main-menu {
-    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-}
 a.list-group-item {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     Background-color: white;
     text-transform: uppercase;
     color: #555;
@@ -157,15 +157,6 @@ a.list-group-item:hover, a.list-group-item:focus {
 /* html element 62.5% font-size for REM use */
 html {
     font-size: 62.5%;
-}
-
-body {
-    font: 300 11px/1.4 'century-gothic', century-gothic, sans-serif;
-    color: #444;
-    box-sizing: border-box;
-    background-color: #eeeae7;
-    font-family: '../FONTS/brandon_grotesque_regularRg';
-
 }
 
 /* clear */
