@@ -111,6 +111,7 @@
                    data-parent="#MainMenu">Contact</a></li>
         </ul>
     </div>
+    <?php get_sidebar(); ?>
 
     <div class="LinkMenu">
         <a href="?page_id=168">Infos pratiques</a>
@@ -124,12 +125,38 @@
         </form>
 
         <!--FORMULAIRE DE NEWSLETTER-->
-        <form action="" class="formSearch">
-            <label class="txt_form">Newsletter</label>
-            <input type="text" required class="champs_form" placeholder="E-mail">
-            <input type="image" src="<?php echo get_template_directory_uri(); ?>/img/newsletterOK.png"
-                   class="bouton_form2">
-        </form>
+        <div class="widget_wysija_cont html_wysija">
+            <div id="msg-form-wysija-html55eb38266eb18-2" class="wysija-msg ajax"></div>
+            <form id="form-wysija-html55eb38266eb18-2" method="post" action="#wysija"
+                  class="widget_wysija html_wysija">
+                <p class="wysija-paragraph">
+                    <label>Newsletter <span class="wysija-required">*</span></label>
+
+                    <input type="text" name="wysija[user][email]"
+                           class="champs_form wysija-input validate[required,custom[email]]" title="E-mail" value=""/>
+    <span class="abs-req">
+        <input type="text" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value=""/>
+    </span>
+
+                </p>
+                <input class="wysija-submit wysija-submit-field" src="<?php echo get_template_directory_uri(); ?>/img/newsletterOK.png" type="image"/>
+
+                <input type="hidden" name="form_id" value="2"/>
+                <input type="hidden" name="action" value="save"/>
+                <input type="hidden" name="controller" value="subscribers"/>
+                <input type="hidden" value="1" name="wysija-page"/>
+
+
+                <input type="hidden" name="wysija[user_list][list_ids]" value="1"/>
+            </form>
+        </div>
+
+        <!--FORMULAIRE DE NEWSLETTER-->
+        <!--        <form action="" class="formSearch">-->
+        <!--            <label class="txt_form">Newsletter</label>-->
+        <!--            <input type="text" required class="champs_form" placeholder="E-mail">-->
+        <!--            <input type="image" src="img/newsletterOK.png" class="bouton_form2">-->
+        <!--        </form>-->
 
 
     </div>

@@ -2,316 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9680b62-d899-4042-916b-795a0fb49f64" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\admin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\configuration.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\images\accordionmenu-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\images\accordionmenu-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\images\pro\accordionmenu.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\images\pro\accordionmenupro.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\images\pro\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\images\pro\buynow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\images\pro\details.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\images\pro\infos.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\images\pro\light.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\languages\en_GB\configuration.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\languages\es_ES\configuration.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\languages\pt_BR\configuration.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\joomla\loadmodule.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\joomla\treebase.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\languages\en\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\languages\es\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\languages\fr\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\languages\hu\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\languages\nl\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\languages\pt-BR\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\languages\sl-SI\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\menu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\treebase.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\wordpress\menu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\accordionmenu\wordpress\treebase.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\images\default\minus\1minus.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\images\default\minus\exp2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\images\default\minus\plus.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\images\default\minus\small.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\images\default\plus\1plus.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\images\default\plus\exp2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\images\default\plus\plus.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\images\default\plus\small.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\js\accordionmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\library\assets\accordionmenu\less\clear.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend-accordion-menu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\acl\acl.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\acl\default.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\ajax\ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\animation\animation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\common.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\configurator.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\checkbox.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\color.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\decoration.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\fontmanager.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\imagelist.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\mixed.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\onoff.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\pluginmatrix.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\radio.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\subform.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\switcher.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\text.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\textalign.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\element\textarea.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\fontmanager.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\form.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\jquery.qtip.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\jqueryui\jquery.ui.resizable.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\ni.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\spectrum.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\tabs\defaultvertical.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\tabs\fontmatrix.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\tabs\horizontal.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\tabs\tabbed.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\window.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\css\wordpress\removeslug.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\admin\accordionmenu.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\admin\framework.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\admin\getpro.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\admin\manual.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\admin\smartslider.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\admin\support.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\cal.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\cog.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\configurebutton.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\decoration\bold.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\decoration\italic.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\decoration\underline.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\duplicate.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\export.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\fontbutton.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\fontmanager\settings.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\fontmanager\trashcan.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\onoff.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\radio.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\settingsbutton.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\slideediticons.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\switcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\textalign\center.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\textalign\justify.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\textalign\left.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\textalign\right.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\images\trash.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\base64.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\class.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\datetimepicker_css.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\color.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\fontmanager.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\gradient.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\list.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\menuwithitems.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\mixed.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\onoff.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\radio.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\skin.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\subform.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\switcher.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\element\text.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\fontmanager.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\fontmatrix.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\form.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\jquery.qtip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\json2.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\sortable.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\spectrum.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\tab\tabbed.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\js\window.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\assets\less\elements.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\cache\cache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\cache\css.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\cache\data\data.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\cache\data\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\cache\image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\cache\javascript.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\cache\less.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\css\css.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\css\less.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\css\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\data\data.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\database\database.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\database\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\environment\request.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\externals\mobiledetect.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\externals\zip_lib.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\externals\zip_read.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\filesystem\default.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\filesystem\filesystem.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\filesystem\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\fonts\fontmanager.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\fonts\fontmanager\form.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\fonts\google.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\adsmanagermenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\button.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\checkbox.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\clearcache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\color.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\container.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\cssimagelist.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\dashboard.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\date.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\decoration.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\easing.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\easyblogmenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\folders.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\fontmanager.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\fontmanagerwithlabel.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\fontmatrix.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\fontmatrixchooser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\gradient.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\hidden.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\hikashopmenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\imagelist.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\imagelistfromfolder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\joomshoppingmenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\jqueryeasing.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\k2menuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\list.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\menutheme.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\menutype.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\mijoshopmenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\mixed.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\onoff.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\phocagallerycategories.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\plugingroup.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\pluginmatrix.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\radio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\redshopmenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\skin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\slider.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\sobipromenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\subform.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\subpluginmatrix.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\switcher.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\text.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\textalign.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\textarea.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\tiendamenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\trial.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\url.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\virtuemartmenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\wordpressmenu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\wordpressmenuitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\wordpressmenuwithitems.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\zooapps.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\zooappswithcategories.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\element\zoocategories.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\form.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tab.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\default.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\default1col.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\defaultvertical.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\defaultverticalgroup.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\fontmatrix.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\groupped.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\horizontal.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\raw.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\slide.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\form\tabs\tabbed.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\image\color.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\image\image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\AdapterRegistry.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\DeferredList.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\Stateful.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\cache.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\dojo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\fx.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\fx\Toggler.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\fx\easing.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\fx\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\parser.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\regexp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\string.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\uacss.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\dojo\window.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\1.6.1\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\dojo\dojo.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\javascript.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\easing.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\jQuery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\jquery.mousewheel.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\jquery.touchSwipe.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\jquery.transit.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\jquery.unique-element-id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\jquery.unveil.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\jquery.waitforimages.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\njQuery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\uacss.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\ui\jquery.ui.core.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\ui\jquery.ui.draggable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\ui\jquery.ui.droppable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\ui\jquery.ui.mouse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\ui\jquery.ui.resizable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\ui\jquery.ui.sortable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\1.9.1\ui\jquery.ui.widget.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\jquery\jquery.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\modernizr\modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\modernizr\modernizr.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\javascript\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\json\external\json.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\json\json.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\language.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\languages\bg-BG\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\languages\en\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\languages\es\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\languages\fr\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\languages\hu\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\languages\nl\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\languages\pt-BR\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\languages\sl-SI\common.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\language\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\library.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\message\message.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\mvc\controller.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\mvc\model.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\mvc\router.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\mvc\router\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\mvc\view.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\parse\font.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\parse\ini.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\parse\parse.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\plugin\plugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\plugin\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\uri\uri.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\uri\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\wordpress\configuration.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\wordpress\settings.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\wp-library.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\nextend\xml\xml.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\shortcode.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\themes\default\default.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\themes\default\default\container.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\themes\default\default\context.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\themes\default\default\item.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\themes\default\default\style.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\themes\default\default\theme.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\themes\loadplugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\types\loadplugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\types\wordpress\wordpress.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\types\wordpress\wordpress\menu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\types\wordpress\wordpress\type.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\plugins\nextend-accordion-menu\widget.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ON-OFF.iws" />
@@ -334,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41656804">
+            <state vertical-scroll-proportion="-12.137931">
               <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="29" />
               <folding />
             </state>
@@ -357,18 +49,28 @@
       <file leaf-file-name="page-25.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="-44.70968">
               <caret line="63" column="75" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.741936">
-              <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="80" />
+            <state vertical-scroll-proportion="0.6346382">
+              <caret line="141" column="114" selection-start-line="141" selection-start-column="114" selection-end-line="141" selection-end-column="114" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.941176">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -377,8 +79,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.516667">
-              <caret line="221" column="13" selection-start-line="221" selection-start-column="11" selection-end-line="221" selection-end-column="13" />
+            <state vertical-scroll-proportion="-6.9666667">
+              <caret line="137" column="0" selection-start-line="137" selection-start-column="2" selection-end-line="139" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -457,11 +159,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-83.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/slider.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style-olivier.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" />
       </list>
     </option>
   </component>
@@ -598,32 +300,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="On-Off-Child-HTML5-Blank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ON-OFF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ON-OFF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="On-Off-Child-HTML5-Blank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -866,7 +542,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441468176544</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Brandon HS et intégration de la newsletter">
+      <created>1441471455826</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1441471455826</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1211,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7567568">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1247,14 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.741936">
-          <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/slider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84897023">
@@ -1271,22 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.516667">
-          <caret line="221" column="13" selection-start-line="221" selection-start-column="11" selection-end-line="221" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="75" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style-olivier.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.5675676">
@@ -1297,8 +948,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41656804">
+        <state vertical-scroll-proportion="-12.137931">
           <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.941176">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9666667">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="2" selection-end-line="139" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-44.70968">
+          <caret line="63" column="75" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6346382">
+          <caret line="141" column="114" selection-start-line="141" selection-start-column="114" selection-end-line="141" selection-end-column="114" />
           <folding />
         </state>
       </provider>
