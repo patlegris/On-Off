@@ -23,8 +23,9 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-color: #eeeae7;
-    /*font-family: 'brandon', brandon_reg, sans-serif;*/
-    font-family: 'brandon', brandon, sans-serif;
+    /*font-family: '/fonts/brandon_reg-webfont';*/
+    font-family: 'brandon', brandon_reg-webfont, sans-serif;
+    /*font-family: 'brandon', bran, sans-serif;*/
     /*font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
 }
 

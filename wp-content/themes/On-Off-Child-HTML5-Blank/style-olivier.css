@@ -1,11 +1,11 @@
 /*-----------MON CODE------------*/
 
 /*SELECTEUR UNIVERSEL QUI PERMET D'APPLIQUER LES STYLES DANS TOUTES LES PAGES*/
-body {
-    box-sizing: border-box;
-    background-color: #eeeae7;
-    font-family: '../FONTS/brandon_grotesque_regularRg';
-}
+/*body {*/
+    /*box-sizing: border-box;*/
+    /*background-color: #eeeae7;*/
+    /*font-family: '../FONTS/brandon_grotesque_regularRg';*/
+/*}*/
 
 /*----------BARRE DE MENU----------*/
 .WhiteMenu{
