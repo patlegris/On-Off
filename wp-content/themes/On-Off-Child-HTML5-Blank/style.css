@@ -18,8 +18,8 @@
 html body {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 16px;
-    line-height: 1.4;
-    color: #eeeae7;
+    /*line-height: 1.4;*/
+    /*color: #eeeae7;*/
     background-color: #eeeae7;
 }
 
