@@ -136,14 +136,14 @@ body {
 .wrapper .BG02{
     margin-left: 76px;
     margin-top: 20px;
-    background-image: url(../LeLieu_BG02.png);
+    background-image: url(img/LeLieu_BG02.png);
     background-repeat: no-repeat;
     height: 771px;
 }
 .wrapper .BG08{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(../img/Privatisation_BG02.png);
+    background-image: url(img/img/Privatisation_BG02.png);
     background-repeat: no-repeat;
     height: 752px;
 }
