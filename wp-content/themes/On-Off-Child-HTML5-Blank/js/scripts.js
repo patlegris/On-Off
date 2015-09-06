@@ -38,9 +38,8 @@ on( 'wp_enqueue_scripts', 'load_javascript_files' );
 
 //// Ouverture de la fenêtre et de l'accordion SubMenu1
 //function SubMenu1 () {
-//	location.href='?page_id=2';
-//	location.href='#SubMenu1';
-//	return false;
+//	document.location.assign('http://localhost:8080/ON-OFF/?page_id=2');
+//	console 'test';
 //}
 //
 //// Ouverture de la fenêtre et de l'accordion SubMenu2
