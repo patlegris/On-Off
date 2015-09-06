@@ -109,12 +109,9 @@
                        data-parent="#SubMenu2">Les tarifs</a></li>
             </div>
 
-            <li><a href="?page_id=101"
+            <li><a href="?page_id=148"
                    class="list-group-item list-group-item-success"
                    data-parent="#MainMenu">Contact</a></li>
-<!--        <li><a href="?page_id=148"-->
-<!--                   class="list-group-item list-group-item-success"-->
-<!--                   data-parent="#MainMenu">Contact</a></li>-->
         </ul>
     </div>
 
