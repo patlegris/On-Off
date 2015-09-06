@@ -71,9 +71,11 @@
         <div id="MainMenu">
             <ul class="list-group panel">
 
-                
-                <li><a href="#SubMenu1" class="list-group-item
-                            list-group-item-success strong"
+
+                <li><a href="#" class="list-group-item
+                            list-group-item-success strong dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                       data-delay="1000"
+                       data-close-others="false"
                        data-toggle="collapse"
                        data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a></li>
 

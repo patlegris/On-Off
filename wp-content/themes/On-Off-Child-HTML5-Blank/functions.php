@@ -116,28 +116,24 @@ function pl_setup_script()
     wp_enqueue_script('backstretch'); // Enqueue it!
 
     wp_register_script('slider', get_template_directory_uri() . '/js/lib/slider.js', array('jquery'), '1.0.0'); //
-    // Custom slider scripts
     wp_enqueue_script('slider'); // Enqueue it!
 
 //    Les 3 JS nécessaires au plugin MailPoet Wordpress pour intégration en HTML dur
     wp_register_script('wysija1',
-    'http://localhost:8080/ON-OFF/wp-content/plugins/wysija-newsletters/js/validate
+        'http://localhost:8080/ON-OFF/wp-content/plugins/wysija-newsletters/js/validate
     /languages/jquery.validationEngine-fr.js?ver=2.6.16', array('jquery'), '1.0.0'); //
-    // Custom slider scripts
     wp_enqueue_script('wysija1'); // Enqueue it!
 
     wp_register_script('wysija2', 'http://localhost:8080/ON-OFF/wp-content/plugins/wysija-newsletters/js/validate
     /jquery.validationEngine.js?ver=2.6.16', array('jquery'), '1.0.0'); //
-    // Custom slider scripts
     wp_enqueue_script('wysija2'); // Enqueue it!
 
     wp_register_script('wysija3', 'http://localhost:8080/ON-OFF/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.6.16', array('jquery'), '1.0.0'); //
-    // Custom slider scripts
     wp_enqueue_script('wysija3'); // Enqueue it!
+//  ---------------------------------------------------------------------------------
 
-//    wp_register_script('wysija4', 'http://localhost:8080/ON-OFF/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.6.16', array('jquery'), '1.0.0'); //
-//    // Custom slider scripts
-//    wp_enqueue_script('wysija4'); // Enqueue it!
+    wp_register_script('dropdown', get_template_directory_uri() . '/js/bootstrap-hover-dropdown.js', array('jquery'), '1.0.0'); //
+    wp_enqueue_script('dropdown'); // Enqueue it!
 
 
 }
