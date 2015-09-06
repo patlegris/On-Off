@@ -13,7 +13,7 @@
 
 <!--BLOC 1-->
 <div class="wrapper">
-    <img src="<?php echo get_template_directory_uri(); ?>/Evenements_BG01.png" alt="Atelier ON-OFF Studio"
+    <img src="<?php echo get_template_directory_uri(); ?>/img/Evenements_BG01.png" alt="Atelier ON-OFF Studio"
          class="clearB">
 
     <div class="titreAT1">
@@ -25,81 +25,63 @@
         <h2 class="txtAT02"><span class="txtAT02G">FIL D'ACTU</span>ALITÉ SOCIAL</h2>
 
         <div class="BlocImg">
-            <img src="IMAGES/Bloc_Facebook.png" alt="Facebook" class="BlocImgBas">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Bloc_Facebook.png" alt="Facebook" class="BlocImgBas">
         </div>
         <div class="BlocImg2">
-            <img src="IMAGES/Bloc_Instagram..png" alt="Instagram" class="BlocImgBas">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Bloc_Instagram..png" alt="Instagram" class="BlocImgBas">
         </div>
     </div>
+</div>
 
+<!--BLOC 3-->
+<div class="wrapper3">
+    <h4 class="txtAT05"><span class="txtAT05A">08</span><span class="txtAT05B">OCT 2015</span><span
+            class="txtAT05C">/--- SOIRÉE THÉMATIQUE ---/</span>
+    </h4>
 
-    <!--BLOC 2-->
-    <div class="wrapper2">
-        <h3 class="titreAT2"><span class="retraitAT1">VOUS.</span><br>/--- ÊTES ARTISTE ET SOUHAITEZ ---/<br><span
-                class="retraitAT2">EXPOSER ?</span></h3>
+    <div class="BG06">
+        <p>L’association “La glaise à gogo” organise un stage de sculpture du 13 au 26 mars au On-Off studio. Pour
+            tout
+            renseignement veuillez les contacter par mail ou sur leur site.</p>
 
         <!--BOUTON DYNAMIQUE-->
-        <div class="post-tag2">
-               <span class="arrow-btn post-tag-arrow">
-                    <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>
-                    <span class="arrow-btn-circle post-tag-arrow-circle"></span>
-                    <span class="arrow-btn-text2 post-tag-arrow-text"><a href="?page_id=148&lang=fr">CONTACTEZ-NOUS</a></span>
-                </span>
-        </div>
-
-    </div>
-
-
-    <!--BLOC 3-->
-    <div class="wrapper3">
-        <h4 class="txtAT05"><span class="txtAT05A">08</span><span class="txtAT05B">OCT 2015</span><span
-                class="txtAT05C">/--- SOIRÉE THÉMATIQUE ---/</span>
-        </h4>
-
-        <div class="BG06">
-            <p>L’association “La glaise à gogo” organise un stage de sculpture du 13 au 26 mars au On-Off studio. Pour
-                tout
-                renseignement veuillez les contacter par mail ou sur leur site.</p>
-
-            <!--BOUTON DYNAMIQUE-->
-            <div class="post-tag3">
+        <div class="post-tag3">
                     <span class="arrow-btn post-tag-arrow">
                     <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>
                     <span class="arrow-btn-circle post-tag-arrow-circle"></span>
                     <span class="arrow-btn-text post-tag-arrow-text"><a href="evenements-type.html">EN SAVOIR
                             +</a></span>
                     </span>
-            </div>
-
         </div>
+
     </div>
+</div>
 
-    <!--BLOC 4-->
-    <div class="wrapper4">
-        <img src="IMAGES/trame_bl2_bl3.png" alt="" class="">
-        <h4 class="txtAT05"><span class="txtAT05A">03</span><span class="txtAT05B">NOV 2015</span><span
-                class="txtAT05C">/--- l’ARTISTE CITOYEN URBAIN --/</span>
-        </h4>
+<!--BLOC 4-->
+<div class="wrapper4">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/trame_bl2_bl3.png" alt="Artiste citoyen urbain"
+         class="">
+    <h4 class="txtAT05"><span class="txtAT05A">03</span><span class="txtAT05B">NOV 2015</span><span
+            class="txtAT05C">/--- l’ARTISTE CITOYEN URBAIN --/</span>
+    </h4>
 
-        <div class="BG06">
-            <p>L’association “La glaise à gogo” organise un stage de sculpture du 13 au 26 mars au On-Off studio. Pour
-                tout
-                renseignement veuillez les contacter par mail ou sur leur site.</p>
+    <div class="BG06">
+        <p>L’association “La glaise à gogo” organise un stage de sculpture du 13 au 26 mars au On-Off studio. Pour
+            tout
+            renseignement veuillez les contacter par mail ou sur leur site.</p>
 
-            <!--BOUTON DYNAMIQUE-->
-            <div class="post-tag3">
+        <!--BOUTON DYNAMIQUE-->
+        <div class="post-tag3">
                     <span class="arrow-btn post-tag-arrow">
                     <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>
                     <span class="arrow-btn-circle post-tag-arrow-circle"></span>
                     <span class="arrow-btn-text post-tag-arrow-text"><a href="evenements-type.html">EN SAVOIR
                             +</a></span>
                     </span>
-            </div>
-
         </div>
-        <p class="numFinP">< 1 - 2 - 3 - 4 ></p>
     </div>
-
+    <p class="numFinP">< 1 - 2 - 3 - 4 ></p>
+</div>
 </div>
 
 
