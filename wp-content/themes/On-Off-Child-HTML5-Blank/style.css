@@ -112,6 +112,16 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 
 /*------------------------------------*\
+    Fix gauche du aside droit
+\*------------------------------------*/
+.fixgauche{
+    z-index: 9999;
+    position: fixed;
+    top: 50px;
+    /* Mise en forme */
+    /*width: 270px;*/
+}
+/*------------------------------------*\
     Formatage de la page contact
 \*------------------------------------*/
 

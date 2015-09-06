@@ -10,6 +10,16 @@
         <h1>EXPOSITIONS</h1>
     </div>
 
+    <!--SCRIPT ASIDE FIXE-->
+    <script>
+        window.onscroll = function() {
+            var scroll = (document.documentElement.scrollTop ||
+            document.body.scrollTop);
+            if(scroll>30)
+                document.getElementsByClassName('blocAside').style.fixedtop = scroll+'px';
+        }
+    </script>
+
     <!--BLOC ASIDE-->
     <div class="blocAside">
         <h2 class="txtAT02"><span class="txtAT02G">EXPOSITIONS</span> A VENIR</h2>
