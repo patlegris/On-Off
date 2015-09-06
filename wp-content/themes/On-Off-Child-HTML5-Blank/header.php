@@ -37,9 +37,6 @@
             tests: {}
         });
     </script>
-    <!--    Font for accordion-->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-          rel="stylesheet">
 </head>
 
 <body>
@@ -73,7 +70,7 @@
         <!--Menu accordion, over/active button bootstrap style modified-->
         <div id="MainMenu">
             <ul class="list-group panel">
-                <li><a href="#SubMenu1" class="list-group-item
+                <li><a href="#SubMenu1"  class="list-group-item
                             list-group-item-success"
                        data-toggle="collapse"
                        data-parent="#MainMenu">Le lieu <b class="caret"></b></a></li>
