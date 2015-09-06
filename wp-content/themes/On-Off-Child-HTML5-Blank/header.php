@@ -69,14 +69,11 @@
 
         <!--Menu accordion, over/active button bootstrap style modified-->
         <div id="MainMenu">
-            <ul class="list-group panel ">
-
-
-                <li><a href="#" class="list-group-item
-                            list-group-item-success strong dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                       data-delay="1000"
-                       data-close-others="false"
-                       data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a></li>
+            <ul class="list-group panel">
+                <li><a href="#SubMenu1"  class="list-group-item
+                            list-group-item-success"
+                       data-toggle="collapse"
+                       data-parent="#MainMenu">Le lieu <b class="caret"></b></a></li>
 
 
                 <div class="collapse list-group-submenu" id="SubMenu1">
@@ -102,7 +99,7 @@
                 <li><a href="#SubMenu2" class="list-group-item
                             list-group-item-success"
                        data-toggle="collapse"
-                       data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a></li>
+                       data-parent="#MainMenu">Privatisation <b class="caret"></b></a></li>
 
                 <div class="collapse list-group-submenu" id="SubMenu2">
                     <li><a href="?page_id=95" class="list-group-item"
