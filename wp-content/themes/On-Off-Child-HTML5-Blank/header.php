@@ -71,11 +71,8 @@
         <div id="MainMenu">
             <ul class="list-group panel">
 
-<!--                <script>// affectation de fonction anonyme declarée en ligne-->
-<!--                    SubMenu1.onclick = function () {-->
-<!--                        document.location.assign('http://localhost:8080/ON-OFF/?page_id=2');-->
-<!--                    };</script>-->
-                <li><a href="#SubMenu1" id="SubMenu1" class="list-group-item
+                
+                <li><a href="#SubMenu1" class="list-group-item
                             list-group-item-success strong"
                        data-toggle="collapse"
                        data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a></li>

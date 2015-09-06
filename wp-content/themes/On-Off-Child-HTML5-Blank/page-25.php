@@ -1,16 +1,5 @@
 <?php get_header(); ?>
 
-
-<!--SCRIPT ASIDE FIXE-->
-<script>
-    window.onscroll = function () {
-        var scroll = (document.documentElement.scrollTop ||
-        document.body.scrollTop);
-        if (scroll > 30)
-            document.getElementsByClassName('blocAside').style.fixedtop = scroll + 'px';
-    }
-</script>
-
 <!--BLOC 1-->
 <div class="wrapper">
     <img src="<?php echo get_template_directory_uri(); ?>/img/Expositions_BG01.png" alt="Expositions ON-OFF Studio"
