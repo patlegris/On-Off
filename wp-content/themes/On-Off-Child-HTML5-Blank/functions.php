@@ -132,8 +132,8 @@ function pl_setup_script()
     wp_enqueue_script('wysija3'); // Enqueue it!
 //  ---------------------------------------------------------------------------------
 
-//    wp_register_script('dropdown', get_template_directory_uri() . '/js/bootstrap-hover-dropdown.js', array('jquery'), '2.1.3'); //
-//    wp_enqueue_script('dropdown'); // Enqueue it!
+    wp_register_script('dropdown', get_template_directory_uri() . '/js/bootstrap-hover-dropdown.js', array('jquery'), '2.1.3'); //
+    wp_enqueue_script('dropdown'); // Enqueue it!
 
 
 }
