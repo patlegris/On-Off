@@ -14,6 +14,7 @@ body {
     margin-left: 54px;
     float:left;
     position:fixed;
+    z-index: 50;
 }
 .WhiteMenu .logoImg{
     margin-left: 17px;
@@ -135,14 +136,14 @@ body {
 .wrapper .BG02{
     margin-left: 76px;
     margin-top: 20px;
-    background-image: url(../IMAGES/LeLieu_BG02.png);
+    background-image: url(img/LeLieu_BG02.png);
     background-repeat: no-repeat;
     height: 771px;
 }
 .wrapper .BG08{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(../IMAGES/Privatisation_BG02.png);
+    background-image: url(img/Privatisation_BG02.png);
     background-repeat: no-repeat;
     height: 752px;
 }

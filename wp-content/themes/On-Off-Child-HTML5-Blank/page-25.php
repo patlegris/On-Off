@@ -69,7 +69,7 @@
 
 <!--BLOC 3-->
 <div class="wrapper3">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/trame_bl1_bl2.png" alt="">
+    <img src="<?php echo get_template_directory_uri(); ?>img/trame_bl1_bl2.png" alt="">
     <h4 class="txtAT05"><span class="txtAT05A"><span class="littleTXT">du</span> 07 <span
                 class="littleTXT">au</span> 11</span><span class="txtAT05B">OCT 2016</span><span
             class="txtAT05C">/--- VIA HORIZON ---/</span></h4>
@@ -93,9 +93,6 @@
     </div>
     <p class="numFinP">< 1 - 2 - 3 - 4 ></p>
 </div>
-
-
-<!--Lien vers mes comamandes JQUERY-->
 
 
 </body>
