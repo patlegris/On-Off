@@ -219,7 +219,7 @@
         </p>
 
         <div class="linkCredits">
-            <a href="#">Crédits </a>/
-            <a href="#"> Mentions légales</a>
+            <a href="?page_id=191">Crédits </a>/
+            <a href="?page_id=189"> Mentions légales</a>
         </div>
     </div>
