@@ -489,28 +489,28 @@ body {
 /**** BLOC H3 AVEC BOUTON ****/
 .post-tag{
     display: block;
-    margin: 0px 0px 0px 75px;
+    margin: 0px 0px 0px 85px;
     cursor: pointer;
     text-align: left;
     width: 80px;
 }
 .post-tag2{
     display: block;
-    margin: 0px 0px 0px 460px;
+    margin: 0px 0px 0px 470px;
     cursor: pointer;
     text-align: left;
     width: 80px;
 }
 .post-tag3{
     display: block;
-    margin: -10px 0px 0px 300px;
+    margin: -10px 0px 0px 310px;
     cursor: pointer;
     text-align: left;
     width: 80px;
 }
 .post-tag4{
     display: block;
-    margin: -10px 0px 0px 100px;
+    margin: -10px 0px 0px 110px;
     padding-bottom: 10px;
     cursor: pointer;
     text-align: left;
@@ -521,7 +521,7 @@ body {
 .post-tag3 a,
 .post-tag4 a{
     text-decoration: none;
-    font-family: '../FONTS/brandon_grotesque_regularRg';
+    font-family: '../fonts/brandon_grotesque_regularRg';
     color: #555452;
 }
 
@@ -533,7 +533,7 @@ body {
     /* Gestion de la police */
     font-size:25px;
     line-height:33px;
-    font-family: '../FONTS/brandon_grotesque_regularRg';
+    font-family: '../fonts/brandon_grotesque_regularRg';
     color: #555452;
 }
 .post-tag-arrow{
@@ -549,7 +549,7 @@ body {
 .arrow-btn .arrow-btn-icon{
     position:absolute;
     top:-1px;
-    left:2px;
+    left:15px;
     width:30px;
     height:30px;
     font-size:25px
@@ -570,7 +570,7 @@ body {
     position:absolute;
     display:block;
     top:0px;
-    left: -9px;
+    left: 5px;
     width:30px;
     height:30px;
     -webkit-border-radius:30px;
