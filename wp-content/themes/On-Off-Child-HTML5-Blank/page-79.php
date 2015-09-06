@@ -25,11 +25,22 @@
         <h2 class="txtAT02"><span class="txtAT02G">FIL D'ACTU</span>ALITÉ SOCIAL</h2>
 
         <div class="BlocImg">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/Bloc_Facebook.png" alt="Facebook" class="BlocImgBas">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Bloc_Facebook.png" alt="Facebook"
+                 class="BlocImgBas">
         </div>
         <div class="BlocImg2">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/Bloc_Instagram..png" alt="Instagram" class="BlocImgBas">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Bloc_Instagram..png" alt="Instagram"
+                 class="BlocImgBas">
         </div>
+    </div>
+    <div class="txtAT1">
+        <p>Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh, eleifend sit amet lectus
+            vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus vitae, interdum non nisi.
+            Phasellus non nulla eget nunc pharetra vestibulum nec non leo. Donec sapien justo, varius vitae rutrum sit
+            amet, gravida sagittis lacus.Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh,
+            eleifend sit amet lectus vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus vitae,
+            interdum non nisi. Phasellus non nulla eget nunc pharetra vestibulum nec non leo. Donec sapien justo, varius
+            vitae rutrum sit amet, gravida sagittis lacus.</p>
     </div>
 </div>
 
