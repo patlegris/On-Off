@@ -56,7 +56,7 @@
             <br>
         </p>
 
-        <a href="#"><img src="IMAGES/Privatisation_btn01.png" alt="" class="floatR PadTop3"></a>
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/Privatisation_btn01.png" alt="" class="floatR PadTop3"></a>
     </div>
     <img src="<?php echo get_template_directory_uri(); ?>/img/Privatisation_BG03.png" alt="L'association Blanc Titane"
          class="blocASS2VALIGN">
