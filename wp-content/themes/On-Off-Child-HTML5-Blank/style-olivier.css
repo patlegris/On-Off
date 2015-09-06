@@ -100,7 +100,7 @@ body {
     font-size: 45px;
     line-height: 120px;
     background-color: #eeeae7;
-    height: 90px;
+    height: 95px;
     width: 610px;
     color: #f26522;
     float: left;
@@ -136,14 +136,14 @@ body {
 .wrapper .BG02{
     margin-left: 76px;
     margin-top: 20px;
-    background-image: url(img/LeLieu_BG02.png);
+    background-image: url(../LeLieu_BG02.png);
     background-repeat: no-repeat;
     height: 771px;
 }
 .wrapper .BG08{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(img/Privatisation_BG02.png);
+    background-image: url(../img/Privatisation_BG02.png);
     background-repeat: no-repeat;
     height: 752px;
 }
