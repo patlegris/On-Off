@@ -57,34 +57,34 @@
 </div>
 
 <!--BLOC 4-->
-<div class="wrapper4">
-    <div class="blocASS1">
-        <h4 class="txtAT05C2">/--- L'ASSOCIATION ---/</h4>
-
-        <p class="txtPad01">Lieu d’expérimentation, la Galerie des Galeries continue ici à imaginer de nouvelles formes
-            d’expositions et invite des contributeurs issus de différents champs créatifs à penser ensemble un projet
-            qui interroge l’art, la mode et le design. Le visiteur se retrouve au sein d’une circulation particulière
-            dont le point de départ est toujours l’oeuvre.
-            <br>
-            <!--BOUTON DYNAMIQUE-->
-
-        <div class="post-tag">
-                    <span class="arrow-btn post-tag-arrow">
-                    <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>
-                    <span class="arrow-btn-circle post-tag-arrow-circle"></span>
-                    <span class="arrow-btn-text post-tag-arrow-text"><a href="association.html">EN SAVOIR +</a></span>
-                    </span>
-        </div>
-
-
-        </p>
-
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/LeLieu_btn01.png" alt=""
-                         class="floatR PadTop2"></a>
-    </div>
-    <img src="<?php echo get_template_directory_uri(); ?>/img/LeLieu_BG03.png" alt="L'association Blanc Titane"
-         class="blocASS2VALIGN">
-</div>
+<!--<div class="wrapper4">-->
+<!--    <div class="blocASS1">-->
+<!--        <h4 class="txtAT05C2">/--- L'ASSOCIATION ---/</h4>-->
+<!---->
+<!--        <p class="txtPad01">Lieu d’expérimentation, la Galerie des Galeries continue ici à imaginer de nouvelles formes-->
+<!--            d’expositions et invite des contributeurs issus de différents champs créatifs à penser ensemble un projet-->
+<!--            qui interroge l’art, la mode et le design. Le visiteur se retrouve au sein d’une circulation particulière-->
+<!--            dont le point de départ est toujours l’oeuvre.-->
+<!--            <br>-->
+<!--            <!--BOUTON DYNAMIQUE-->-->
+<!---->
+<!--        <div class="post-tag">-->
+<!--                    <span class="arrow-btn post-tag-arrow">-->
+<!--                    <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>-->
+<!--                    <span class="arrow-btn-circle post-tag-arrow-circle"></span>-->
+<!--                    <span class="arrow-btn-text post-tag-arrow-text"><a href="association.html">EN SAVOIR +</a></span>-->
+<!--                    </span>-->
+<!--        </div>-->
+<!---->
+<!---->
+<!--        </p>-->
+<!---->
+<!--        <a href="#"><img src="--><?php //echo get_template_directory_uri(); ?><!--/img/LeLieu_btn01.png" alt=""-->
+<!--                         class="floatR PadTop2"></a>-->
+<!--    </div>-->
+<!--    <img src="--><?php //echo get_template_directory_uri(); ?><!--/img/LeLieu_BG03.png" alt="L'association Blanc Titane"-->
+<!--         class="blocASS2VALIGN">-->
+<!--</div>-->
 
 
 </body>
