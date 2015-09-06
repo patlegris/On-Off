@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9680b62-d899-4042-916b-795a0fb49f64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-195.php" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Child-HTML5-Blank\frontpage.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Child-HTML5-Blank\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Child-HTML5-Blank\screenshot.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-83.php" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-83.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -55,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.5161295">
-              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="58" selection-end-column="10" />
+              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="60" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -66,6 +60,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-148HOLD.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-148HOLD.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7096774">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -91,20 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.808933">
+            <state vertical-scroll-proportion="-9.588235">
               <caret line="218" column="33" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-83.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-83.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-83.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.709677">
+            <state vertical-scroll-proportion="0.9134045">
               <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
               <folding />
             </state>
@@ -177,8 +181,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-189.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-193.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-83.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-83.php" />
       </list>
     </option>
   </component>
@@ -677,7 +681,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441551410003</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Bugs bandeau sous slider et link &quot;sous-menus&quot;. Double link pour les dropdown HS, ateliers / stages OK">
+      <created>1441553264666</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1441553264666</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -723,7 +733,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="menu orange on hover" />
     <MESSAGE value="menu orange collapse et href ok" />
     <MESSAGE value="page 79 en cours, étapes" />
     <MESSAGE value="Vendredi matin" />
@@ -748,7 +757,8 @@
     <MESSAGE value="Bugs bandeau sous slider et link &quot;sous-menus&quot;. Double link pour les dropdown" />
     <MESSAGE value="Bugs bandeau sous slider et link &quot;sous-menus&quot;. Double link pour les dropdown HS, mentions légales P189" />
     <MESSAGE value="Bugs bandeau sous slider et link &quot;sous-menus&quot;. Double link pour les dropdown HS, mentions artistes-type ?p=193" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bugs bandeau sous slider et link &quot;sous-menus&quot;. Double link pour les dropdown HS, mentions artistes-type ?p=193" />
+    <MESSAGE value="Bugs bandeau sous slider et link &quot;sous-menus&quot;. Double link pour les dropdown HS, ateliers / stages OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugs bandeau sous slider et link &quot;sous-menus&quot;. Double link pour les dropdown HS, ateliers / stages OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1030,14 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-148HOLD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026097272">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-79.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71293">
@@ -1102,26 +1104,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.588235">
+          <caret line="218" column="33" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-148HOLD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5161295">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="58" selection-end-column="10" />
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="60" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-83.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.709677">
+        <state vertical-scroll-proportion="0.9134045">
           <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.808933">
-          <caret line="218" column="33" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
           <folding />
         </state>
       </provider>
