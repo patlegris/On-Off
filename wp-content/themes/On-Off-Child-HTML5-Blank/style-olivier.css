@@ -143,7 +143,7 @@ body {
 .wrapper .BG08{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(img/img/Privatisation_BG02.png);
+    background-image: url(img/Privatisation_BG02.png);
     background-repeat: no-repeat;
     height: 752px;
 }
@@ -219,21 +219,21 @@ body {
 .wrapper3 .BG02{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(../IMAGES/Atelier_BG02.png);
+    background-image: url(img/Atelier_BG02.png);
     background-repeat: no-repeat;
     height: 527px;
 }
 .wrapper3 .BG04{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(../IMAGES/Expositions_BG02.png);
+    background-image: url(img/Expositions_BG02.png);
     background-repeat: no-repeat;
     height: 527px;
 }
 .wrapper3 .BG06{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(../IMAGES/Evenements_BG02.png);
+    background-image: url(img/Evenements_BG02.png);
     background-repeat: no-repeat;
     height: 527px;
 }
@@ -241,7 +241,7 @@ body {
     margin-left: 80px;
     margin-top: 20px;
     margin-bottom: 150px;
-    background-image: url(../IMAGES/Expositions-type_BG02.png);
+    background-image: url(img/Expositions-type_BG02.png);
     background-repeat: no-repeat;
     height: 522px;
 }
@@ -305,21 +305,21 @@ body {
 .wrapper4 .BG02{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(../IMAGES/Atelier_BG03.png);
+    background-image: url(img/Atelier_BG03.png);
     background-repeat: no-repeat;
     height: 527px;
 }
 .wrapper4 .BG04{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(../IMAGES/Expositions_BG03.png);
+    background-image: url(img/Expositions_BG03.png);
     background-repeat: no-repeat;
     height: 527px;
 }
 .wrapper4 .BG06{
     margin-left: 80px;
     margin-top: 20px;
-    background-image: url(../IMAGES/Evenements_BG03.png);
+    background-image: url(img/Evenements_BG03.png);
     background-repeat: no-repeat;
     height: 527px;
 }

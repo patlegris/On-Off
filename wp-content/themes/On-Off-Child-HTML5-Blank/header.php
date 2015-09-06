@@ -40,7 +40,7 @@
 </head>
 
 <body>
-<!--<div class="container">-->
+<div class="container">
 <!--    <div class="row">-->
 <!--        <nav class="navbar">-->
 <!--            <div class="container-fluid">-->
@@ -57,6 +57,8 @@
 <!--                </div>-->
 
 <!-- Collect the nav links, forms, and other content for toggling -->
+
+
 <div class="WhiteMenu" id="">
     <!--Logo On-Off insertion-->
     <div class="logo">
