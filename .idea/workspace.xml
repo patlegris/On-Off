@@ -28,8 +28,18 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6785291">
-              <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.78291816">
+              <caret line="176" column="45" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-41.16129">
+              <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -355,12 +365,6 @@
       <option name="number" value="Default" />
       <updated>1440059852896</updated>
     </task>
-    <task id="LOCAL-00006" summary="page 79 en cours, étapes">
-      <created>1441298476443</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1441298476443</updated>
-    </task>
     <task id="LOCAL-00007" summary="page 79 en cours, étapes">
       <created>1441301221370</created>
       <option name="number" value="00007" />
@@ -649,7 +653,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441566193694</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Bugs bandeau sous slider et link &quot;sous-menus&quot;. Double link pour les dropdown HS. Dynamiser les pages évènements, expositions, ateliers stages et artistes.">
+      <created>1441570320017</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1441570320017</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1063,13 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.83871">
-          <caret line="57" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-64.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7746145">
@@ -1093,10 +1096,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-41.16129">
+          <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6785291">
-          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.78291816">
+          <caret line="176" column="45" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
           <folding />
         </state>
       </provider>

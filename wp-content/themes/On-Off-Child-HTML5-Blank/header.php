@@ -77,6 +77,8 @@
 
 
                 <div class="collapse list-group-submenu" id="SubMenu1">
+                    <li><a href="?page_id=2" class="list-group-item"
+                           data-parent="#SubMenu1">Tout savoir</a></li>
                     <li><a href="?page_id=37" class="list-group-item"
                            data-parent="#SubMenu1">L'espace On-Off</a></li>
                     <li><a href="?page_id=64" class="list-group-item"
@@ -102,6 +104,8 @@
                        data-parent="#MainMenu">Privatisation <b class="caret"></b></a></li>
 
                 <div class="collapse list-group-submenu" id="SubMenu2">
+                    <li><a href="?page_id=88" class="list-group-item"
+                           data-parent="#SubMenu2">Privatisez</a></li>
                     <li><a href="?page_id=95" class="list-group-item"
                            data-parent="#SubMenu2">Le studio</a></li>
                     <li><a href="?page_id=97" class="list-group-item"
@@ -170,9 +174,8 @@
                                 </div>
                                 <div class="modal-body">
                                     <p>Votre adresse email est bien prise en compte, nous vous proposons de vérifier
-                                        dans
-                                        votre boite mail le message de confirmation que nous venons de vous adresser.
-                                        .</p>
+                                        dans votre boite mail le message de confirmation que nous venons de vous
+                                        adresser.</p>
                                     <br>
 
                                     <p>Merci et à très bientôt dans votre boite email.</p>
