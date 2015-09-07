@@ -72,7 +72,7 @@
                     <span class="arrow-btn post-tag-arrow">
                     <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>
                     <span class="arrow-btn-circle post-tag-arrow-circle"></span>
-                    <span class="arrow-btn-text post-tag-arrow-text"><a href="association.html">EN SAVOIR +</a></span>
+                    <span class="arrow-btn-text post-tag-arrow-text"><a href="?page_id=64">EN SAVOIR +</a></span>
                     </span>
         </div>
 

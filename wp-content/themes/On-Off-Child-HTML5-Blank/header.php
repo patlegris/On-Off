@@ -78,9 +78,9 @@
 
                 <div class="collapse list-group-submenu" id="SubMenu1">
                     <li><a href="?page_id=2" class="list-group-item"
-                           data-parent="#SubMenu1">Tout savoir</a></li>
-                    <li><a href="?page_id=37" class="list-group-item"
                            data-parent="#SubMenu1">L'espace On-Off</a></li>
+<!--                    <li><a href="?page_id=37" class="list-group-item"-->
+<!--                           data-parent="#SubMenu1">L'espace On-Off</a></li>-->
                     <li><a href="?page_id=64" class="list-group-item"
                            data-parent="#SubMenu1">L'association</a></li>
                 </div>
