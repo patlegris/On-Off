@@ -588,6 +588,28 @@ body {
     -o-transition-timing-function:cubic-bezier(.77, 0, .175, 1);
     transition-timing-function:cubic-bezier(.77, 0, .175, 1)
 }
+.arrow-btn-more{
+    position:absolute;
+    display:block;
+    top:0px;
+    left: 5px;
+    width:1000px;
+    height:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    behavior:url(/PIE.htc);
+    border:1px solid #555452;
+    overflow:hidden;
+    -webkit-transition:0.4s width ease-in-out, 0.4s left 0.1s ease-in-out;
+    -moz-transition:0.4s width ease-in-out, 0.4s left 0.1s ease-in-out;
+    -o-transition:0.4s width ease-in-out, 0.4s left 0.1s ease-in-out;
+    transition:0.4s width ease-in-out, 0.4s left 0.1s ease-in-out;
+    -moz-transition-timing-function:cubic-bezier(.77, 0, .175, 1);
+    -webkit-transition-timing-function:cubic-bezier(.77, 0, .175, 1);
+    -o-transition-timing-function:cubic-bezier(.77, 0, .175, 1);
+    transition-timing-function:cubic-bezier(.77, 0, .175, 1)
+}
 /* Btn En savoir + */
 .post-tag:hover .arrow-btn-circle,
 .post-tag3:hover .arrow-btn-circle,
