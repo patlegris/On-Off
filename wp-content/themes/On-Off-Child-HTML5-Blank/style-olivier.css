@@ -160,7 +160,12 @@ body {
     padding-top: 40px;
     padding-left: 30px;
 }
-
+.wrapper5 {
+    width: 1075px;
+    margin: 0 auto;
+    background-color: #eeeae7;
+    margin-left: 100px;
+}
 /*----------BLOCK 2 CENTRE----------*/
 .wrapper2 {
     width: 1075px;
