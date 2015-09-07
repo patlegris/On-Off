@@ -2,7 +2,7 @@
 
 <!--BLOC 1-->
 <div class="wrapper">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/Expositions_BG01.png" alt="Expositions ON-OFF Studio"
+    <img src="<?php echo get_template_directory_uri(); ?>/img/Expositions_BG01.jpg" alt="Expositions ON-OFF Studio"
          class="clearB">
 
     <div class="titreAT1">

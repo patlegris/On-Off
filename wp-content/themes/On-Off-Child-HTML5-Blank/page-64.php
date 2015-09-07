@@ -25,42 +25,6 @@
     <div class="titreAT1">
         <h1>L'association</h1>
     </div>
-
-    <!--BLOC ASIDE-->
-    <!--    <div class="blocAside">-->
-    <!--        <h2 class="txtAT02"><span class="txtAT02G">INFORMATIONS</span></h2>-->
-    <!---->
-    <!--        <div class="BlocImg">-->
-    <!--            <h4 class="titreAT04 BRTOP15">/--- DÉTAILS TECHNIQUES ---/</h4>-->
-    <!---->
-    <!--            <p class="txtAT04">Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in cursus eu,-->
-    <!--                suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus mil ut lacus. In massa est, commodo-->
-    <!--                a orci.</p>-->
-    <!---->
-    <!--            <p class="txtAT04">Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in cursus eu,-->
-    <!--                suscipit ut lacus massa dapibus. Fusce ipsum elit, porttitor in cursus eu, suscipit ut lacus.</p>-->
-    <!---->
-    <!--        </div>-->
-    <!--    </div>-->
-
-    <!--    <div class="txtAT1">-->
-    <!--        <p>Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh, eleifend sit amet lectus-->
-    <!--            vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus vitae, interdum non nisi.-->
-    <!--            Phasellus non nulla eget nunc pharetra vestibulum nec non leo. Donec sapien justo, varius vitae rutrum sit-->
-    <!--            amet, gravida sagittis lacus. Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in-->
-    <!--            cursus eu, suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus mi. </p>-->
-    <!--    </div>-->
-    <!--    <span class="txtAT05C2">/--- L'ESPACE ON-OFF ---/</span>-->
-    <!---->
-    <!--    <div class="BG02">-->
-    <!--        <p>Espace d’échanges artistique et culturelle, us, iquam ligula in, facilisis neque. Nullam neque nibh, eleifend-->
-    <!--            sit amet lectus vitae, varius. Ras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque-->
-    <!--            nibh, eleifend sit amet lectus vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus-->
-    <!--            vitae, interdum non nisi. Phasellus non nulla eget nunc pharetra vestibulum nec non leo. Donec sapien justo,-->
-    <!--            varius vitae rutrum sit amet, gravida sagittis lacus. Nunc ut elit non lorem elementum molestie. Fusce ipsum-->
-    <!--            elit, porttitor in cursus eu, suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus mi.</p>-->
-    <!--        <a id="zoneClic1" href="?page_id=168" title="Nous trouver"></a>-->
-    <!--    </div>-->
 </div>
 
 <!--BLOC 4-->

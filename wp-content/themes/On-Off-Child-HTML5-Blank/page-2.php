@@ -13,7 +13,7 @@
 
 <!--BLOC 1-->
 <div class="wrapper">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/LeLieu_BG01.png" alt="Expositions ON-OFF Studio" class="clearB">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/LeLieu_BG01.jpg" alt="Expositions ON-OFF Studio" class="clearB">
 
     <div class="titreAT1">
         <h1>LE STUDIO ON-OFF</h1>
