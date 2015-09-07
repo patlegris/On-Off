@@ -364,6 +364,10 @@ body {
 .wrapper4 .txtPad01{
     padding: 30px 40px 10px 75px;
 }
+div > p:nth-child(7) > a.txtPad01 {
+    /*padding: 30px 40px 10px 75px;*/
+    max-width: 400px;
+}
 .wrapper4 .PadTop2{
     padding-top: 70px;
 }
@@ -372,6 +376,10 @@ body {
 }
 .wrapper4 .PadTop3{
     padding-top: 100px;
+}
+
+h4 > a {
+    color: #f26522;
 }
 
 /*----------BLOCK A DROITE----------*/

@@ -11,13 +11,13 @@
     <!-- section -->
     <section>
 
-        <h4 class="txtAT05C2">/--- <?php echo sprintf(__('%s Search Results for ', 'html5blank'),
+        <h3 class="txtAT05C2">/--- <?php echo sprintf(__('%s Search Results for ', 'html5blank'),
                 $wp_query->found_posts);
-            echo get_search_query(); ?> ---/</h4>
+            echo get_search_query(); ?> ---/</h3>
 
         <?php get_template_part('search-result'); ?>
 
-        <?php get_template_part('pagination'); ?>
+        <h4 class="txtAT05C2"><?php get_template_part('pagination'); ?></h4>
 
     </section>
 
