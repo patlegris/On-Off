@@ -63,7 +63,7 @@
         <!--Logo On-Off insertion-->
         <div class="logo">
             <a href="<?php echo home_url(); ?>./">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo"
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo On-Off"
                      class="logo-img"></a>
         </div>
 

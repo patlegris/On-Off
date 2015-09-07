@@ -45,23 +45,24 @@
 	<!--Logo On-Off insertion-->
 	<div class="logo">
 		<a href="<?php echo home_url(); ?>./">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo"
+			<img src="<?php echo get_template_directory_uri(); ?>/img/logo-on-off.svg" alt="Logo On-Off"
 				 class="logo-img"></a>
 	</div>
 
 	<!--Menu accordion, over/active button bootstrap style modified-->
 	<div id="MainMenu">
 		<ul class="list-group panel">
-
-			<li><a href="#SubMenu1" class="list-group-item
-                            list-group-item-success strong"
+			<li><a href="#SubMenu1"  class="list-group-item
+                            list-group-item-success"
 				   data-toggle="collapse"
-				   data-parent="#MainMenu">Le lieu <i class="fa fa-caret-down"></i></a></li>
+				   data-parent="#MainMenu">Le lieu <b class="caret"></b></a></li>
 
 
 			<div class="collapse list-group-submenu" id="SubMenu1">
-				<li><a href="?page_id=37" class="list-group-item"
+				<li><a href="?page_id=2" class="list-group-item"
 					   data-parent="#SubMenu1">L'espace On-Off</a></li>
+				<!--                    <li><a href="?page_id=37" class="list-group-item"-->
+				<!--                           data-parent="#SubMenu1">L'espace On-Off</a></li>-->
 				<li><a href="?page_id=64" class="list-group-item"
 					   data-parent="#SubMenu1">L'association</a></li>
 			</div>
@@ -82,9 +83,11 @@
 			<li><a href="#SubMenu2" class="list-group-item
                             list-group-item-success"
 				   data-toggle="collapse"
-				   data-parent="#MainMenu">Privatisation <i class="fa fa-caret-down"></i></a></li>
+				   data-parent="#MainMenu">Privatisation <b class="caret"></b></a></li>
 
 			<div class="collapse list-group-submenu" id="SubMenu2">
+				<li><a href="?page_id=88" class="list-group-item"
+					   data-parent="#SubMenu2">Privatisez</a></li>
 				<li><a href="?page_id=95" class="list-group-item"
 					   data-parent="#SubMenu2">Le studio</a></li>
 				<li><a href="?page_id=97" class="list-group-item"
@@ -103,14 +106,7 @@
 	<div class="LinkMenu">
 
 		<!--    Langues-->
-		<div id="polylang-2" class="widget_polylang">
-			<ul>
-				<li class="lang-item lang-item-16 lang-item-fr current-lang"><a hreflang="fr"
-																				href="http://localhost:8080/ON-OFF/?page_id=25"><img
-							src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYiyeepkBBv79+Zfnx/f379+fP38CyT9//jAyMiq5GP77wvDnJ8MfoAIGBoAAYgGqC7STApL///3/9++/pCTv////Qdz/QO4/IMna0vf/z+9/v379//37bUUTQACBNDD8Z/j87fffvyAVX79+/Q8GQDbQeKA9fM+e/Pv18/+vnwzCIkBLAAKQOAY5AIAwCEv4/4PddNUm3ji0QJyxW3rgzE0iLfqDGr2oYuu0l54AYvnz5x9Q6d+/QPQfyAQqAin9B3EOyG1A1UDj//36zfjr1y8GBoAAFI9BDgAwCMIw+P8Ho3GDO6XQ0l4MN8b2kUwYaLszqgKM/KHcDXwBxAJUD3TJ779A8h9Q5D8SAHoARP36+Rfo41+/mcA2AAQQy49ff0Cu//MPpAeI/0FdA1QNYYNVA/3wmwEYVgwMAAHE8uPHH5BqoD1//gJJLADoJKDS378Z//wFhhJAALF8A3rizz8uTmYg788fJkj4QOKREQyYxSWBhjEC/fcXZANAALF8+/anbcHlHz9+ffvx58uPX9KckkCn/gby/wLd8uvHjx96k+cD1UGiGQgAAgwA7q17ZpsMdUQAAAAASUVORK5CYII="
-							title="Français (fr_FR)" alt="Français"/></a></li>
-			</ul>
-		</div>
+		<?php get_sidebar(); ?>
 		<br>
 
 		<!--Infos pratiques-->
@@ -119,11 +115,12 @@
 		<!--FORMULAIRE DE RECHERCHE-->
 		<form class="formSearch search" method="get" action="" role="search">
 			<label class="txt_form">Rechercher</label>
-			<input required class="champs_form search-input" type="search" name="s" placeholder="<?php _e( 'Recherche', 'html5blank'	); ?>">
+			<input required class="champs_form search-input" type="search" name="s"
+				   placeholder="<?php _e('Recherche', 'html5blank'); ?>">
 			<input type="image" role="button" src="<?php echo
 			get_template_directory_uri(); ?>/img/loupeSearch.png"
 				   class="bouton_form search-submit">
-			<input type="hidden" name="lang" value="fr" />
+			<input type="hidden" name="lang" value="fr"/>
 		</form>
 		<br>
 
@@ -166,9 +163,9 @@
 								<h4 class="modal-title">Confirmation</h4>
 							</div>
 							<div class="modal-body">
-								<p>Votre adresse email est bien prise en compte, nous vous proposons de vérifier dans
-									votre boite mail le message de confirmation que nous venons de vous adresser.
-									.</p>
+								<p>Votre adresse email est bien prise en compte, nous vous proposons de vérifier
+									dans votre boite mail le message de confirmation que nous venons de vous
+									adresser.</p>
 								<br>
 
 								<p>Merci et à très bientôt dans votre boite email.</p>
@@ -210,8 +207,8 @@
 	</p>
 
 	<div class="linkCredits">
-		<a href="#">Crédits </a>/
-		<a href="#"> Mentions légales</a>
+		<a href="?page_id=191">Crédits </a>/
+		<a href="?page_id=189"> Mentions légales</a>
 	</div>
 </div>
 
