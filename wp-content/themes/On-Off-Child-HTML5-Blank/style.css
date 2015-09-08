@@ -82,6 +82,9 @@ a.list-group-item {
     border: 0;
     margin-bottom: 0;
 }
+#MainMenu > ul > li {
+    padding-top: 10px;
+}
 
 a.list-group-item-success:hover, a.list-group-item-success:focus {
     color: white;
@@ -98,6 +101,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 .list-group {
     border-radius: 0;
     border: 0;
+    padding-top: 15px;
 }
 
 .list-group-item:last-child {
@@ -290,7 +294,7 @@ h4 {
 
 /* logo */
 .logo {
-    padding: 20px 0 20px 0;
+    padding: 25px 5px 25px 5px;
     min-width: 100px;
     text-align: center;
 }

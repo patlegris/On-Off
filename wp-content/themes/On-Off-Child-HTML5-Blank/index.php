@@ -237,16 +237,7 @@
             <div class='slide' id="first">
                 <div class='slidecontent'>
                     <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">ON-OFF STUDIO<span>LIEU DE
-                                VIE CULTUREL<BR>CREATEUR D'ECHANGES<BR>AU COEUR DU 17ème</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class='slide' id="sec">
-                <div class='slidecontent'>
-                    <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">Les expositions</div>
+                        <div class="button" onclick="mainslider.nextSlide();">Le lieu</div>
                     </div>
                 </div>
             </div>
@@ -254,7 +245,22 @@
             <div class='slide' id="thirth">
                 <div class='slidecontent'>
                     <div class="text">
+                        <div class="button" onclick="mainslider.nextSlide();">Les expositions</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='slide' id="sec">
+                <div class='slidecontent'>
+                    <div class="text">
                         <div class="button" onclick="mainslider.nextSlide();">Ateliers / Stages</div>
+                    </div>
+                </div>
+            </div>
+            <div class='slide' id="fifth">
+                <div class='slidecontent'>
+                    <div class="text">
+                        <div class="button" onclick="mainslider.nextSlide();">Evènements</div>
                     </div>
                 </div>
             </div>
