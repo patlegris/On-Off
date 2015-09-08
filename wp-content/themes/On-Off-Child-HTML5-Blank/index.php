@@ -237,7 +237,7 @@
             <div class='slide' id="first">
                 <div class='slidecontent'>
                     <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">Le lieu</div>
+                        <a href="?page_id=2" class="button" onclick="mainslider.nextSlide();">Le lieu</a>
                     </div>
                 </div>
             </div>
@@ -245,7 +245,7 @@
             <div class='slide' id="thirth">
                 <div class='slidecontent'>
                     <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">Les expositions</div>
+                        <a href="?page_id=25" class="button" onclick="mainslider.nextSlide();">Les expositions</a>
                     </div>
                 </div>
             </div>
@@ -253,21 +253,21 @@
             <div class='slide' id="sec">
                 <div class='slidecontent'>
                     <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">Ateliers / Stages</div>
+                        <a href="?page_id=83" class="button" onclick="mainslider.nextSlide();">Ateliers / Stages</a>
                     </div>
                 </div>
             </div>
             <div class='slide' id="fifth">
                 <div class='slidecontent'>
                     <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">Evènements</div>
+                        <a href="?page_id=79" class="button" onclick="mainslider.nextSlide();">Evènements</a>
                     </div>
                 </div>
             </div>
             <div class='slide' id="fourth">
                 <div class='slidecontent'>
                     <div class="text">
-                        <div class="button" onclick="mainslider.nextSlide();">Privatisez l'espace</div>
+                        <a href="?page_id=88" class="button" onclick="mainslider.nextSlide();">Privatisez l'espace</a>
                     </div>
                 </div>
             </div>

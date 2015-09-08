@@ -178,8 +178,8 @@ header#top #logo {
 }
 
 .pageblock#fullscreen .slider .slide .slidecontent .text a {
-    color: white;
-    text-decoration: underline;
+    color: #f26522;
+    text-decoration: none;
 }
 
 .pageblock#fullscreen .slider .slide .slidecontent .text a:hover {

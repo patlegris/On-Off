@@ -25,7 +25,7 @@
             <!--BOUTON DYNAMIQUE-->
             <div class="post-tag">
 
-                </span>
+<!--                </span>-->
             </div>
         </div>
 
