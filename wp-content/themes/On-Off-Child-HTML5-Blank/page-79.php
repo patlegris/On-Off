@@ -34,13 +34,7 @@
         </div>
     </div>
     <div class="txtAT1">
-        <p>Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh, eleifend sit amet lectus
-            vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus vitae, interdum non nisi.
-            Phasellus non nulla eget nunc pharetra vestibulum nec non leo. Donec sapien justo, varius vitae rutrum sit
-            amet, gravida sagittis lacus.Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh,
-            eleifend sit amet lectus vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus vitae,
-            interdum non nisi. Phasellus non nulla eget nunc pharetra vestibulum nec non leo. Donec sapien justo, varius
-            vitae rutrum sit amet, gravida sagittis lacus.</p>
+        <p>Dans le cadre de ses activités culturelles, le studio on-off vous propose différents types d'événements liés à son actualité. Vous pouvez retrouver ici, les évenements passés en cours et à venir. En passant par des soirées autour de divers thèmes liés à la culture, ainsi que des performances, des vernissages, et d'autres évènements.
     </div>
 </div>
 
@@ -51,9 +45,8 @@
     </h4>
 
     <div class="BG06">
-        <p>L’association “La glaise à gogo” organise un stage de sculpture du 13 au 26 mars au On-Off studio. Pour
-            tout
-            renseignement veuillez les contacter par mail ou sur leur site.</p>
+        <p>Autour du thème annuel du ON-OFF Studio « La trace », la première soirée thématique réunira autour d’un cocktail les adhérents de l'association Blanc Titane, le public, et différents artistes liés au studio. L’organisation se fait dans un cadre de rencontres artistiques et de démocratisation de l’art pour réduire la distance les artistes et le public.
+
 
         <!--BOUTON DYNAMIQUE-->
         <div class="post-tag3">
@@ -77,9 +70,7 @@
     </h4>
 
     <div class="BG06">
-        <p>L’association “La glaise à gogo” organise un stage de sculpture du 13 au 26 mars au On-Off studio. Pour
-            tout
-            renseignement veuillez les contacter par mail ou sur leur site.</p>
+        <p>L'artiste urbain sera mis à l'honneur lors de la prochaine soirée thématique qui se déroulera au mois de novembre. Les différentes discplines du street-art seront mises à l'honneur.</p>
 
         <!--BOUTON DYNAMIQUE-->
         <div class="post-tag3">

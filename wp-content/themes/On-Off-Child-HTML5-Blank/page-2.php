@@ -26,32 +26,22 @@
         <div class="BlocImg">
             <h4 class="titreAT04 BRTOP15">/--- DÉTAILS TECHNIQUES ---/</h4>
 
-            <p class="txtAT04">Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in cursus eu,
-                suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus mil ut lacus. In massa est, commodo
-                a orci.</p>
+            <p class="txtAT04">Superficie : 30 m2; Accueil de personnes assises : 20; Accueil de personnes debout : 30
+</p>
 
-            <p class="txtAT04">Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in cursus eu,
-                suscipit ut lacus massa dapibus. Fusce ipsum elit, porttitor in cursus eu, suscipit ut lacus.</p>
+            <p class="txtAT04">Equipements (techniques et mobilier): 20 Chaises; 2 plateaux sur tréteaux (90x200 cm); 2 plateaux sur tréteaux (75x150 cm); 1 plateau fixé au mur espace I (60x200 cm); 1 table basse espace II; Accès internet par WiFi; Vidéoprojecteur Epson EMP 82; Ecran déroulant (taille image 386x274 cm); Ecran plat avec lecteur USB (50x30 cm); Lumière : 11 spots Erco; Rideaux occultant (espace I); Paper board.
+</p>
 
         </div>
     </div>
 
     <div class="txtAT1">
-        <p>Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh, eleifend sit amet lectus
-            vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus vitae, interdum non nisi.
-            Phasellus non nulla eget nunc pharetra vestibulum nec non leo. Donec sapien justo, varius vitae rutrum sit
-            amet, gravida sagittis lacus. Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in
-            cursus eu, suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus mi. </p>
+        <p>Au coeur du quartier des épinettes, dans le 17éme arrondissement. Le studio On-Off est un lieu de vie culturel dédié à l'échange artistique. C'est un lieu ouvert au public, les accueillant lors d'expositons de différents artistes, d'ateliers ou de stages gérés par différentes associations, amsi également de soirées et d'évenements liés à la culture. Mais c'est également un lieu dédié à la création, car l'espace peut être mis à disposition d'artistes de manière locative, qui ne disposent pas de lieu pour exercer leurs talents.</p>
     </div>
     <span class="txtAT05C2">/--- L'ESPACE ON-OFF ---/</span>
 
     <div class="BG02">
-        <p>Espace d’échanges artistique et culturelle, us, iquam ligula in, facilisis neque. Nullam neque nibh, eleifend
-            sit amet lectus vitae, varius. Ras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque
-            nibh, eleifend sit amet lectus vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus
-            vitae, interdum non nisi. Phasellus non nulla eget nunc pharetra vestibulum nec non leo. Donec sapien justo,
-            varius vitae rutrum sit amet, gravida sagittis lacus. Nunc ut elit non lorem elementum molestie. Fusce ipsum
-            elit, porttitor in cursus eu, suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus mi.</p>
+        <p>Le studio on-off entend récréer un vrai lieu de vie, afin de devenir un relais culturel au sein du quartier. De part sa taille modeste, On-Off Studio se veut à échelle humaine, et mise réellement sur des échanges artistiques, associatifs tissant ainsi des liens entre les habitants des Epinettes, mais également ceux du 17éme arrondissement, de Paris, et de sa procha banlieue. Le studio on-off aimerait aussi donner une chance à des artistes peu connus, qui n'ont pas forcément de lieu d'expression de leur talent, ni de moyens de se confronter à un public, un espace d'exposition. Tout ceci peut se concrétiser et créer une alchimie entre des associations de quartier, des artistes pluri-disciplinaires, les habitants, et l'association porteuse du projet (l'association Blanc Titane).</p>
         <a id="zoneClic1" href="?page_id=168" title="Nous trouver"></a>
     </div>
 </div>
@@ -61,10 +51,10 @@
     <div class="blocASS1">
         <h4 class="txtAT05C2">/--- L'ASSOCIATION ---/</h4>
 
-        <p class="txtPad01">Lieu d’expérimentation, la Galerie des Galeries continue ici à imaginer de nouvelles formes
-            d’expositions et invite des contributeurs issus de différents champs créatifs à penser ensemble un projet
-            qui interroge l’art, la mode et le design. Le visiteur se retrouve au sein d’une circulation particulière
-            dont le point de départ est toujours l’oeuvre.
+        <p class="txtPad01">Blanc Titane, association loi de 1901, est un collectif d'artistes et d'amoureux de l'art qui souhaite partager leur passion à travers le projet ON-OFF Studio. Vous êtes l'un ou l'autre ou même l'un et l'autre, nous avons besoin de vous pour pérenniser notre action. Une association a un équilibre qui ne peut être maintenu autrement que par ses membres, basé sur les cotisations et le bénévolat.
+
+Vous voulez soutenir une action culturelle originale, être tenu au courant des Arrivages, être invité V.I.P. des vernissages, devenez membre adhérent.
+
             <br>
             <!--BOUTON DYNAMIQUE-->
 

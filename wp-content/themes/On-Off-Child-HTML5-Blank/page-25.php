@@ -16,30 +16,23 @@
 
         <div class="BlocImg">
             <h4 class="txtAT03"><span class="txtAT02G">03 OCT</span> - 12 DEC 2015</h4>
-            <h4 class="titreAT04">/--- TECHNIQUES CRÉATIVES ---/</h4>
+            <h4 class="titreAT04">/--- A L'OMBRE DU PARADIS---/</h4>
 
-            <p class="txtAT04">Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in cursus eu,
-                suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus </p>
+            <p class="txtAT04">L'artiste plasticien Robert Houmas présente ses sculptures, mêlant la mort à la vie, et les différents materiaus.</p>
             <h4 class="txtAT03"><span class="txtAT02G">12 JAN</span>- 12 FEV 2016</h4>
-            <h4 class="titreAT04">/--- TECHNIQUES CRÉATIVES ---/</h4>
+            <h4 class="titreAT04">/--- A MAIN LEVEE ---/</h4>
 
-            <p class="txtAT04">Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in cursus eu,
-                suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus </p>
+            <p class="txtAT04">Le peintre tchétchéne Niklaus Burgmann, peint à main levé des esquisses, de tranches de vies paysannes de son pays natal.</p>
             <h4 class="txtAT03"><span class="txtAT02G">13 FEV</span>- 26 MARS 2016</h4>
-            <h4 class="titreAT04">/--- TECHNIQUES CRÉATIVES ---/</h4>
+            <h4 class="titreAT04">/--- OMBRE HAIT LUMIERE ---/</h4>
 
-            <p class="txtAT04">Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in cursus eu,
-                suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus </p>
+            <p class="txtAT04">L'artiste Nina Blanchette, présente ses photographies. Un retrospcetive de ses différentes périgrinations à travers l'asie.</p>
 
         </div>
     </div>
 
     <div class="txtAT1">
-        <p>Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh, eleifend sit amet lectus
-            vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus vitae, interdum non nisi.
-            Phasellus non nulla eget nunc pharetra vestibulum nec non leo. Donec sapien justo, varius vitae rutrum sit
-            amet, gravida sagittis lacus. Nunc ut elit non lorem elementum molestie. Fusce ipsum elit, porttitor in
-            cursus eu, suscipit ut lacus. In massa est, commodo a orci non, dapibus tempus mi. </p>
+        <p>Toutes les expositions du studio On Off. Véritable lieu d'échange et de confrontation des artistes et du public. Les expositions proposées et promues ici, permettent également aux différents artistes d'échanger et de recueillir les impressions et le ressenti du public. </p>
     </div>
 </div>
 
@@ -68,8 +61,7 @@
             class="txtAT05B">OCT 2016</span><span class="txtAT05C">/--- Forêt Dansante ---/</span></h4>
 
     <div class="BG04">
-        <p>Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh, eleifend sit amet lectus
-            vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus.</p>
+        <p>Monique Vallat se plonge dans le dessin dès l’enfance. À l’adolescence, elle aborde le milieu du graffiti dans une recherche d’expression et d’adrénaline.</p>
 
         <!--BOUTON DYNAMIQUE-->
         <div class="post-tag3">
@@ -90,8 +82,7 @@
             class="txtAT05B">OCT 2016</span><span class="txtAT05C">/--- EXPO PICAFLOR ---/</span></h4>
 
     <div class="BG04">
-        <p>Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh, eleifend sit amet lectus
-            vitae, varius scelerisque magna. In metus risus, consequat sagittis dapibus.</p>
+        <p>«Picaflor» est composée de douze fleurs-miroirs géantes juchées sur des trépieds métalliques. Un dispositif interactif propose aux visiteurs de plonger à l’intérieur de chaque fleur pour.</p>
 
         <!--BOUTON DYNAMIQUE-->
         <div class="post-tag3">
