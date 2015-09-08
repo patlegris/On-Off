@@ -223,11 +223,11 @@
 
         <!--RESEAUX PICTOS-->
         <p class="blockRSMenu">
-            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoFB.png" alt="Facebook"
+            <a href="https://www.facebook.com/pages/On-Off-Studio/290042604536620?ref=bookmarks"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoFB.png" alt="Facebook"
                              class="blockRSMenu"></a>
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoInstagram.png"
                              alt="Instagram"></a>
-            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoVimeo.png"
+            <a href="https://vimeo.com/user20226471"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoVimeo.png"
                              alt="Vimeo"></a>
         </p>
 

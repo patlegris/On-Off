@@ -65,7 +65,7 @@
 <div class="wrapper3">
     <img src="<?php echo get_template_directory_uri(); ?>/img/trame_bl1_bl2.png" alt="">
     <h4 class="txtAT05"><span class="txtAT05A"><span class="littleTXT">du</span> 07 <span class="littleTXT">au</span> 11</span><span
-            class="txtAT05B">OCT 2016</span><span class="txtAT05C">/--- VIA HORIZON ---/</span></h4>
+            class="txtAT05B">OCT 2016</span><span class="txtAT05C">/--- Forêt Dansante ---/</span></h4>
 
     <div class="BG04">
         <p>Cras vitae lorem luctus, aliquam ligula in, facilisis neque. Nullam neque nibh, eleifend sit amet lectus
@@ -76,7 +76,7 @@
                     <span class="arrow-btn post-tag-arrow">
                     <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>
                     <span class="arrow-btn-circle post-tag-arrow-circle"></span>
-                    <span class="arrow-btn-text post-tag-arrow-text"><a href="expositions-type.html">EN SAVOIR
+                    <span class="arrow-btn-text post-tag-arrow-text"><a href="?page_id=202">EN SAVOIR
                             +</a></span>
                     </span>
         </div>
