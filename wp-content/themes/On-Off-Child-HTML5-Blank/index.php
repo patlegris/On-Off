@@ -39,6 +39,7 @@
         display: block;
         position: absolute;
         z-index: 20000;
+        height: 100%;
     }</style>
 
 <div class="WhiteMenu" id="">
