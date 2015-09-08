@@ -24,7 +24,7 @@
                     <span class="arrow-btn post-tag-arrow">
                     <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>
                     <span class="arrow-btn-circle post-tag-arrow-circle"></span>
-                    <span class="arrow-btn-text post-tag-arrow-text"><a href="artistes-type.html">EN SAVOIR +</a></span>
+                    <span class="arrow-btn-text post-tag-arrow-text"><a href="?page_id=195">EN SAVOIR +</a></span>
                     </span>
             </div>
         </div>
@@ -49,7 +49,7 @@
                <span class="arrow-btn post-tag-arrow">
                     <i class="arrow-btn-icon jaa-icon-arrow-right post-tag-arrow-icon"></i>
                     <span class="arrow-btn-circle post-tag-arrow-circle"></span>
-                    <span class="arrow-btn-text2 post-tag-arrow-text"><a href="contact.html">CONTACTEZ-NOUS</a></span>
+                    <span class="arrow-btn-text2 post-tag-arrow-text"><a href="?page_id=148">CONTACTEZ-NOUS</a></span>
                 </span>
     </div>
 

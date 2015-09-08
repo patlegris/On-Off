@@ -287,6 +287,19 @@ h4 {
 
 }
 
+.contact {
+    font-size: 45px;
+    line-height: 120px;
+    background-color: #eeeae7;
+    height: 95px;
+    width: 300px;
+    color: #f26522;
+    margin-left: 135px;
+    position: relative;
+    z-index: 10;
+    padding-left: 30px;
+    /*text-transform: uppercase;*/
+}
 /* header */
 .header {
 
