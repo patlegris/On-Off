@@ -1,2 +1,0 @@
-Template pour les images ?
-

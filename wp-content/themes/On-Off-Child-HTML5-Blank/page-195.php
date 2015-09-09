@@ -13,7 +13,8 @@
 
 <!--BLOC 1-->
 <div class="wrapper">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/Artistes-types_BG01.jpg" alt="Un véritable artiste comme dans les films" class="clearB">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/Monique.jpg" alt="Un véritable artiste comme dans les
+    films" class="clearB">
 </div>
 
 
