@@ -19,12 +19,12 @@
     }</style>
 <!--BLOC 1-->
 <div class="wrapper">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/association.jpg" alt="Association"
+    <img src="<?php echo get_template_directory_uri(); ?>/img/nos_artistes.jpg" alt="Artistes"
          class="clearB">
 
-<!--    <div class="titreAT1">-->
-<!--        <h1>L'association</h1>-->
-<!--    </div>-->
+    <!--    <div class="titreAT1">-->
+    <!--        <h1>L'association</h1>-->
+    <!--    </div>-->
 </div>
 
 <!--BLOC 4-->

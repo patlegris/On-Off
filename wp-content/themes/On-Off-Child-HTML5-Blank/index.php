@@ -268,7 +268,7 @@
             <div class='slide' id="fourth">
                 <div class='slidecontent'>
                     <div class="text">
-                        <a href="?page_id=88" class="button" onclick="mainslider.nextSlide();">Privatisez l'espace</a>
+                        <a href="?page_id=88" class="button" onclick="mainslider.nextSlide();">Privatisation</a>
                     </div>
                 </div>
             </div>
