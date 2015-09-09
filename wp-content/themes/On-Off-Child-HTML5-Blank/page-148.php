@@ -49,7 +49,7 @@
                                             aria-required="true" required></div>
                                 </h2>
 
-                                <h2>Votre téléphone (optionnel)<br/>
+                                <h2>Votre téléphone <br/>
 
                                     <div class="form-group tel-631"><input
                                             class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel h2 form-control"
@@ -63,7 +63,8 @@
                                     <div class="form-group wpcf7-form-control wpcf7-radio radio-310">
                                         <div class="radio"><label><input name="radio-310" type="radio" value="oui"
                                                                          aria-invalid="false">oui</label></div>
-                                        <div class="radio"><label><input name="radio-310" type="radio" value="non"
+                                        <div class="radio"><label><input name="radio-310" type="radio"
+                                                                         checked="checked" value="non"
                                                                          aria-invalid="false">non</label></div>
                                     </div>
                                 </h2>
