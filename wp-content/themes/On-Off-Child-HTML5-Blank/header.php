@@ -123,7 +123,7 @@
 
         <div class="LinkMenu">
 
-            <!--            --><?php //get_sidebar(); ?>
+<!--                        --><?php //get_sidebar(); ?>
 
             <!--    Langues-->
             <div class="sidebar-widget">

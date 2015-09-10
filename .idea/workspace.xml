@@ -2,384 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9680b62-d899-4042-916b-795a0fb49f64" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\20150827-12.54.06-header.php.wpseobak" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\archive-portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\css\vendor\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\css\vendor\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\css\vendor\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\css\vendor\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\css\vendor\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\css\vendor\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\css\vendor\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\css\vendor\normalize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\images\bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\images\bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\images\bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\images\bg4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\images\fenley.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\images\headers\circle.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\html5shiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\jquery-1.11.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\jquery-migrate-1.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\jquery.backstretch.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\jquery.simpleslider.package.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\npm.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\assets\js\vendor\respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\author.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\category-21.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\category-22.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\category-32.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\category-velo-electrique.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\category.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\front-page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\functions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\header-portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\home.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\inc\column\pl_column.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\inc\custom\pl_portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\inc\metabox\pl_portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\inc\tax\pl_country.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\inc\tax\pl_gender.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\inc\tax\pl_genre.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\inc\walker\al_Walker_nav_menu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\inc\walker\pl_Walker_nav_menu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\indexHOLD.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\indexHOLD.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\initializr-bootstrap\404.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\initializr-bootstrap\apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\initializr-bootstrap\browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\initializr-bootstrap\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\initializr-bootstrap\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\initializr-bootstrap\tile-wide.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\initializr-bootstrap\tile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\loop-attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\loop-excerpt.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\loop.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\mentions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\page-24.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\page-8.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\single-portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\tag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\taxonomy-country.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\taxonomy-genre.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\taxonomy.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\ON-OFF HOLD\wp_bootstrap_navwalker.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\archive.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\author.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\category.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\comments.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\fonts\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\functions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\img\gravatar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\img\icons\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\img\icons\touch.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\img\logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\js\lib\conditionizr-4.3.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\js\lib\modernizr-2.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\js\scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\HTML5Blank.pot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\de_DE.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\de_DE.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\es_CL.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\es_CL.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\es_ES.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\es_ES.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\fr_FR.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\fr_FR.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\hu_HU.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\hu_HU.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\it_IT.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\it_IT.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\nl_NL.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\nl_NL.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\pt_BR.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\pt_BR.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\ro_RO.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\languages\ro_RO.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\loop.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\normalize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\search.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\searchform.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\tag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-HTML5-Blank\template-demo.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\archive-portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\bike-elec.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\vendor\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\vendor\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\vendor\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\vendor\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\vendor\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\vendor\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\vendor\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\css\vendor\normalize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\images\bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\images\bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\images\bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\images\bg4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\images\bg5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\images\fenley.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\images\headers\circle.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\vendor\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\vendor\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\vendor\jquery-1.11.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\vendor\jquery-migrate-1.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\vendor\jquery.backstretch.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\vendor\jquery.simpleslider.package.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\assets\js\vendor\npm.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\author.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\category-21.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\category-22.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\category-32.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\category-velo-electrique.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\category.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\front-page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\functions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\header-portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\home.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\inc\column\pl_column.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\inc\custom\pl_portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\inc\metabox\pl_portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\inc\tax\pl_country.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\inc\tax\pl_gender.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\inc\tax\pl_genre.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\inc\walker\al_Walker_nav_menu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\inc\walker\pl_Walker_nav_menu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\indexHOLD.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\indexHOLD.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\initializr-bootstrap\404.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\initializr-bootstrap\apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\initializr-bootstrap\browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\initializr-bootstrap\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\initializr-bootstrap\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\initializr-bootstrap\tile-wide.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\initializr-bootstrap\tile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\loop-attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\loop-excerpt.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\loop.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\mentions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\page-24.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\page-8.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\single-portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\tag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\taxonomy-country.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\taxonomy-genre.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Studio\taxonomy.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\archive.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\comments.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\content-single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\front-page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\front-pageHOLD.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\functions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\css\optionsframework.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\images\ico-delete.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\includes\class-options-framework-admin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\includes\class-options-framework.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\includes\class-options-interface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\includes\class-options-media-uploader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\includes\class-options-sanitization.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\js\media-uploader.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\js\options-custom.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\admin\options-framework.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\class-tgm-plugin-activation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\extras.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\jetpack.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\js\customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\js\dev\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\js\dev\main.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\js\html5shiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\js\main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\js\respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\navwalker.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\popular-posts-widget.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\inc\wpcom.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\languages\de_DE.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\languages\de_DE.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\languages\fr_FR.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\languages\fr_FR.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\languages\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\languages\unite.pot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\options.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\page-fullwidth.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\search.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\searchform.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\On-Off-Unite-child\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\JS\main.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\JS\vendor\jquery-1.11.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\JS\vendor\modernizr-2.8.3-respond-1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\category-velo-electrique.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\category.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\css\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\css\normalize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\loop-excerpt.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\loop.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\gomobility\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\archive.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\comments.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\content-single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\front-page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\front-pageHOLD.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\functions.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\css\optionsframework.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\images\ico-delete.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\includes\class-options-framework-admin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\includes\class-options-framework.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\includes\class-options-interface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\includes\class-options-media-uploader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\includes\class-options-sanitization.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\js\media-uploader.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\js\options-custom.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\admin\options-framework.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\class-tgm-plugin-activation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\extras.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\jetpack.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\js\customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\js\dev\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\js\dev\main.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\js\html5shiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\js\main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\js\respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\navwalker.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\popular-posts-widget.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\inc\wpcom.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\languages\de_DE.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\languages\de_DE.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\languages\fr_FR.mo" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\languages\fr_FR.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\languages\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\languages\unite.pot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\options.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\page-fullwidth.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\search.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\searchform.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\single.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\www\ON-OFF\wp-content\themes\unite\style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-195.php" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-195.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ON-OFF.iws" />
@@ -401,7 +25,18 @@
     <favorites_list name="ON-OFF" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4104389">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -460,15 +95,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/js/lib/slider.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/languages/page-148.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-202.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-25.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style-olivier.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-64.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-76.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-148.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-195.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php" />
       </list>
     </option>
   </component>
@@ -693,12 +328,6 @@
       <created>1440059852896</created>
       <option name="number" value="Default" />
       <updated>1440059852896</updated>
-    </task>
-    <task id="LOCAL-00021" summary="intégration p25 en cours">
-      <created>1441454280609</created>
-      <option name="number" value="00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1441454280609</updated>
     </task>
     <task id="LOCAL-00022" summary="intégration p25 en cours">
       <created>1441457511791</created>
@@ -988,12 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1441772146002</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="OK">
+      <created>1441801284001</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1441801284001</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1074,97 +709,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.670616">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/template-demo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/wp_bootstrap_navwalker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8436019">
-          <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.290323">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84897023">
-          <caret line="6332" column="0" selection-start-line="6332" selection-start-column="0" selection-end-line="6332" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/initializr-verekia-4.0/initializr/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/loop-pages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21621622">
-          <caret line="8" column="96" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/loop-HOLD.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.035626534">
@@ -1271,14 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39099526">
@@ -1354,22 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-45.344826">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.612904">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/loop-event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.806452">
@@ -1390,14 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62633455">
           <caret line="24" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-76.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39976275">
-          <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
           <folding />
         </state>
       </provider>
@@ -1438,6 +950,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5219454">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.870968">
+          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/page-76.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.903226">
+          <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.689655">
+          <caret line="154" column="5" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="34.548386">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="78.77419">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1441100680000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441100680000" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="72.3871">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="134.6129">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/formatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="146.67741">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/integration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="44.70968">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="83.03226">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/shortcodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.548388">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="125.6129">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/images/ajax-loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery.form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1144164">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4104389">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
         </state>
       </provider>

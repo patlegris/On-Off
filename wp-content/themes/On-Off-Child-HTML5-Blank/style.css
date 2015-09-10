@@ -72,10 +72,7 @@ a.list-group-item {
 }
 
 .list-group-submenu {
-    /*margin-left: 5px;*/
     text-decoration: none;
-    /*line-height: 0.7rem;*/
-    /*background-color: #f26522;*/
 }
 
 .list-group-item {
@@ -126,9 +123,33 @@ a.list-group-item:hover, a.list-group-item:focus {
     /*width: 270px;*/
 }
 /*------------------------------------*\
-    Formatage de la page contact
+    Formatage de la page Contact 7 Forms
 \*------------------------------------*/
 
+/*form.wpcf7-form {*/
+    /*background-color: #eeeae7;*/
+    /*text-align: center;*/
+/*}*/
+
+/*input#formname, #emailform, #subject, #message {*/
+    /*width:75%;*/
+    /*margin-top: 5px;*/
+    /*margin-bottom: 5px;*/
+/*}*/
+
+/*input#formname {*/
+    /*margin-top: 20px;*/
+/*}*/
+
+/*input.wpcf7-form-control.wpcf7-submit{*/
+    /*margin-bottom: 20px;*/
+    /*background-color: #f26522;*/
+    /*width: 50%;*/
+/*}*/
+
+/*input.wpcf7-form-control.wpcf7-submit input:hover[type="button"], input:hover[type="reset"], input:hover[type="submit"], .button:hover, .entry-content .button:hover {*/
+    /*background-color: #f26522;*/
+/*}*/
 
 /*------------------------------------*\
     Boite modal newsletter
@@ -548,6 +569,3 @@ a img.aligncenter {
     }
 }
 
-/*------------------------------------*\
-    CSS olivier
-\*------------------------------------*/
