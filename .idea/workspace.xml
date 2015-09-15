@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9680b62-d899-4042-916b-795a0fb49f64" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/search-result.php" afterPath="$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/search-result.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ON-OFF.iws" />
@@ -48,7 +47,7 @@
       <file leaf-file-name="loop-event.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/loop-event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28672987">
+            <state vertical-scroll-proportion="0.28706998">
               <caret line="11" column="77" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="77" />
               <folding />
             </state>
@@ -368,12 +367,6 @@
       <option name="number" value="Default" />
       <updated>1440059852896</updated>
     </task>
-    <task id="LOCAL-00023" summary="intégration p25 en cours">
-      <created>1441458952330</created>
-      <option name="number" value="00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1441458952330</updated>
-    </task>
     <task id="LOCAL-00024" summary="intégration p25 en cours">
       <created>1441459051359</created>
       <option name="number" value="00024" />
@@ -662,7 +655,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441848377504</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="OK avant reprise avec Maria">
+      <created>1442335583915</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1442335583916</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -672,6 +671,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786781" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -680,7 +680,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -708,7 +707,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Brandon HS et intégration de la newsletter" />
     <MESSAGE value="Brandon OK et Newsletter ok, manque popup de confirmation" />
     <MESSAGE value="Brandon OK et Newsletter ok, modal ok sauf qu'il ne passe pas en premier plan..." />
     <MESSAGE value="Problème icone validation newsletter, modal ok sauf qu'il ne passe pas en premier plan..." />
@@ -733,7 +731,8 @@
     <MESSAGE value="liens slide ok, bug bandeau" />
     <MESSAGE value="OK reste la page artiste" />
     <MESSAGE value="OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="OK" />
+    <MESSAGE value="OK avant reprise avec Maria" />
+    <option name="LAST_COMMIT_MESSAGE" value="OK avant reprise avec Maria" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1103,7 +1102,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/On-Off-Child-HTML5-Blank/loop-event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28672987">
+        <state vertical-scroll-proportion="0.28706998">
           <caret line="11" column="77" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="77" />
           <folding />
         </state>
